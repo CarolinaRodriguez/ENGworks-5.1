@@ -1,8 +1,0 @@
-Rem This will remove spool Names on slected items and rest spool color back to default
-Rem It will not set the item color back to bylayer
-
-if item.spool > 0 then
- item.spool = ""
- item.spoolcolour = "Bylayer"
-endif
-

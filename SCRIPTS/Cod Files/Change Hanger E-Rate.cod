@@ -1,5 +1,0 @@
-If item.cid = 838 then
- if item.InstallTable = "Standard Mechanical" then
-  item.InstallTable = "FAB-Hangers"
- endif
-Endif

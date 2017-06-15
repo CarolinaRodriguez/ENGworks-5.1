@@ -1,8 +1,0 @@
-if item.insspec = "FAB Piping: Chilled Water" Then
- item.insspec = "FAB Piping: UG Chilled Water" then
-  if item.insspec = "FAB Piping: Heating Water" Then
-  item.insspec = "FAB Piping: UG Heating Water"
- Endif
-Endif
-item.ispeclock = true
-

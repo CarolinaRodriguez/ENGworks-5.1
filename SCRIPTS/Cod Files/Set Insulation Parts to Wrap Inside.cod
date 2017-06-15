@@ -1,7 +1,0 @@
-
-dim lp
-for lp = 1 to item.options
-    if item.option[lp].name = "Insulation Parts" then
-    item.option["Insulation Parts"].value = "Wraps Inside"
-    endif
-next lp

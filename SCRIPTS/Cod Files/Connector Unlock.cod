@@ -1,6 +1,0 @@
-
-Rem Unlock Connectors
-   Item.Connector[1].locked = false
-   Item.Connector[2].locked = false
-
-Item.update()

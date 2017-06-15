@@ -1,8 +1,0 @@
-
-if item.cid = 40 then
-   item.connector[1].value = "Spiral Raw."
-   Item.Connector[1].locked = true
-   item.connector[2].value = "Spiral Raw."
-   Item.Connector[2].locked = true
-endif
-Item.update()

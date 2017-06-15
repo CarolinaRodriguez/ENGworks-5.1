@@ -1,4 +1,0 @@
-Rem Debug item.stiffener[1].value
-item.stiffener[1].value = "None"
-item.stiffener[1].locked = True
-Item.update()

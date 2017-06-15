@@ -1,9 +1,0 @@
-Dim Pat = item.cid
-
-If pat=20 or pat=22 Then 
- item.fabtable = "Rect. Double Boot"
-Endif
-debug pat
-debug item.fabtable
-
-item.update()
