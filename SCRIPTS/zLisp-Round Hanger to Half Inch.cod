@@ -1,0 +1,45 @@
+rem spiral & rolled pipe
+select item.cid
+  case 838
+   if item.option["Type"].value = "Clevis Hanger" Then
+    dim length = item.dim[7].value
+    dim i = item.dim[7].numvalue
+    dim rln = round(i,2)
+    dim result = rounddown(i,0)
+    dim lo = rln-result
+rem Setion to correct length
+    if lo>0.75 then
+       result = result+1
+        elseif lo>0.25 then
+               result = result+0.5
+            else result = result
+    endif
+ 
+    length=result
+    item.dim[7].value=length
+  endif
+
+   if item.option["Type"].value = "Profiled Bearer" Then
+    dim length = item.dim[6].value
+    dim i = item.dim[6].numvalue
+    dim rln = round(i,2)
+    dim result = rounddown(i,0)
+    dim lo = rln-result
+rem Setion to correct length
+    if lo>0.75 then
+       result = result+1
+        elseif lo>0.25 then
+               result = result+0.5
+            else result = result
+    endif
+ 
+    length=result
+    item.dim[6].value=length
+  endif
+
+
+item.update()
+end select
+
+
+Rem http://www.xtracad.com/forum/index.php/topic,10083.msg68269.html#msg68269

@@ -1,0 +1,55 @@
+REM Sample script to change the "Allow 2 Parts" option on Pattern CID 7
+REM  periphery of the shoe is more than 2500 
+
+
+function CheckShoe()
+  dim width = getdimvalue("Top Width", void, false)
+  dim depth = getdimvalue("Depth", void, false)
+   
+  dim periphery = width+width+depth+depth
+  if (periphery>2500) then
+    item.Option["2 Parts"].Value="No"
+  else
+    item.Option["2 Parts"].Value="Yes"  
+  endif 
+
+end function
+
+
+
+function getdimvalue(name1, name2="", err=true)
+
+  rem Access dims by name (including alternative name) SAFELY
+
+  dim rv=0.0
+  dim done=false
+
+  if len(name1)>0 and item.dim[name1] then
+    rv=item.dim[name1].NumValue
+    done=true
+  elseif len(name2)>0 and item.dim[name2] then
+    rv=item.dim[name2].NumValue
+    done=true
+  end if
+    
+  if not done and err=true then
+    rem ERROR - dim not found ; show debug msg and list all dims
+    dim errmsg ="Unable to Locate Dim '" + name1 + "'"
+    if len(name2)>0 then
+      errmsg = errmsg + " or '" + name2 + "']"
+    endif
+    debug errmsg
+  end if
+
+  return rv
+
+end function
+
+
+
+dim val
+select item.Cid
+  case 7 
+    CheckShoe()
+end select
+

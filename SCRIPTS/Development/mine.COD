@@ -1,0 +1,27 @@
+rem Mine
+
+rem item.Option["Override"].locked = false
+rem item.Option["Override"].Value = "4xI,M-F"
+rem item.Option["Override"].locked = true
+
+rem item.dim[1].locked = false
+rem item.dim[2].locked = false
+rem item.dim[3].locked = false
+rem item.dim[4].locked = false
+rem item.dim[5].locked = false
+
+rem item.dim[2].value = 3
+rem item.option[3].value = 1
+
+item.pallet = ""
+item.customdata[1].value = ""
+item.customdata[2].value = ""
+item.customdata[3].value = ""
+item.customdata[4].value = ""
+item.customdata[5].value = ""
+item.customdata[6].value = ""
+item.customdata[7].value = ""
+item.customdata[8].value = ""
+item.customdata[9].value = ""
+
+item.material="Galvanized"

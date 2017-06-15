@@ -1,0 +1,31 @@
+requires task.selection
+Rem NOTE Task Selection has to be on the to line
+
+
+Rem This script will prompt the user for a desired Center to Center Rod dimension for trappeze hangers
+Rem Profiled Bearer, Double Profile Bearer, Double Profile Bearer 2
+
+
+
+
+
+ rem DIM CCRodEx = Item.Dim[1].numvalue + ((Item.Dim["Bearer Extn"].numvalue - Item.Dim["Right Rod Offset"].numvalue) + (Item.Dim["Bearer Extn"].numvalue - Item.Dim["Left Rod Offset"].numvalue))
+ Rem Debug CCRodEx
+ 
+dim UsrCtr = inputbox("Enter Edge of Item to Center of Rod <In INCHES>")
+
+
+ dim i = 1
+
+ while i <= task.selection.count
+    dim item = task.selection[i]
+   If item.CID = 838 then
+    if item.option[1].value = "Profiled Bearer"  or item.option[1].value = "Double Profile Bearer" or item.option[1].value = "Double Profile Bearer 2" Then
+     DIM CRodNew = UsrCtr + 1
+     Item.Dim["Bearer Extn"].value = CRodNew
+     item.update()
+    endif
+   Endif
+ 
+    i = i + 1
+ end while

@@ -1,0 +1,5 @@
+dim val					
+select item.Cid
+  case 2523
+    item.Option["Number Of Segments"].Value=8
+end select

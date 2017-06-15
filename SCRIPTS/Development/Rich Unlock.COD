@@ -1,0 +1,15 @@
+rem Unlock first five dimension fields
+
+item.dim[1].locked = false
+item.dim[2].locked = false
+item.dim[3].locked = false
+item.dim[4].locked = false
+item.dim[5].locked = false
+
+rem item.Option["Override"].locked = false
+rem item.Option["Override"].Value = "4xI,M-F"
+rem item.Option["Override"].locked = true
+
+rem item.dim[1].locked = false
+rem item.dim[2].value = 3
+rem item.option[3].value = 1

@@ -1,0 +1,61 @@
+rem    Determine what type of straight to send to coil line
+
+function StraightType()
+
+dim connector = item.connector[1].value
+
+dim width = item.dim["width"].Value
+dim depth = item.dim["depth"].Value
+
+dim length = item.dim["length"].Value
+
+dim L = width+depth
+
+if (length = "Auto") then
+
+if (connector = "Standing S&D" or connector = "Flat S&D") then
+if (L < 22) then
+item.Option["Override"].Value = "1 Part Straight"
+endif
+if (L >= 22) then
+item.Option["Override"].Value = "2xL"
+endif
+if (L > 120) then
+item.Option["Override"].Value = "4xI,M-F"
+endif
+endif
+
+if (connector = "Standing D&S" or connector = "Flat D&S") then
+if (L < 22) then
+item.Option["Override"].Value = "1 Part Straight"
+endif
+if (L >= 22) then
+item.Option["Override"].Value = "2xL"
+endif
+if (L > 120) then
+item.Option["Override"].Value = "4xI,M-F"
+endif
+endif
+
+if (connector = "TDC") then
+if (L <= 60) then
+item.Option["Override"].Value = "1 Part Straight"
+endif
+if (L > 60) then
+item.Option["Override"].Value = "2xL"
+endif
+if (L > 120) then
+item.Option["Override"].Value = "4xI,M-F"
+endif
+endif
+
+item.Option["Override"].locked = true
+endif
+
+end function
+
+dim val1
+select item.Cid
+case 1
+StraightType()
+end select

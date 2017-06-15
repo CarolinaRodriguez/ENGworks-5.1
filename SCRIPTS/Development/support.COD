@@ -1,0 +1,6 @@
+REM Script to modify Seams based on item CID and Gauge
+
+dim qty = item.support.quantity
+qty = 0
+dim support = item.support
+support = "None"

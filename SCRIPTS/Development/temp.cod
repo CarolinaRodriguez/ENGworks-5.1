@@ -1,0 +1,49 @@
+REM Script to modify Seams based on item CID and Gauge
+
+
+dim gauge
+dim seam
+dim quote=ASCII(34)
+
+gauge=item.gauge
+ 
+select item.Cid
+case 4,14,18,37,330,399
+REM Radial Fittings
+if gauge=0.0336 or gauge=0.0276 then
+seam="S-Pits"
+endif
+if gauge=0.0516 or gauge=0.0396 then
+seam="1/4" + quote + " Lg-Pitts"
+endif
+case 1,3,7,11,13,20,328
+REM Straight Fittings, No Snaplock
+if gauge=0.0336 or gauge=0.0276 then
+seam="S-Pits"
+endif
+if gauge=0.0516 or gauge=0.0396 then
+seam="L-Pits"
+endif
+case 2,866
+REM Straight Fittings
+if gauge=0.0336 or gauge=0.0276 then
+    dim length = item.dim[3].value
+if (length>11) then 
+seam="Snap"
+else
+seam="S-Pits"
+endif
+if (length="Auto") then
+seam="Snap"
+endif
+endif
+if gauge=0.0516 or gauge=0.0396 then
+seam="L-Pits"
+endif
+end select
+
+rem DEBUG SEAM
+
+item.seam[1].value=seam
+item.seam[1].locked=true
+

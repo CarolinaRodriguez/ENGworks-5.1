@@ -1,0 +1,13 @@
+rem example script to read fields from custom data, if they exist, and store in the new item fields
+
+if item.customdata["Drawing"] then
+   item.Drawing = item.CustomData["Drawing"].Value
+endif
+
+if item.customdata["Zone"] then
+   item.zone = item.customdata["zone"].value
+endif
+
+if item.customdata["Alternate"] then
+   item.Alternate = item.customdata["Alternate"].value
+endif

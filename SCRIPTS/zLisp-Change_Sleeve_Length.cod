@@ -1,0 +1,14 @@
+requires task.selection
+
+dim len = inputbox("Enter Sleeve Length: INCHES ")
+dim i = 1
+
+while i <= task.selection.count
+  dim item = task.selection[i]
+if item.servicetype = "Floor Opening" or "Wall Opening" Then
+  item.dim[2].value = len
+  item.update()
+endif
+  i = i + 1
+end while
+ 
