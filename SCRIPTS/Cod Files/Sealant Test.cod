@@ -1,3 +1,0 @@
-if item.cid > 0 and (item.seams > 0 or item.connectors > 0) then
-Item.sealant.value = "PG-Sealant"
-endif

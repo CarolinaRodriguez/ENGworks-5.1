@@ -1,7 +1,0 @@
-if item.Description = "AirTight-D" or item.Description = "AirTight" then
-Dim HD = item.dim["Hole Diameter"].numvalue
-Dim PW = item.dim["Plate Width"].numvalue
-Item.Option["Dynamic Hole Adjust"].value = (PW-PW-PW)+.125
-rem Debug HD
-rem Debug PW
-Endif

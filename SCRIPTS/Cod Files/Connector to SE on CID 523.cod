@@ -1,8 +1,0 @@
-Rem Change Qty of Gores on Elbows
-If item.cid = 523 then
-  item.connector[2].value = "SE."
-  item.connector[3].value = "SE."
-  item.connector[2].locked = True
-  item.connector[3].locked = True
-endif
- item.update()

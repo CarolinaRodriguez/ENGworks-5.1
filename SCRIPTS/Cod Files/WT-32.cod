@@ -1,3 +1,0 @@
-If item.cid = 866 then
-      Item.dim["length"].value = 32
- Endif

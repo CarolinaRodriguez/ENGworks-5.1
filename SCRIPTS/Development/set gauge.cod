@@ -1,6 +1,0 @@
-dim quote=ASCII(34)
-item.SPECIFICATION="Floor-2"+quote+"-60"
-item.gaugelock=FALSE
-item.update()
-item.gauge=0.25
-item.gaugelock=false

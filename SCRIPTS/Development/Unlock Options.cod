@@ -1,7 +1,0 @@
-dim val
-dim lp
-    for lp=1 to item.options
-      if item.option[lp].status<>"notused" then
-        item.option[lp].Locked=FALSE
-      endif
-next

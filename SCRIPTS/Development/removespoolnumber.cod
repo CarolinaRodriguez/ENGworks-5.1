@@ -1,8 +1,0 @@
-REM Sample Script to remove spool numbers from a selection set
-
-dim spool=item.CUSTOMDATA[10]
-REM debug "Spool = " + spool + "    " + item.CUSTOMDATA[10]
-if item.CUSTOMDATA[10]<>"" then 
-  item.CUSTOMDATA[10]=""
-
-endif
