@@ -1,6 +1,0 @@
-dim val
-dim lp
-    for lp=1 to item.dims
-        item.dim[lp].Locked=FALSE
-NEXT
-

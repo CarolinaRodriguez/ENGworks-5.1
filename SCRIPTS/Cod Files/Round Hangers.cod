@@ -1,9 +1,0 @@
-
-Dim RL=item.dim["Rod Extn Above"].numvalue
-Dim Alias = Item.Alias
-
-Debug RL
-If item.Description = "Unistrut Hanger"  then
-   Item.Alias = (roundUp(Item.Dim[6].numvalue +.5))
-Debug item.Alias
-Endif

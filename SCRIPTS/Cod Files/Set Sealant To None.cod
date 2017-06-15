@@ -1,6 +1,0 @@
-Rem Set Sealant to None
-if item.cid > 0 and (item.seams > 0 or item.connectors > 0) and item.cid <> 149 and item.cid <> 1049 then
-        Item.sealant.value = "None"
-        item.sealant.locked = true
-endif
-Item.update()

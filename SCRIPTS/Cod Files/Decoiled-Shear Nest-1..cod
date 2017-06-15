@@ -1,9 +1,0 @@
-Rem This will prep the selected items so that they can be Nest for Shearing
-
-If item.cid = 866 then
-  if item.cuttype = "Decoiled Straight" Then
-    Item.customdata["Decoiled"].value = "Shear Nest"
-    item.Option["Override Cut Type"].value = "Machine Cut"
-  Endif
-Endif
-Item.update()

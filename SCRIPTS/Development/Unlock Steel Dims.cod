@@ -1,7 +1,0 @@
-dim val
-dim lp
-    for lp=1 to item.dims
-      if item.dim[lp].status<>"notused" then
-        item.dim[lp].Locked=FALSE
-      endif
-

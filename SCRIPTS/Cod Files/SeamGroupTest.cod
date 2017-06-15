@@ -1,4 +1,0 @@
-
-if item.seam[1].value = "L-Pits" then
-   item.seam[1].value = "FAB Pittsburgh":"S-Pits"
-Endif

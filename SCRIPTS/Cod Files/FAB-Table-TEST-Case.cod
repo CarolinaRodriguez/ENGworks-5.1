@@ -1,8 +1,0 @@
-Select item.cid
-
- Case 20,22
-   item.fabtable = "Rect. Double Boot"
- endselect
-
-
-item.update()

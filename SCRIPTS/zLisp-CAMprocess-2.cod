@@ -1,9 +1,0 @@
-Rem This script will reset the customdata[16] "Script Filter" that has the code "CPFLxyz12" back to Null
-
-
-
-If item.customdata[16].value = "CPFLxyz12" then
- item.customdata[16].value = ""
-Endif
-
-Item.update()

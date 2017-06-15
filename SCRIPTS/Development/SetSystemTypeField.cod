@@ -1,9 +1,0 @@
-REM Sample Script to set system type
-
-dim System=item.CUSTOMDATA[4]
-REM debug "System = " + system + "    " + item.CUSTOMDATA[4]
-
-REM if item.CUSTOMDATA[4]<>"" then 
-  item.CUSTOMDATA[4]="CHW"
-
-REM endif

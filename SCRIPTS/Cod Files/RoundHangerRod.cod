@@ -1,8 +1,0 @@
-Dim REA = item.dim["Rod Extn Above"].numvalue
-
-debug REA
-If item.cid = 838 then
- item.dim["Rod Extn Above"].value = 48
-endif
-
-debug item.dim["Rod Extn Above"].numvalue
