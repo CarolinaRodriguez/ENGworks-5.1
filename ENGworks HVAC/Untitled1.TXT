@@ -1,5 +1,0 @@
-"Code","Material","Description","Size","OEM"
-"ADSK_30000721","Carbon Steel","Pipe-A53-CS-(B-ERW)-SCH40-BLK(BV)","4''","Generic"
-"ADSK_30000674","Carbon Steel","Shop Weld - CS-Std","4''","Generic"
-"ADSK_30003860","Carbon Steel","Elbow 90 LR","4''","Weldbend"
-"ADSK_30004596","Carbon Steel","Tee Equal","4''","Weldbend"
