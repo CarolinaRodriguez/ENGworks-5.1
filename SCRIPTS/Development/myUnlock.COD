@@ -1,0 +1,7 @@
+rem myUnlock
+
+item.dim[1].locked = false
+item.dim[2].locked = false
+item.dim[3].locked = false
+item.dim[4].locked = false
+item.dim[5].locked = false

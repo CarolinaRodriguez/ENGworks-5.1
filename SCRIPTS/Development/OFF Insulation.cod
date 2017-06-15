@@ -1,0 +1,6 @@
+dim quote=ASCII(34)
+
+item.insspec="none"
+item.insulation.status = "off"
+item.update()
+

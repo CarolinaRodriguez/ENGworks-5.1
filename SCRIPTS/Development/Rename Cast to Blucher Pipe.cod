@@ -1,0 +1,9 @@
+REM Sample Script to rename all "Cast Iron Pipe" to "Blucher Pipe" and also change the Path
+
+dim filename=item.FileName
+
+if filename="Cast Iron Pipe" then 
+  item.FileName="Blucher Straight Pipe"
+  item.Path="J:\Library\items\OEM99\BS Pipe Work\Drainage\Blucher\"
+endif
+

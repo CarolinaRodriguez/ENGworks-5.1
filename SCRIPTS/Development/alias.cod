@@ -1,0 +1,8 @@
+REM Sample Script to rename all "Mapress CS" to "Pipe" and also change the Path
+
+dim alias=item.alias
+debug "Alias = " + alias + "    " + item.alias
+if item.alias="123456" then 
+  item.ALIAS="19510297"
+
+endif

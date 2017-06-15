@@ -1,0 +1,33 @@
+REM Sample script to change the "Allow 2 Parts" option on Pattern CID 7
+REM periphery of the shoe is more than 60
+
+
+function CheckShoe()
+  dim width = item.dim["Top Width"].Numvalue
+  dim depth = item.dim["Depth"].Numvalue
+  dim connector = item.connector[1].value
+  dim L
+
+  if (connector = "S S&D" or connector = "F S&D") then
+    L = width + 6 + depth + width + 6
+  endif
+  if (connector = "S D&S" or connector = "F D&S") then
+    L = width + 6 + depth + width + 6
+  endif
+  if (connector = "TDC") then
+    L = width + 4 + depth + width + 4
+  endif
+
+  if (L > 58) then
+    item.Option["2 Parts"].Value="No"
+  else
+    item.Option["2 Parts"].Value="Yes"
+  endif
+end function
+
+
+dim val
+select item.Cid
+  case 7
+    CheckShoe()
+end select

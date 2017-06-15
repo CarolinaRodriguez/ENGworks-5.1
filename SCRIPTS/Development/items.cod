@@ -1,0 +1,38 @@
+rem
+rem *** WISHLIST ***
+rem 
+rem( 
+TODO:
+  Add next .. variable ?? (vb compatible)
+  Add exit for/function statements to quit early?
+  Add "\\" or "'" as quick eol as well as rem
+  Add support for "as string" etc on dim and function returns (VB compatible)
+)
+
+include "C:\\Documents and Settings\\Andy\\Desktop\\CD Items\\Scripting Samples\\tests.cod"
+
+ if query("Run Samples ?") then run "C:\\Documents and Settings\\Andy\\Desktop\\CD Items\\Scripting Samples\\samples.cod"
+ debug_item()
+
+rem
+rem **** MAIN CHECKING STARTS HERE *******
+rem
+
+dim ok=false
+
+select item.Cid
+  case 2,6,7,367,850,133
+    ok=testtaper()
+  case 108,165
+    ok=testhard()
+  case 107,56
+    ok=testsegments()    
+  case else
+    debug "No test for Item " + item.Number
+end select
+
+rem(
+if ok then
+  debug "Item " + item.number + " is OK"
+end if
+)

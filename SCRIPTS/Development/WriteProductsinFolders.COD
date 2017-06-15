@@ -1,0 +1,143 @@
+rem Goes through all product list items in the specified folder and all sub-folders
+rem Change the following lines to configure the script (the ending \'s are important)
+
+dim rootpath = mappath_items + "/"
+dim pathfrom = "items"
+
+dim OKtoSave = 0
+
+
+REM *** DONT CHANGE ANYTHING AFTER THIS ***
+
+requires task
+
+dim cr = ascii(10)
+
+function getrelativefrom( path, relativefrom )
+
+  dim rellen=len(relativefrom)
+ 
+  dim rel = instr(1, path, "\" + relativefrom + "\")
+  if not rel then rel = instr(1, path, "/" + relativefrom + "/")
+ 
+  dim rv
+ 
+  if rel then
+    rv = substring( path, rel+rellen+2, 0 )
+  else
+    rv = path
+  endif
+
+  return rv
+
+endfunction
+
+function UpdateItem ( path )
+
+  rem scan for all items in the specified folder
+  dim filescan as filelocator
+  filescan.scan(path, "*.itm", true, false)
+ 
+  dim folderscan as filelocator
+  folderscan.scan(path, "*.*", false, true)
+ 
+  rem debug path + cr + filescan.filecount + " files and " + folderscan.foldercount + " found"
+ 
+  dim lp, lp2
+
+  dim progressfiles=(folderscan.foldercount = 0)
+ 
+  if progressfiles then task.beginprogress(filescan.filecount)
+ 
+  for lp=1 to filescan.filecount
+ 
+    rem load the item
+    dim item as itemstruct
+ 
+    dim loadfile=filescan.file[lp]
+    dim sf=getrelativefrom( path, pathfrom )
+    sf=substring(sf,1,-1)
+    sf=GetFilename(sf)
+ 
+    rem show parent folder name and itm filename
+    task.message = sf + cr + GetFilename( loadfile )
+ 
+    if item.load(loadfile) then
+      dim eSpec = item.specification
+      dim eMat = item.Material
+      dim eCID = item.CID
+      dim eServ = item.service
+      dim name = ""
+      dim id = ""
+      dim eOrder = item.Order
+      dim ePriceList = item.Pricelist
+
+      if item.hasproduct then
+        rem go through all entries and write them out [with existing id if there]
+        for lp2=1 to item.product.entries
+          rem item file is relative path without extension
+          name=item.product.entry[lp2].name
+          if item.product.hasdatabaseid then
+            id=item.product.entry[lp2].databaseid
+          endif
+          if item.product.hasOrder then
+            eOrder=item.product.entry[lp2].Order
+          endif
+            outfile.writeline( loadfile + "," + eOrder + "," + eMat + "," + eSpec + "," + name + "," + eCID + "," + ePriceList + "," + id )
+        next lp2
+      endif
+    endif
+
+    if task.aborted then
+      lp=filescan.filecount
+    endif
+
+    rem save item here if changed
+    if OKtoSave then
+      if item.save(loadfile) = 0 then error "unable to save file " + loadfile
+    endif
+ 
+  if progressfiles then task.progress = task.progress + 1
+
+  next lp
+
+  if progressfiles then
+    task.endprogress()
+  else
+    task.beginprogress( folderscan.foldercount )
+  endif
+ 
+  for lp=1 to folderscan.foldercount
+ 
+    dim nextpath = folderscan.folder[lp]
+ 
+    task.message = "Scanning " + cr + nextpath
+ 
+    UpdateItem( nextpath )
+
+    if task.aborted then
+      lp=folderscan.foldercount
+    endif
+
+    if not progressfiles then task.progress = task.progress + 1
+ 
+  next lp
+
+  if not progressfiles then task.endprogress()
+ 
+end function
+ 
+ 
+  task.beginprogress( 1 )
+  task.progress = 0
+
+  object outfile = new file( "C:/PRODUCTSINFOLDERS.TXT", foroutput+istext)
+
+  if outfile.isopen then
+ 
+    UpdateItem( rootpath )
+    outfile.close()
+ 
+  endif
+
+  task.endprogress()
