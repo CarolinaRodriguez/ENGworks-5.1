@@ -1,0 +1,4 @@
+Rem Reset Item Scancount
+item.scancount = 0
+Item.status = "Design"
+Item.update()

@@ -1,0 +1,9 @@
+REM Sample Script to rename all "Mapress CS" to "Pipe" and also change the Path
+
+dim filename=item.FileName
+
+if filename="Mapress CS" then 
+  item.FileName="Pipe"
+  item.Path="r:\cad\cadduct solids\pipework\pressed fittings\galvanised\"
+endif
+

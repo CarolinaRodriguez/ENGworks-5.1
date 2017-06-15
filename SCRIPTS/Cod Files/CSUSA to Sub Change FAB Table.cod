@@ -1,0 +1,11 @@
+Dim Pat = item.cid
+
+Rem "GroupName:TableName"
+
+If pat=20 or pat=7 or pat=11 then
+Item.fabtable = "Rectangular Duct:Rect. Angle Std."
+Endif
+
+If pat=15 or pat=472 or pat=328 then
+Item.fabtable = "Rectangular Duct:Rect. Tap Std."
+Endif

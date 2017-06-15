@@ -1,0 +1,6 @@
+if item.cuttype = "Decoiled Straight" then
+ item.seam[1].value = "s-pits"
+ item.seam[2].value = "s-pits"
+ item.seam[1].locked = true
+ item.seam[2].locked = true
+endif

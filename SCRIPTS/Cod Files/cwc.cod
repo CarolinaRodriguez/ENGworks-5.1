@@ -1,0 +1,38 @@
+requires task.selection
+
+dim item1 = task.selection[1]
+
+dim MPSS = inputbox("Enter MPSS Number or Click OK", "FAB Batch" , item1.customdata["FAB Batch"].value)
+dim POCS = inputbox("Enter PO Number for Carbon Steel Material")
+dim POCU = inputbox("Enter PO Number for Copper Material")
+dim POValve = inputbox("Enter PO Number for Valves")
+
+
+dim i = 1
+
+while i <= task.selection.count
+    dim item = task.selection[i]
+if item.material = "BD Piping Material: Carbon Steel" then
+    item.customdata["FAB Batch"].value = MPSS
+    item.customdata["Purchase Order Number"].value = POCS
+    item.update()
+endif
+if item.material = "BD Piping Material: Copper" then
+    item.customdata["FAB Batch"].value = MPSS
+    item.customdata["Purchase Order Number"].value = POCU
+    item.update()
+endif
+if item.servicetype = "Valve" then
+    item.customdata["FAB Batch"].value = MPSS
+    item.customdata["Purchase Order Number"].value = POValve
+    item.update()
+endif
+
+ Job.customdata["MPSS"].value = MPSS
+    item.update()
+
+ 
+
+ 
+    i = i + 1
+end while

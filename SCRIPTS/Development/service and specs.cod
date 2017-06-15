@@ -1,0 +1,34 @@
+Dim quote=ASCII(34)
+Dim update = FALSE
+
+Dim spec = item.specification
+Dim service = item.service
+
+Rem check for bad name and change to good
+dim newservice = "HVAC: CITRUS +2" + quote + "W.G."
+
+If service = newservice then
+  Item.Service = "HVAC: Good Service Name"
+  Update = TRUE
+endif
+
+Rem check for "None" Spec
+If spec ="None" then
+  If service = "HVAC: Good Name 1" then
+    Spec = "New Name"
+  Else if service = "HVAC: Good Name 2" then
+    Spec = "New Name 2"
+  Else if service = "HVAC: Good Name 3" then
+    Spec = "New Name 3"
+  endif
+  Update=TRUE
+  Item.specification = Spec
+Endif
+
+Rem Unlock Gauge, no need to check, as it will already be unlocked, no hard done
+Item.GaugeLock=FALSE
+
+Rem if we have changed something
+If Update then
+  Item.Update()
+Endif

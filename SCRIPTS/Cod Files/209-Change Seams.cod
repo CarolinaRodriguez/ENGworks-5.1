@@ -1,0 +1,83 @@
+Rem-------- Change Pittsburg Seams to Combo Flanger
+
+if item.seams > 0 then
+ if Item.seam[1].value = "S-Pits." or Item.seam[1].value = "S-Pits Alum." or Item.seam[1].value = "S-Pits PCD." or Item.seam[1].value = "S-Pits SS." then
+     Item.seam[1].value = "SPits."
+     Item.seam[1].locked = true
+ endif
+Endif
+
+if item.seams > 1 then
+ if Item.seam[2].value = "S-Pits." or Item.seam[2].value = "S-Pits Alum." or Item.seam[2].value = "S-Pits PCD." or Item.seam[2].value = "S-Pits SS." then
+     Item.seam[2].value = "SPits."
+     Item.seam[2].locked = true
+ endif
+Endif
+
+if item.seams > 0 then
+ if Item.seam[1].value = "L-Pits." or Item.seam[1].value = "L-Pits Alum." or Item.seam[1].value = "L-Pits PCD." or Item.seam[1].value = "L-Pits SS." then
+     Item.seam[1].value = "LPits."
+     Item.seam[1].locked = true
+ endif
+Endif
+
+if item.seams > 1 then
+ if Item.seam[2].value = "L-Pits." or Item.seam[2].value = "L-Pits Alum." or Item.seam[2].value = "L-Pits PCD." or Item.seam[2].value = "L-Pits SS." then
+     Item.seam[2].value = "LPits."
+     Item.seam[2].locked = true
+ endif
+Endif
+
+Rem ------Radius Pittsburg--------------
+if item.seams > 0 then
+ if Item.seam[1].value = "RP." or Item.seam[1].value = "RP Alum." or Item.seam[1].value = "RP PCD." or Item.seam[1].value = "RP SS." then
+     Item.seam[1].value = "R-SPits."
+     Item.seam[1].locked = true
+   If item.cid = 17 then
+   item.option["Seam Number For Throat"].value = 2
+   endif
+ endif
+Endif
+
+if item.seams > 1 then
+ if Item.seam[2].value = "RP." or Item.seam[2].value = "RP Alum." or Item.seam[2].value = "RP PCD." or Item.seam[2].value = "RP SS." then
+     Item.seam[2].value = "R-SPits."
+     Item.seam[2].locked = true
+ endif
+Endif
+
+
+if item.seams > 0 then
+ if Item.seam[1].value = "LRP." or Item.seam[1].value = "LRP Alum." or Item.seam[1].value = "LRP PCD." or Item.seam[1].value = "LRP SS." then
+     Item.seam[1].value = "R-LPits."
+     Item.seam[1].locked = true
+    If item.cid = 17 then
+     item.option["Seam Number For Throat"].value = 1
+    endif
+ endif
+Endif
+
+if item.seams > 1 then
+ if Item.seam[2].value = "LRP." or Item.seam[2].value = "LRP Alum." or Item.seam[2].value = "LRP PCD." or Item.seam[2].value = "LRP SS." then
+     Item.seam[2].value = "LPits."
+     Item.seam[2].locked = true
+ endif
+Endif
+
+Rem Change Seam Position on Transition
+If item.cid = 2 then
+   Item.option["Female Allow"].value = "Depth"
+Endif
+
+Rem Change Decoiled duct to L-Pits
+If Item.cid = 866 and Item.cuttype = "Decoiled Straight" then
+    item.seam[1].value = "L-Pits."
+    item.seam[1].locked = true
+Endif
+
+
+
+
+Item.Update()
+
+ 

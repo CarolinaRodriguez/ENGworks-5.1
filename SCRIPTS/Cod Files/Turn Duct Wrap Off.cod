@@ -1,0 +1,9 @@
+Rem This will turn of Duct Wrap on Machine cut duct
+
+if item.cuttype = "Machine Cut" then
+ if item.insulation.status = "Outside" then
+    item.insulation.status = "off"
+    item.insulation.materiallock = true
+ Endif
+endif
+item.update()

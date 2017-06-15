@@ -1,0 +1,144 @@
+requires task.selection
+REM *******************************************************************************
+REM *     FUNCTION: Convert Decimal to Feet & Inch STRing
+function MOD (N, D)
+ dim tmp
+ tmp=n - (rounddown(n / d, 0) * d)
+ return tmp
+end function
+REM ******************************************************
+function GCD(N1, N2)
+   dim tmp
+   while N1<>0
+      tmp=n1
+      n1=MOD(n2, n1)
+      n2=tmp
+   end while
+   return n2
+end function
+REM ******************************************************
+function FISTR(N, R)
+
+   REM - Declare Variables
+   dim S
+   dim FT
+   dim IN
+   dim FR
+   dim TN
+   dim FRLEN
+   dim FRGCD
+   dim FRMUL
+   dim RT
+
+   REM - Store Number Sign and Convert To Positive for manipulation
+   S = sign(N)
+   N = N * S
+
+   REM - Verify Rounding Argument is Positive
+   R = R * sign(R)
+
+   REM - Round Number Arguement (16 would round to nearest 1/16th inch)
+   N = round(N*R,0)/R
+
+   REM - Calculate Feet
+   FT = rounddown(N/12,0)
+
+   REM - Store Temp Number (minus feet)
+   TN = N-(FT*12)
+
+   REM - Calculate Inches
+   IN = rounddown(TN,0)
+
+   REM - Store Temp Number (minus full inches)
+   TN = TN - IN
+
+   REM - Save Fractional Decimal for Manipulation
+   FR = TN
+
+   REM - Determine Length of Fraction (note: "0." count as 2)
+   REM - to calculate multiplier
+   FRLEN = len(FR)
+   if FRLEN = 3 then
+      FRMUL = 10
+   elseif FRLEN = 4 then
+      FRMUL = 100
+   elseif FRLEN = 5 then
+      FRMUL = 1000
+   elseif FRLEN = 6 then
+      FRMUL = 10000
+   else
+      FRMUL = 0
+   endif
+
+   REM - Multiply Decimal by Proper Multiplier
+   FR = FR * FRMUL
+ 
+   REM - Calculate Greatest Common Divisor for Fraction Simplification
+   FRGCD = GCD(FR, FRMUL)
+ 
+   REM - Build Feet/Inch/Fraction String
+   if FRMUL=0 then
+      RT = FT*S + "' " + IN + ascii(34)
+   else
+      RT = FT*S + "' " + IN + "-" + FR/FRGCD + "/" + FRMUL/FRGCD + ascii(34)
+   endif
+
+   REM - Return to Calling Function
+   return RT
+end function
+REM ******************************************************
+
+REM dim UsrDatum = inputbox("Enter Elevation Datum (In Inches)")
+REM if UsrDatum = "" then
+REM    UsrDatum = 0
+REM Endif
+
+dim i = 1
+
+while i <= task.selection.count
+  dim item = task.selection[i]
+ If item.servicetype = "Hanger" or item.cid = "2041" or item.cid = "866" or item.cid = "877" or item.cid = "3041" or item.cid = "40" or item.cid = "41" Then
+  Dim BotElev = item.endlocation(1,"btm")
+  Dim Section = item.level("floor")
+  Dim ElevAFF = BotElev - Section
+  Item.customdata["Item Bottom Elev C1"].value = FISTR(ElevAFF, 8)
+  item.update()
+ Endif
+ If item.option[1].value = "Clevis Hanger" Then
+  Dim RodBelow = item.dim[6].numvalue
+  Dim RodAbove = item.dim[7].numvalue
+  Dim RodLength = RodBelow + RodAbove
+  Item.customdata["Total Rod Length A"].value = FISTR(RodLength, 8)
+  item.update()
+endif
+ If item.option[1].value = "Profiled Bearer" Then
+  Dim Diameter = item.dim[2].numvalue
+  Dim RodBelow = item.dim[3].numvalue
+  Dim RodAbove = item.dim[6].numvalue
+  Dim RodLength = RodBelow + RodAbove + Diameter
+  Item.customdata["Total Rod Length A"].value = FISTR(RodLength, 8)
+  item.update()
+Endif
+If item.option[1].value = "Profiled Bearer"  or item.option[1].value = "Double Profile Bearer" or item.option[1].value = "Double Profile Bearer 2" Then
+  Dim StrutLgth = item.dim[1].numvalue
+  Dim BearerExt = item.dim[3].numvalue
+  Dim RtRodOffset = item.dim[12].numvalue
+  Dim LftRodOffset = item.dim[13].numvalue
+  Dim RodCC = StrutLgth + (BearerExt *2) - (RtRodOffset + LftRodOffset)
+  Item.customdata["Trapeze Rod to Rod Dim"].value = FISTR(RodCC, 8)
+  item.update()
+ Endif
+If item.option[1].value = "Profiled Bearer"  or item.option[1].value = "Double Profile Bearer" or item.option[1].value = "Double Profile Bearer 2" Then
+  Dim StrutLgth = item.dim[1].numvalue
+  Dim BearerExt = item.dim[3].numvalue
+  Dim RtRodOffset = item.dim[12].numvalue
+  Dim LftRodOffset = item.dim[13].numvalue
+  Dim StrutCutLgth = StrutLgth + (BearerExt *2)
+  Item.customdata["Trapeze Strut Length"].value = FISTR(StrutCutLgth,8)
+  item.update()
+ Endif
+
+      i = i + 1
+end while
+
+

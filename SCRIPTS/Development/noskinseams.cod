@@ -1,0 +1,75 @@
+dim rootpath = mappath_items
+REM dim rootpath = ""
+dim csv =  "C:/ALLITEMSKINSEAMS.TXT"
+dim delimiter = ","
+
+requires task
+
+dim saved = 0
+
+dim csvfile as file( csv, forinput + istext)
+if csvfile.isopen then
+
+  task.beginprogress(csvfile.length)
+ 
+  while not csvfile.eof and not task.aborted
+
+    task.progress = csvfile.position
+ 
+    dim ItemFile=csvfile.readline()
+ 
+    if len(ItemFile)>0 then
+ 
+      dim anitem = new itemstruct
+      if anitem.load( ItemFile ) then
+ 
+        dim changed = false
+ 
+        dim slp, ilp
+ 
+        for slp = 1 to anitem.seams
+ 
+          if anitem.SkinSeam[slp] then
+
+            if anitem.Skinseam[slp].value <> "None" then
+              anitem.SkinSeam[slp].value = "None"
+              changed = true
+            endif
+
+          endif
+ 
+        next slp
+
+        for ilp = 1 to anitem.subitems
+ 
+          dim subitem = anitem.subitem[ilp]
+ 
+          for slp = 1 to subitem.seams
+ 
+            if subitem.skinseam[slp] then
+ 
+              if subitem.Skinseam[slp].value <> "None" then
+                subitem.skinseam[slp].value = "None"
+                changed = true
+              endif
+ 
+            endif
+ 
+          next slp
+ 
+        next ilp
+
+        if changed then
+          anitem.save(itemfile)
+          saved = saved + 1
+        endif
+ 
+      endif
+ 
+    endif
+  end while
+endif
+
+debug saved + " Items Changed"
+
+task.endprogress()

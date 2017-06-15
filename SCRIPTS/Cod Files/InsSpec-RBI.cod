@@ -1,0 +1,4 @@
+if item.insspec = "Not Set" Then
+ item.insspec = "FAB Plumbing DOM: RD"
+ Endif
+item.ispeclock = true

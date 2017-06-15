@@ -1,0 +1,22 @@
+REM This will Change Square_To-Round with TDx to 4pc with corner seams
+
+If item.cid = 8 then
+  If Item.connector[1].value = "F1.25 TDC/F." then
+   Item.connector[1].value = "TDC."
+   Item.option["Cross Break"].value = "4"
+   Item.option["Seam Position"].value = "Corner"
+   item.connector[1].locked = true
+  Endif
+Endif
+
+If item.cid = 8 then
+  If Item.connector[1].value = "1-1/4 Out TDC/F" then
+   Item.connector[1].value = "TDC"
+   Item.option["Cross Break"].value = "4"
+   Item.option["Seam Position"].value = "Corner"
+   item.connector[1].locked = true
+  Endif
+Endif
+
+Item.Update()
+

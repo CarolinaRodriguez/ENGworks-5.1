@@ -1,0 +1,49 @@
+
+dim TermNumbFile =  "C:\CSUSA-FAB\TermNumber.txt"
+dim delimiter = ","
+
+
+ Rem Col-1
+ Dim TermNumb
+
+
+
+
+
+requires task
+
+dim TFile as file(TermNumbFile, forinput+foroutput+istext)
+if TFile.isopen then
+
+  task.beginprogress(TFile.length)
+
+rem debug "Terminal Text File Is Opened"
+endif
+ 
+Rem debug "Term File Opened"
+ 
+  while not TFile.eof and not task.aborted
+
+    task.progress = TFile.position
+ 
+      dim initialentry=TFile.readline()
+      dim entry = ""
+      entry = initialentry + ","
+
+    dim c = instr( 1, entry, delimiter )
+    if c>1 then
+      TermNumb = substring(entry, 1, c-1)
+      TermNumb = trim(TermNumb)
+    endif
+   item.customdata[6].value = TermNumb
+
+
+
+
+
+endwhile
+
+
+
+task.endprogress()
+

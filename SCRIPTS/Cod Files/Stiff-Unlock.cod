@@ -1,0 +1,4 @@
+if item.stiffeners > 0 Then
+ item.stiffener[1].locked = False
+Endif
+Item.update()

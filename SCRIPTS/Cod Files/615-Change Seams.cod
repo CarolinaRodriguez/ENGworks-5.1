@@ -1,0 +1,108 @@
+Dim Pat = item.cid
+
+
+Rem Debug item.option["Seam Number For Throat"].value
+
+If item.cid = 8 then
+   Item.option["Seam Position"].value = "Longest Side"
+Endif
+
+If item.cid = 20 then
+ if item.wiregauge > 21 then
+ item.option["Seam Number For Throat"].value = 0
+ Item.seam[1].value = "S-Pits."
+ Item.seam[1].locked = true
+ endif
+ if item.wiregauge < 21 then
+ item.option["Seam Number For Throat"].value = 0
+ Item.seam[1].value = "L-Pits."
+ Item.seam[1].locked = true
+ endif
+Endif
+
+If pat=2 or pat=6 or pat=11 or pat=13 or pat=15 or pat=472 or pat=328 then
+  if item.wiregauge > 21 then
+     Item.seam[1].value = "S-Pits."
+     Item.seam[1].locked = true
+  endif
+  if item.wiregauge < 21 then
+     Item.seam[1].value = "L-Pits."
+     Item.seam[1].locked = true
+  endif
+ if item.seams = 2 then
+  if item.wiregauge > 21 then
+     Item.seam[2].value = "S-Pits."
+     Item.seam[2].locked = true
+  endif
+  if item.wiregauge < 21 then
+     Item.seam[2].value = "L-Pits."
+     Item.seam[2].locked = true
+  endif
+ endif
+Endif
+
+If pat=25 and item.dim[3].numvalue < 12 then
+  if item.wiregauge > 21 then
+     Item.seam[1].value = "S-Pits."
+     Item.seam[1].locked = true
+  endif
+  if item.wiregauge < 21 then
+     Item.seam[1].value = "L-Pits."
+     Item.seam[1].locked = true
+  endif
+ if item.seams = 2 then
+  if item.wiregauge > 21 then
+     Item.seam[2].value = "S-Pits."
+     Item.seam[2].locked = true
+  endif
+  if item.wiregauge < 21 then
+     Item.seam[2].value = "L-Pits."
+     Item.seam[2].locked = true
+  endif
+ endif
+Endif
+
+If pat=866 and item.dim[3].numvalue < 12 then
+  if item.wiregauge > 21 then
+     Item.seam[1].value = "S-Pits."
+     Item.seam[1].locked = true
+  endif
+  if item.wiregauge < 21 then
+     Item.seam[1].value = "L-Pits."
+     Item.seam[1].locked = true
+  endif
+ if item.seams = 2 then
+  if item.wiregauge > 21 then
+     Item.seam[2].value = "S-Pits."
+     Item.seam[2].locked = true
+  endif
+  if item.wiregauge < 21 then
+     Item.seam[2].value = "L-Pits."
+     Item.seam[2].locked = true
+  endif
+ endif
+Endif
+
+If item.cid = 8621 then
+ if item.connector[1].value = "Ward J." then
+ 	item.dim["Flange"].value = "1.625"
+ 	item.dim[5].value = ".75"
+ 	item.dim[6].value = ".45"
+ 	item.dim[7].value = ".45"
+ 	item.dim[8].value = ".88"
+ Endif
+ if item.connector[1].value = "Ward H." then
+ 	item.dim["Flange"].value = "1.125"
+ 	item.dim[5].value = ".75"
+ 	item.dim[6].value = ".375"
+ 	item.dim[7].value = ".375"
+ 	item.dim[8].value = ".75"
+ Endif
+Endif
+
+
+
+Item.update()
+
+
+ 

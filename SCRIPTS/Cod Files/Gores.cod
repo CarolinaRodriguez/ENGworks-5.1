@@ -1,0 +1,33 @@
+Rem Change Qty of Gores on Elbows
+If item.cid = 61 then
+dim Ang = item.dim[3].numvalue
+  if item.dim["Angle"].value < 91 and item.dim["Angle"].value >= 61 then
+    item.option[1].value = "5"
+   if item.customdata["ScriptCode"].value <> "GorAngSet" then
+     item.dim[3].value = (Ang-1.5)
+     item.customdata["ScriptCode"].value = "GorAngSet"
+   endif
+  endif
+  if item.dim["Angle"].value < 61 and item.dim["Angle"].value >= 46 then
+    item.option[1].value = "4"
+   if item.customdata["ScriptCode"].value <> "GorAngSet" then
+     item.dim[3].value = (Ang-1.125)
+     item.customdata["ScriptCode"].value = "GorAngSet"
+   endif
+  endif
+  if item.dim["Angle"].value < 46 and item.dim["Angle"].value >= 31 then
+    item.option[1].value = "3"
+   if item.customdata["ScriptCode"].value <> "GorAngSet" then
+     item.dim[3].value = (Ang-.75)
+     item.customdata["ScriptCode"].value = "GorAngSet"
+   endif
+  endif
+  if item.dim["Angle"].value < 31 then
+    item.option[1].value = "2"
+   if item.customdata["ScriptCode"].value <> "GorAngSet" then
+     item.dim[3].value = (Ang-.375)
+     item.customdata["ScriptCode"].value = "GorAngSet"
+   endif
+  endif
+endif
+item.update()

@@ -1,0 +1,19 @@
+
+
+dim lp
+for lp = 1 to item.dims
+  if item.dim[lp].name = "Width" then
+  item.dim[1].value = w1
+debug W1
+  endif
+
+next lp
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+If item.cid = 866 then
+       item.boughtout = true
+       Item.customdata["Decoiled"].value = "Draw Only"
+	   item.number = "VIF"
+ Endif
+If item.cuttype > 0 then
+ item.cuttype = "Draw Only"
+ item.number = "VIF"
+Endif
+Item.update()

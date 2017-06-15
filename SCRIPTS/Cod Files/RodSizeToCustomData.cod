@@ -1,0 +1,52 @@
+Rem Copy Rod size from option list 7 to Custom Data Rod Size
+ 
+If item.CID = 838 Then
+  if item.option["Type"].value = "J 2" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+If item.CID = 838 Then
+  if item.option["Type"].value = "J" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+If item.CID = 838 Then
+  if item.option["Type"].value = "Split Ring" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+If item.CID = 838 Then
+  if item.option["Type"].value = "Clevis Hanger" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+If item.CID = 838 Then
+  if item.option["Type"].value = "Profiled Bearer" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+If item.CID = 838 Then
+  if item.option["Type"].value = "Double Profile Bearer 2" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+If item.CID = 838 Then
+  if item.option["Type"].value = "Stirrup" Then
+  dim RS = item.option[7].value
+   item.customdata["Rod Size"].value = RS
+  Endif
+Endif
+
+

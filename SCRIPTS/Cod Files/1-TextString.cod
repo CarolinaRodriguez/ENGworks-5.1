@@ -1,0 +1,13 @@
+dim length = item.dim[1].numvalue
+dim decV = Instr(length,".")
+dim dval = Instr(1,length,".")
+dim wnum = left(length,(dval-1))
+dim dnum = Right(length,(dval-1))
+
+
+
+ debug length
+ debug "decv= "+decv
+ debug "dval= "+dval
+ debug "wnum= "+wnum
+ debug "dnum= "+dnum

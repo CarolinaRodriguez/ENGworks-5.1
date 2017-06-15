@@ -1,0 +1,9 @@
+Rem Change TDC End Cap Connector To TDC EC
+
+If Item.cid = 12 and item.filename = "TDC EC" then
+  if item.connector[1].value = "TDC" then
+   item.connector[1].value = "TDC EC"
+   item.connector[1].locked = true
+  Endif
+Endif
+Item.update()

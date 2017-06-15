@@ -1,0 +1,30 @@
+if item.service = "2016_ 9 West Walton: Domestic Cold Water - (Soldered-Grooved) - 3  > 999 - Nibco-Victaulic" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Domestic Cold Water - 2-1/2 > 8 Soldered/Grooved (Co/A53)"
+endif
+
+if item.service = "2016_ 9 West Walton: Domestic Hot Water - (Soldered-Grooved) - 3  > 999 - Nibco-Victaulic" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Domestic Hot Water - 2-1/2 > 8 Soldered/Grooved (Co/A53)"
+endif
+
+if item.service = "2016_ 9 West Walton: Domestic Hot Water Return - (Soldered Only) - 3/8  > 999 - Nibco" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Domestic Hot Water Return - 3/8 > 4 Soldered Copper"
+endif
+
+if item.service = "2016_ 9 West Walton: Kitchen-Grease Waste - (SW) - 3  > 999 - Charlotte_Mueller" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Kitchen Waste - (SV) - 2 > 999 - Charlotte_Nibco -96"
+endif
+
+if item.service = "2016_ 9 West Walton: Sanitary Vent - (SW) - 2-1/2  > 999 - Tyler_Mueller" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Sanitary Vent - (SV) - 2  > 999 - Charlotte_Nibco"
+endif
+
+if item.service = "2016_ 9 West Walton: Sanitary Waste - (SW) - 2-1/2  > 999 - Charlotte_Mueller" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Sanitary Waste - (SV) - 2 > 999 - Charlotte_Nibco -96"
+endif
+
+if item.service = "2016_ 9 West Walton: Storm - (SW) - 3  > 999 - Charlotte_Mueller" then
+  item.service = "2016_Caldwell_No. 9 West Walton: Storm/Overflow Drain - (SV) - 0  > 999 - Charlotte -96"
+endif
+
+  Item.Update()
+  

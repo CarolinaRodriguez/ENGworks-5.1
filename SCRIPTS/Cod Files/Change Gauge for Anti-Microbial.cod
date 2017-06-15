@@ -1,0 +1,10 @@
+
+If item.material = "FAB HVAC: Anti-Microbial" Then
+  if item.wiregauge > 22 then
+   item.wiregauge = 22
+  endif
+ if item.wiregauge = 20 then
+  item.wiregauge = 18
+ endif
+Endif
+Item.update()

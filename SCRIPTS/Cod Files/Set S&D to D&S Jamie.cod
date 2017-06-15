@@ -1,0 +1,18 @@
+
+
+If Item.connectors > 0 then
+    item.connector[1].value = "D&S."
+    Item.Connector[1].locked = true
+endif
+If Item.connectors > 1 then
+    item.connector[2].value = "D&S."
+    Item.Connector[2].locked = true
+endif
+If Item.connectors > 2 then
+    item.connector[3].value = "D&S."
+    Item.Connector[3].locked = true
+endif
+Item.update()
+
+
+  

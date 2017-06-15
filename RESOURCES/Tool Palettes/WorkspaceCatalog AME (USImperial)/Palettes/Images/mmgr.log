@@ -1,0 +1,29 @@
+Large leaks: number of big allocs = 242418, number of big discards = 242414.
+Small leaks: there are 9314 leaks of size 4 (rounded up).
+Small leaks: there are 582 leaks of size 8 (rounded up).
+Small leaks: there are 73 leaks of size 12 (rounded up).
+Small leaks: there are 583 leaks of size 16 (rounded up).
+Small leaks: there are 123 leaks of size 20 (rounded up).
+Small leaks: there are 581 leaks of size 24 (rounded up).
+Small leaks: there are 34096 leaks of size 28 (rounded up).
+Small leaks: there are 173 leaks of size 36 (rounded up).
+Small leaks: there are 5894 leaks of size 40 (rounded up).
+Small leaks: there are 5467 leaks of size 48 (rounded up).
+Small leaks: there are 1356 leaks of size 52 (rounded up).
+Small leaks: there are 8538 leaks of size 56 (rounded up).
+Small leaks: there are 3790 leaks of size 72 (rounded up).
+Small leaks: there are 4525 leaks of size 80 (rounded up).
+Small leaks: there are 4 leaks of size 96 (rounded up).
+Small leaks: there are 4 leaks of size 104 (rounded up).
+Small leaks: there are 5 leaks of size 120 (rounded up).
+Small leaks: there are 36 leaks of size 128 (rounded up).
+Small leaks: there are 217 leaks of size 136 (rounded up).
+Small leaks: there are 3764 leaks of size 144 (rounded up).
+Small leaks: there are 46 leaks of size 152 (rounded up).
+Small leaks: there are 652 leaks of size 168 (rounded up).
+Small leaks: there are 1289 leaks of size 184 (rounded up).
+Small leaks: there are 26 leaks of size 200 (rounded up).
+Small leaks: there are 42 leaks of size 232 (rounded up).
+Small leaks: there are 2 leaks of size 240 (rounded up).
+Small leaks: there are 163 leaks of size 256 (rounded up).
+Leaks: at least 3700548 bytes

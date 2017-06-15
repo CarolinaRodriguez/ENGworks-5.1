@@ -1,0 +1,58 @@
+Rem Process Coiled Duct part 2
+function StraightType()
+dim width = item.dim["Width"].Value
+dim depth = item.dim["Depth"].Value
+dim half_periphery = (width+depth)
+dim maxside
+dim minside
+IF ITEM.CUTTYPE = "MACHINE CUT" or ITEM.CUTTYPE = "Sheared" THEN
+if width > depth then
+maxside = width
+minside = depth
+else maxside = depth
+minside = width
+endif
+if half_periphery > 55 then
+item.Option["Override"].Value="4xI,M-M,F-F"
+elseif minside > 10 AND maxside < 10 AND half_periphery > 20 AND
+half_periphery < 22 then
+item.Option["Override"].Value="1 Part Straight"
+else
+item.Option["Override"].Value="2xL"
+endif
+ENDIF
+item.update()
+end function
+
+Rem Process SQR-RND notch
+function SQRRND()
+If Item.cid = 8 then
+item.option["Marker Type"].value = "None"
+Endif
+item.update()
+end function
+
+Rem Process 4 peice Tap
+function TAP()
+If Item.cid = 7 then
+item.option["2 Parts"].value = "No"
+Endif
+item.update()
+end function
+
+
+rem ********************** Main Loop********************************
+select item.Cid
+case 866
+StraightType()
+end select
+
+select item.Cid
+case 8
+SQRRND()
+end select
+
+select item.Cid
+case 7
+TAP()
+end select

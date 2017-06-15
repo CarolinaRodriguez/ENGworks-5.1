@@ -1,0 +1,23 @@
+ select item.customdata["Truck Zone"].value
+    
+    case "1"
+      item.status = "T-Zone 1"
+    case "2"
+      item.status = "T-Zone 2"
+    case "3"
+      item.status = "T-Zone 3"
+    case "4"
+      item.status = "T-Zone 4"
+    case "5"
+      item.status = "T-Zone 5"
+    case "6"
+      item.status = "T-Zone 6"
+    case "7"
+      item.status = "T-Zone 7"
+    case "8"
+      item.status = "T-Zone 8"
+    case "9"
+      item.status = "T-Zone 9"
+    case "10"
+      item.status = "T-Zone 10"
+  end select

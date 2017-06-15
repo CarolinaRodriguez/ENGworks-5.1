@@ -1,0 +1,22 @@
+
+Dim RL=item.dim["Rod Extn Above"].numvalue
+
+function ChangeRodLength()
+    select item.CID
+        case 838
+            dim i
+            for i =  1 to item.dims
+                select item.Dim[i].Name
+                    case "Rod Length", "Rod Extn Above"
+                        item.Dim[i].Value = RoundUpLength(item.Dim[i].Value)
+                end select
+            next
+        end select
+end function
+
+function RoundUpLength(length)
+    return roundup(length /  12) *  12
+end function
+debug RL
+
+

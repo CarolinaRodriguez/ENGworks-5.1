@@ -1,0 +1,146 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{CAEAE0F5-3AEB-4CB1-BAF5-285AA264B788}"/><Properties><ItemName>Accessories</ItemName><Images option="0"/><Description>This palette contains a sampling of customized MvPart tools. They refer to the catalog specified in the Options dialog. You may also drag a part onto the palette or copy one of these tools and modify it to make a new tool.</Description><Time createdUniversalDateTime="2005-11-14T15:39:11" modifiedUniversalDateTime="2005-12-10T11:33:59"/></Properties><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{9BBEB9C2-B284-4306-9C17-FCAD67195C3E}"/><Properties><ItemName>Valve</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-11-14T15:39:50" modifiedUniversalDateTime="2005-11-14T15:39:50"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F2A80AE4-6894-4CA6-BE95-90202EC85878}"/><Properties><ItemName>3 Way</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_F2A80AE4-6894-4CA6-BE95-90202EC85878.png"/></Images><Description>Creates a valve MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:25:58"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>D73DC916-E9ED-4D03-9100-048CFF0A8DA6</PartGUID>
+					<PartName>3-Way Valves</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{164BFF64-D91D-4F4D-85EF-BF119408B6A7}"/><Properties><ItemName>Butterfly</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_164BFF64-D91D-4F4D-85EF-BF119408B6A7.png"/></Images><Description>Creates a valve MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:26:12"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>518DA44F-6F0D-4D82-A132-76634F993A1B</PartGUID>
+					<PartName>Butterfly Valves</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3098DDC1-AE1E-42E3-9159-BE0AE1669E26}"/><Properties><ItemName>Ball</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_3098DDC1-AE1E-42E3-9159-BE0AE1669E26.png"/></Images><Description>Creates a valve MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:26:18"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>AD64ED0D-D835-41E5-AFF6-215AB23BBC27</PartGUID>
+					<PartName>Ball Valves</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{A34CC045-4ADB-4DFF-A28E-1B986748653D}"/><Properties><ItemName>Check</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_A34CC045-4ADB-4DFF-A28E-1B986748653D.png"/></Images><Description>Creates a valve MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:26:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>96FA7D55-EF6D-47E6-9568-31A5CF13F2C4</PartGUID>
+					<PartName>Check Valves</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B5EA2BEA-6E96-4888-BD03-159B69896FD6}"/><Properties><ItemName>Gate</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_B5EA2BEA-6E96-4888-BD03-159B69896FD6.png"/></Images><Description>Creates a valve MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:26:40"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>187D077F-868F-48F7-8F20-0FF883686C20</PartGUID>
+					<PartName>Gate Valves</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{92EF0D46-8812-4E18-8524-B9AA017CB9BE}"/><Properties><ItemName>Globe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_92EF0D46-8812-4E18-8524-B9AA017CB9BE.png"/></Images><Description>Creates a valve MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:26:47"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>CFC6B90E-234C-4D6E-81BA-091A0B57FA5C</PartGUID>
+					<PartName>Globe Valves</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{90FC7893-554A-4F4A-87F9-E51AD727AA59}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-11-14T15:46:18" modifiedUniversalDateTime="2005-11-14T15:46:18"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{339C3C89-9E79-408C-AE70-94107BD48936}"/><Properties><ItemName>Gauge</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-11-14T15:46:26" modifiedUniversalDateTime="2005-11-14T15:46:26"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9164A10A-5D98-41A7-AD36-2B3B7AD287B3}"/><Properties><ItemName>Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_9164A10A-5D98-41A7-AD36-2B3B7AD287B3.png"/></Images><Description>Creates a gauge MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:26:54"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>41221625-DA3C-469E-84C4-A8A81CCC3B77</PartGUID>
+					<PartName>Pressure Gauge</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D4D8D143-AAE7-462B-A2B9-8EE2DBD1CF8D}"/><Properties><ItemName>Temperature</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_D4D8D143-AAE7-462B-A2B9-8EE2DBD1CF8D.png"/></Images><Description>Creates a gauge MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:27:00"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>612F8F44-8EDB-426E-8650-0E117CC5A7C3</PartGUID>
+					<PartName>Temperature Gauge</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{59AD47D7-A404-4866-AACD-8081600BBF12}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-11-14T15:47:12" modifiedUniversalDateTime="2005-11-14T15:47:12"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{D0AE8E31-4E87-4ECC-AC19-A0F47C61B107}"/><Properties><ItemName>Strainer</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-11-14T15:47:14" modifiedUniversalDateTime="2005-11-14T15:47:14"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2F2FF147-F19C-4CA8-85A6-56AE52AFC82F}"/><Properties><ItemName>Basket</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_2F2FF147-F19C-4CA8-85A6-56AE52AFC82F.png"/></Images><Description>Creates a strainer MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:45:04"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>EF10EF33-B7F6-4E54-AC1A-C99F67A7BC0C</PartGUID>
+					<PartName>Basket Strainers</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{794EBDB1-6923-43D7-8139-62FCB037FC29}"/><Properties><ItemName>Y Strainer</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_794EBDB1-6923-43D7-8139-62FCB037FC29.png"/></Images><Description>Creates a strainer MvPart</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Inline</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:45:10"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4BCE8A9F-EC20-4E03-8D67-CBE934E4C74E</PartGUID>
+					<PartName>Y Strainer</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool></Tools></Palette>

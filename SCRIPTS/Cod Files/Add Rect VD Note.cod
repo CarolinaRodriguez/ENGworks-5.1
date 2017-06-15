@@ -1,0 +1,3 @@
+dim note
+note = item.notes
+item.notes =  "**Add "+item.dim[1].value+"x"+item.dim[2].value+" VD**"

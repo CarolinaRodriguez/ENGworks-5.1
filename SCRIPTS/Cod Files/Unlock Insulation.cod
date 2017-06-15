@@ -1,0 +1,16 @@
+Rem This will unlock insulation
+
+Rem turn off Insulation Spec and Insulation on Equipment-521 Canvas-166,555 Access door-504,580 Air Device-996,505 Tanks-912 Fans-556,913 
+Rem FSDs-321,501,502,509,533,535
+
+Dim Pat = item.cid
+
+item.insulation.materiallock = False
+
+If pat=166 or pat=504 or pat=321 or pat=501 or pat=502 or pat=505 or pat=509 or pat=521 or pat=533 or pat=535 or pat=555 or pat=556 or pat=580 or pat=873 or pat=912 or pat=913 or pat=996 then
+ item.insspec = "Set None"
+  item.ispeclock = true
+   Item.insulation.status = "off"
+    item.insulation.materiallock = true
+Endif
+item.update()

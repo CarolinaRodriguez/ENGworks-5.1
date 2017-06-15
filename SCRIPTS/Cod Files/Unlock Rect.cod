@@ -1,0 +1,44 @@
+
+Rem Unlock Rect Connectors
+If item.servicetype = "Rectangular Duct" Then
+   Item.Connector[1].locked = false
+Endif
+
+If item.servicetype = "Rectangular Duct" and Item.connectors >1 Then
+   Item.Connector[2].locked = false
+Endif
+
+If item.servicetype = "Rectangular Duct" and Item.connectors >2 Then
+   Item.Connector[3].locked = false
+Endif
+
+Rem Unlock Ret Seams
+If item.servicetype = "Rectangular Duct" Then
+   Item.Seam[1].locked = false
+Endif
+
+If item.servicetype = "Rectangular Duct" and Item.seams >1 Then
+   Item.Seam[2].locked = false
+Endif
+
+Rem Unlock Vaves
+If Item.Airturns > 0 Then
+ if item.airturn[1].value = "None" then
+ else
+  if Item.airturn[1].locked = true then
+      Item.airturn[1].locked = False
+  Endif
+ Endif
+Endif
+
+Rem Unlock Vaves
+If Item.Airturns = 2 Then
+ if item.airturn[2].value = "None" then
+ else
+  if Item.airturn[2].locked = true then
+      Item.airturn[2].locked = False
+  Endif
+ Endif
+Endif
+
+Item.update()

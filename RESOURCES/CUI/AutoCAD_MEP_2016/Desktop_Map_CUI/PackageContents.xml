@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<ApplicationPackage SchemaVersion="1.0" AppVersion="1.2.2" ProductCode="6b88d6aa-089f-445c-ad8c-4cc601fa576e" Name="TSI CUI" Author="TSI" Icon="" Helpfile="" >    
+<CompanyDetails Name="Technical Sales International" Email="support@tsisupporthelpdesk.zendesk.com" />    
+<Components> 
+	<ComponentEntry ModuleName="./Contents/MenuFunctions.lsp" PerDocument="True"/>
+	<ComponentEntry ModuleName="./Contents/RenumberSpool.lsp" PerDocument="True"/>
+	<ComponentEntry AppName="TSIcuix" Version="1.2.3" ModuleName="./Contents/Resources/en-US/TSI CADmep.cuix" AppDescription="CUI loader" />  
+</Components> 
+</ApplicationPackage>

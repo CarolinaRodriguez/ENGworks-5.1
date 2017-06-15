@@ -1,0 +1,335 @@
+
+Rem Dim Con2 = item.Connector[2].value
+Rem Dim Con3 = item.Connector[3].value
+Rem Dim Con4 = item.Connector[4].value
+
+
+requires task
+Rem -------CSUSA New Connectors--------
+REM----------TDC------------------
+If Item.connectors > 0 Then
+ Dim Con1 = item.Connector[1].value
+ If Con1="TDC." or Con1="TDC Alum." or Con1="TDC Galvaneal." or Con1="TDC PCD." or Con1="TDC SS." Then
+  Item item.Connector[1].value = "TDC"
+  item.Connector[1].locked = true
+ Endif
+Endif
+
+If Item.connectors > 1 Then
+ Dim Con2 = item.Connector[2].value
+ If Con2="TDC." or Con2="TDC Alum." or Con2="TDC Galvaneal." or Con2="TDC PCD." or Con2="TDC SS." Then
+  Item item.Connector[2].value = "TDC"
+  item.Connector[2].locked = true
+ Endif
+Endif
+
+If Item.connectors > 2 Then
+ Dim Con3 = item.Connector[3].value
+ If Con3="TDC." or Con3="TDC Alum." or Con3="TDC Galvaneal." or Con3="TDC PCD." or Con3="TDC SS." Then
+  Item item.Connector[3].value = "TDC"
+  item.Connector[3].locked = true
+ Endif
+Endif
+
+If Item.connectors > 3 Then
+ Dim Con4 = item.Connector[4].value
+ If Con4="TDC." or Con4="TDC Alum." or Con4="TDC Galvaneal." or Con4="TDC PCD." or Con4="TDC SS." Then
+  Item item.Connector[4].value = "TDC"
+  item.Connector[4].locked = true
+ Endif
+Endif
+
+REM----------TDC-EZ------------------
+If Item.connectors > 0 Then
+ Dim Con1 = item.Connector[1].value
+ If Con1="TDC-EZ." Then
+  Item item.Connector[1].value = "EZC"
+  item.Connector[1].locked = true
+ Endif
+Endif
+
+If Item.connectors > 1 Then
+ Dim Con2 = item.Connector[2].value
+ If Con2="TDC-EZ." Then
+  Item item.Connector[2].value = "EZC"
+  item.Connector[2].locked = true
+ Endif
+Endif
+
+If Item.connectors > 2 Then
+ Dim Con3 = item.Connector[3].value
+ If Con3="TDC-EZ." Then
+  Item item.Connector[3].value = "EZC"
+  item.Connector[3].locked = true
+ Endif
+Endif
+
+If Item.connectors > 3 Then
+ Dim Con4 = item.Connector[4].value
+ If Con4="TDC-EZ." Then
+  Item item.Connector[4].value = "EZC"
+  item.Connector[4].locked = true
+ Endif
+Endif
+
+REM----------TDF------------------
+If Item.connectors > 0 Then
+ Dim Con1 = item.Connector[1].value
+ If Con1="TDF." or Con1="TDF Alum." or Con1="TDF Galvaneal." or Con1="TDF PCD." or Con1="TDF SS." Then
+  Item item.Connector[1].value = "TDF"
+  item.Connector[1].locked = true
+ Endif
+Endif
+
+If Item.connectors > 1 Then
+ Dim Con2 = item.Connector[2].value
+ If Con2="TDF." or Con2="TDF Alum." or Con2="TDF Galvaneal." or Con2="TDF PCD." or Con2="TDF SS." Then
+  Item item.Connector[2].value = "TDF"
+  item.Connector[2].locked = true
+ Endif
+Endif
+
+If Item.connectors > 2 Then
+ Dim Con3 = item.Connector[3].value
+ If Con3="TDF." or Con3="TDF Alum." or Con3="TDF Galvaneal." or Con3="TDF PCD." or Con3="TDF SS." Then
+  Item item.Connector[3].value = "TDF"
+  item.Connector[3].locked = true
+ Endif
+Endif
+
+If Item.connectors > 3 Then
+ Dim Con4 = item.Connector[4].value
+ If Con4="TDF." or Con4="TDF Alum." or Con4="TDF Galvaneal." or Con4="TDF PCD." or Con4="TDF SS." Then
+  Item item.Connector[4].value = "TDF"
+  item.Connector[4].locked = true
+ Endif
+Endif
+
+REM----------TDF-EZ------------------
+If Item.connectors > 0 Then
+ Dim Con1 = item.Connector[1].value
+ If Con1="TDF-EZ." Then
+  Item item.Connector[1].value = "EZF"
+  item.Connector[1].locked = true
+ Endif
+Endif
+
+If Item.connectors > 1 Then
+ Dim Con2 = item.Connector[2].value
+ If Con2="TDF-EZ." Then
+  Item item.Connector[2].value = "EZF"
+  item.Connector[2].locked = true
+ Endif
+Endif
+
+If Item.connectors > 2 Then
+ Dim Con3 = item.Connector[3].value
+ If Con3="TDF-EZ." Then
+  Item item.Connector[3].value = "EZF"
+  item.Connector[3].locked = true
+ Endif
+Endif
+
+If Item.connectors > 3 Then
+ Dim Con4 = item.Connector[4].value
+ If Con4="TDF-EZ." Then
+  Item item.Connector[4].value = "EZF"
+  item.Connector[4].locked = true
+ Endif
+Endif
+
+REM----------S&D------------------
+If Item.connectors > 0 Then
+ Dim Con1 = item.Connector[1].value
+ If Con1="S&D." or Con1="S&D Alum." or Con1="S&D Galvaneal." or Con1="S&D PCD." or Con1="S&D SS." Then
+  Item item.Connector[1].value = "S&D"
+  item.Connector[1].locked = true
+ Endif
+Endif
+
+If Item.connectors > 1 Then
+ Dim Con2 = item.Connector[2].value
+ If Con2="S&D." or Con2="S&D Alum." or Con2="S&D Galvaneal." or Con2="S&D PCD." or Con2="S&D SS." Then
+  Item item.Connector[2].value = "S&D"
+  item.Connector[2].locked = true
+ Endif
+Endif
+
+If Item.connectors > 2 Then
+ Dim Con3 = item.Connector[3].value
+ If Con3="S&D." or Con3="S&D Alum." or Con3="S&D Galvaneal." or Con3="S&D PCD." or Con3="S&D SS." Then
+  Item item.Connector[3].value = "S&D"
+  item.Connector[3].locked = true
+ Endif
+Endif
+
+If Item.connectors > 3 Then
+ Dim Con4 = item.Connector[4].value
+ If Con4="S&D." or Con4="S&D Alum." or Con4="S&D Galvaneal." or Con4="S&D PCD." or Con4="S&D SS." Then
+  Item item.Connector[4].value = "S&D"
+  item.Connector[4].locked = true
+ Endif
+Endif
+
+REM----------Flat S&D------------------
+If Item.connectors > 0 Then
+ Dim Con1 = item.Connector[1].value
+ If Con1="Flat S&D." or Con1="Flat S&D Alum." or Con1="Flat S&D Galvaneal." or Con1="Flat S&D PCD." or Con1="Flat S&D SS." Then
+  Item item.Connector[1].value = "S&D"
+  item.Connector[1].locked = true
+ Endif
+Endif
+
+If Item.connectors > 1 Then
+ Dim Con2 = item.Connector[2].value
+ If Con2="Flat S&D." or Con2="Flat S&D Alum." or Con2="Flat S&D Galvaneal." or Con2="Flat S&D PCD." or Con2="Flat S&D SS." Then
+  Item item.Connector[2].value = "S&D"
+  item.Connector[2].locked = true
+ Endif
+Endif
+
+If Item.connectors > 2 Then
+ Dim Con3 = item.Connector[3].value
+ If Con3="Flat S&D." or Con3="Flat S&D Alum." or Con3="Flat S&D Galvaneal." or Con3="Flat S&D PCD." or Con3="Flat S&D SS." Then
+  Item item.Connector[3].value = "S&D"
+  item.Connector[3].locked = true
+ Endif
+Endif
+
+If Item.connectors > 3 Then
+ Dim Con4 = item.Connector[4].value
+ If Con4="Flat S&D." or Con4="Flat S&D Alum." or Con4="Flat S&D Galvaneal." or Con4="Flat S&D PCD." or Con4="Flat S&D SS." Then
+  Item item.Connector[4].value = "S&D"
+  item.Connector[4].locked = true
+ Endif
+Endif
+
+Rem -------CSUSA New Seams--------
+ If item.Seams > 0 Then
+  select item.seam[1].value
+   Case "S-Pits."
+        item.seam[1].value = "SP"
+   Case "S-Pits Alum."
+        item.seam[1].value = "SP"
+   Case "S-Pits PCD."
+        item.seam[1].value = "SP"
+   Case "S-Pits SS."
+        item.seam[1].value = "SP"
+   Case "L-Pits."
+        item.seam[1].value = "LP"
+   Case "L-Pits Alum."
+        item.seam[1].value = "LP"
+   Case "L-Pits PCD."
+        item.seam[1].value = "LP"
+   Case "L-Pits SS."
+        item.seam[1].value = "LP"
+   Case "Snaplock."
+        item.seam[1].value = "SL"
+   Case "Snaplock Alum."
+        item.seam[1].value = "SL"
+   Case "Snaplock PCD."
+        item.seam[1].value = "SL"
+   Case "Snaplock SS."
+        item.seam[1].value = "SL"
+   item.seam[1].locked = true
+  endselect
+ Endif
+ 
+ 
+ If item.Seams > 1 Then
+  select item.seam[2].value
+   Case "S-Pits."
+        item.seam[2].value = "SP"
+   Case "S-Pits Alum."
+        item.seam[2].value = "SP"
+   Case "S-Pits PCD."
+        item.seam[2].value = "SP"
+   Case "S-Pits SS."
+        item.seam[2].value = "SP"
+   Case "L-Pits."
+        item.seam[2].value = "LP"
+   Case "L-Pits Alum."
+        item.seam[2].value = "LP"
+   Case "L-Pits PCD."
+        item.seam[2].value = "LP"
+   Case "L-Pits SS."
+        item.seam[2].value = "LP"
+   Case "Snaplock."
+        item.seam[2].value = "SL"
+   Case "Snaplock Alum."
+        item.seam[2].value = "SL"
+   Case "Snaplock PCD."
+        item.seam[2].value = "SL"
+   Case "Snaplock SS."
+        item.seam[2].value = "SL"
+   item.seam[2].locked = true
+  endselect
+ Endif
+
+Rem -------CSUSA Old Seams--------
+
+If item.Seams > 0 Then
+  select item.seam[1].value
+   Case "S-Pits"
+        item.seam[1].value = "SP"
+   Case "S-Pits Alum"
+        item.seam[1].value = "SP"
+   Case "S-Pits PCD"
+        item.seam[1].value = "SP"
+   Case "S-Pits SS"
+        item.seam[1].value = "SP"
+   Case "L-Pits"
+        item.seam[1].value = "LP"
+   Case "L-Pits Alum"
+        item.seam[1].value = "LP"
+   Case "L-Pits PCD"
+        item.seam[1].value = "LP"
+   Case "L-Pits SS"
+        item.seam[1].value = "LP"
+   Case "Snaplock"
+        item.seam[1].value = "SL"
+   Case "Snaplock Alum"
+        item.seam[1].value = "SL"
+   Case "Snaplock PCD"
+        item.seam[1].value = "SL"
+   Case "Snaplock SS"
+        item.seam[1].value = "SL"
+   item.seam[1].locked = true
+  endselect
+ Endif
+ 
+ 
+ If item.Seams > 1 Then
+  select item.seam[2].value
+   Case "S-Pits"
+        item.seam[2].value = "SP"
+   Case "S-Pits Alum"
+        item.seam[2].value = "SP"
+   Case "S-Pits PCD"
+        item.seam[2].value = "SP"
+   Case "S-Pits SS"
+        item.seam[2].value = "SP"
+   Case "L-Pits"
+        item.seam[2].value = "LP"
+   Case "L-Pits Alum"
+        item.seam[2].value = "LP"
+   Case "L-Pits PCD"
+        item.seam[2].value = "LP"
+   Case "L-Pits SS"
+        item.seam[2].value = "LP"
+   Case "Snaplock"
+        item.seam[2].value = "SL"
+   Case "Snaplock Alum"
+        item.seam[2].value = "SL"
+   Case "Snaplock PCD"
+        item.seam[2].value = "SL"
+   Case "Snaplock SS"
+        item.seam[2].value = "SL"
+    item.seam[2].locked = true
+  endselect
+ Endif
+ 
+ 
+ item.update()
+
+task.endprogress()

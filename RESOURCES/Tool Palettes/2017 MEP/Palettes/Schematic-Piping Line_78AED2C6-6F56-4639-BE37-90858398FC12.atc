@@ -1,0 +1,286 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{78AED2C6-6F56-4639-BE37-90858398FC12}"/><Properties><ItemName>Piping Line</ItemName><Images option="0"/><Description>This palette contains a sampling of customized schematic tools. They refer to the content specified in the Options dialog.</Description><Time createdUniversalDateTime="2006-10-21T04:23:17" modifiedUniversalDateTime="2006-10-25T16:05:44"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{C0964E76-E062-4E83-9184-70D02A32CB00}"/><Properties><ItemName>Schematic Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_C0964E76-E062-4E83-9184-70D02A32CB00.png"/></Images><Description>Creates a Schematic Line.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T14:23:13"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{408297A6-CDEA-4F26-AF50-A94196C3A675}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:23:26" modifiedUniversalDateTime="2006-10-25T06:23:26"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{2DB075CB-D755-4946-8BA3-DAA2FD56268D}"/><Properties><ItemName>Line by System</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:23:27" modifiedUniversalDateTime="2006-10-25T06:23:27"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{FF8B36A1-D35C-4303-9CD1-E4096CB2DCE8}"/><Properties><ItemName>Chilled Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_FF8B36A1-D35C-4303-9CD1-E4096CB2DCE8.png"/></Images><Description>Creates a Schematic Line in M-Chilled Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:30:25"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">M-Chilled Water - Supply (CHS)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3FC2AAB1-043A-4809-9495-D658A184199A}"/><Properties><ItemName>Chilled Water - Return</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_3FC2AAB1-043A-4809-9495-D658A184199A.png"/></Images><Description>Creates a Schematic Line in M-Chilled Water - Return system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:30:41"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">M-Chilled Water - Return (CHR)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{047010B4-F85D-4498-8FC7-733D8972264D}"/><Properties><ItemName>Condensate Drain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_047010B4-F85D-4498-8FC7-733D8972264D.png"/></Images><Description>Creates a Schematic Line in M-Condenser Water - Drain system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:31:24"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Condensate Drain (CND)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{31A02686-974A-4F16-BAF9-BF82E423DB9E}"/><Properties><ItemName>Domestic Hot Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_31A02686-974A-4F16-BAF9-BF82E423DB9E.png"/></Images><Description>Creates a Schematic Line in P-Domestic Hot Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:31:46"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Domestic Hot Water - Supply (DHW)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{FDC37528-31E9-436C-A44F-5AF5A22EFDAF}"/><Properties><ItemName>Natural Gas - Low Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_FDC37528-31E9-436C-A44F-5AF5A22EFDAF.png"/></Images><Description>Creates a Schematic Line in P-Natural Gas - Low Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:32:05"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Natural Gas - Low Pressure (NAT)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D234C6EB-7A5D-4A06-B9D3-537BB9D2782B}"/><Properties><ItemName>Refrigeration</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_D234C6EB-7A5D-4A06-B9D3-537BB9D2782B.png"/></Images><Description>Creates a Schematic Line in M-Refrigeration system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:32:23"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">M-Refrigeration (R)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{30C72F12-DBFB-44CC-A349-A10C9903AC35}"/><Properties><ItemName>Steam - Low Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_30C72F12-DBFB-44CC-A349-A10C9903AC35.png"/></Images><Description>Creates a Schematic Line in M-Steam - Low Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:32:41"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">M-Steam - Low Pressure (LPS)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E2715A92-EEEA-44DA-8D19-858A3771818A}"/><Properties><ItemName>Steam - Medium Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_E2715A92-EEEA-44DA-8D19-858A3771818A.png"/></Images><Description>Creates a Schematic Line in M-Steam - Medium Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:32:55"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">M-Steam - Medium Pressure (MPS)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{629C07FF-E1A5-40B6-BAF4-0FEC96001BD9}"/><Properties><ItemName>Steam - High Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_629C07FF-E1A5-40B6-BAF4-0FEC96001BD9.png"/></Images><Description>Creates a Schematic Line in M-Steam - High Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:33:15"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">M-Steam - High Pressure (HPS)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{7700F244-FA5B-47FA-A28F-D47B6DE0EF3A}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:36:16" modifiedUniversalDateTime="2006-10-25T06:36:16"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{B5C69DE7-3F7D-4E08-B7FC-67493A541FFB}"/><Properties><ItemName>Fittings</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:36:18" modifiedUniversalDateTime="2006-10-25T06:36:18"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C54ECCB2-4CB4-418A-813C-B28D06E7667D}"/><Properties><ItemName>Clean Out - End Of Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_C54ECCB2-4CB4-418A-813C-B28D06E7667D.png"/></Images><Description>Creates a Clean Out - End Of Line.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T14:39:23"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Clean Out - End Of Line</PartName>
+					<PartSizeName>Clean Out - End Of Line</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Pipe Fittings (US Imperial).dwg">Clean Out - End Of Line</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0976586D-FF5C-4C46-BD33-917CB82A6208}"/><Properties><ItemName>Pipe Rise-Drop</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_0976586D-FF5C-4C46-BD33-917CB82A6208.png"/></Images><Description>Creates a Pipe Rise-Drop.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T14:41:01"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Pipe Rise-Drop</PartName>
+					<PartSizeName>Pipe Rise-Drop</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Pipe Fittings (US Imperial).dwg">Pipe Rise-Drop</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C7F26DD9-20B3-4225-9E3D-AC71560ADEA1}"/><Properties><ItemName>Reducer - Concentric</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_C7F26DD9-20B3-4225-9E3D-AC71560ADEA1.png"/></Images><Description>Creates a Reducer - Concentric.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-12-20T18:57:48"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Reducer - Concentric</PartName>
+					<PartSizeName>Reducer - Concentric</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Pipe Fittings (US Imperial).dwg">Pipe Reducer - Concentric</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{BFA14668-874B-45DC-81EC-85C3CD8000CF}"/><Properties><ItemName>Reducer - Eccentric</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_BFA14668-874B-45DC-81EC-85C3CD8000CF.png"/></Images><Description>Creates a Reducer - Eccentric.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-12-20T18:58:00"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Reducer - Eccentric</PartName>
+					<PartSizeName>Reducer - Eccentric</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Pipe Fittings (US Imperial).dwg">Pipe Reducer - Eccentric</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{CFD357D5-1881-4855-B3BC-0CE4AB07AB5C}"/><Properties><ItemName>Tee - Down</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_CFD357D5-1881-4855-B3BC-0CE4AB07AB5C.png"/></Images><Description>Creates a Tee - Down.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T14:44:20"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Tee - Down</PartName>
+					<PartSizeName>Tee - Down</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Pipe Fittings (US Imperial).dwg">Tee - Down</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0A548BF3-AD53-499A-A760-540299CB7892}"/><Properties><ItemName>Tee - Up</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_0A548BF3-AD53-499A-A760-540299CB7892.png"/></Images><Description>Creates a Tee - Up.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T14:45:03"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Tee - Up</PartName>
+					<PartSizeName>Tee - Up</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Pipe Fittings (US Imperial).dwg">Tee - Up</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool></Tools></Palette>

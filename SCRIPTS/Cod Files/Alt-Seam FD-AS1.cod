@@ -1,0 +1,12 @@
+If item.Connector[1].alt = "FD" Then
+    item.connector[1].alt = "AC1"
+Endif
+If item.Connector[2].alt = "FD" Then
+    item.connector[2].alt = "AC1"
+Endif
+
+If item.cid = 7  Then
+ item.Connector[2].alt = "AC2"
+ item.seam[1].alt = "AS3"
+Endif
+ 

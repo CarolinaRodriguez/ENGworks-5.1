@@ -1,0 +1,4 @@
+if item.customdata[33]="RodSize" then 
+ item.customdata["RodSize"].value = "xxx"
+ endif
+item.update ()

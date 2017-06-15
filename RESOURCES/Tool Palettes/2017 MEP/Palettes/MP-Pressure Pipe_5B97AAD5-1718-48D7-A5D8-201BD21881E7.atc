@@ -1,0 +1,352 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{5B97AAD5-1718-48D7-A5D8-201BD21881E7}"/><Properties><ItemName>Pressure Pipe</ItemName><Images option="0"/><Description>This palette contains a sampling of customized Pressure pipe tools. They refer to the catalog specified in the Options dialog.</Description><Time createdUniversalDateTime="2005-10-20T23:24:40" modifiedUniversalDateTime="2007-11-04T13:54:45"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{42018BCD-A4C0-4241-A149-B32E5718C691}"/><Properties><ItemName>Pipe</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:40:23"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{56D4CBC4-F148-40A0-A6F9-A7E169DDA9B5}"/><Properties><ItemName>Flex Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Flex_Pipe.png"/></Images><Description>Creates a flexible pipe.</Description><Time createdUniversalDateTime="2007-06-20T08:15:12" modifiedUniversalDateTime="2007-11-05T17:40:34"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{EEE2D543-9742-4C4F-B063-537895308DC2}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>D5513179-63AC-4F80-BEF6-FF1C312DCEC7</PartGUID>
+					<PartName>Braided Hose</PartName>
+					<PartSizeName>2.00 -inch Braided Hose</PartSizeName>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C37CDA9E-491B-4F4B-8DBD-1225E674DA63}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-01-14T16:39:41" modifiedUniversalDateTime="2006-01-14T16:39:41"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{2E2E823B-CCC6-4EB1-971F-B312A3353DE2}"/><Properties><ItemName>By System and Routing Preference</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-11-10T15:29:41" modifiedUniversalDateTime="2005-11-10T15:29:41"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6DB9AAE7-4C45-4AA1-B90D-47816FD9A697}"/><Properties><ItemName>Domestic Cold Water - Supply - Grooved and Threaded</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Domestic Cold Water Supply system and with the Grooved and Threaded routing preference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:44:27"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Domestic Cold Water - Supply (DCW)</System>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Grooved and Threaded</RoutingPreference>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{CD73FD60-B3C5-40C0-A0E8-4AE132BB6C2F}"/><Properties><ItemName>Steam - Low Pressure - Slip On Flanged - 150-lb. and Threaded</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Steam - Low Pressure system and with a Slip On Flanged - 150-lb. and Threaded routing preference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:44:41"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Steam - Low Pressure (LPS)</System>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Slip On Flanged - 150 lb. and Threaded</RoutingPreference>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{DFB25D18-328D-4711-90AD-69818BE9CF0A}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-27T15:14:00" modifiedUniversalDateTime="2005-10-27T15:14:00"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{BDB79466-E665-4C4D-87A3-450F9A3DC71B}"/><Properties><ItemName>By System</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-10-27T15:12:08" modifiedUniversalDateTime="2005-10-27T15:12:08"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{FC592A1B-2A82-4BA9-9413-DA2C764655F0}"/><Properties><ItemName>Chilled Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Chilled Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:40:45"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Chilled Water - Supply (CHS)</System>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3D2ECE3A-190A-4C5D-8D26-AA739578E32A}"/><Properties><ItemName>Chilled Water - Return</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Chilled Water - Return system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:40:58"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Chilled Water - Return (CHR)</System>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C7C36774-F14C-43C5-8268-74E2012BAC8D}"/><Properties><ItemName>Domestic Cold Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Domestic Cold Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:41:22"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Domestic Cold Water - Supply (DCW)</System>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0208D612-EBBE-44B3-8C19-F95A8AE26F7B}"/><Properties><ItemName>Domestic Hot Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Domestic Hot Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:41:34"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Domestic Hot Water - Supply (DHW)</System>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B9F9CF5E-15A5-4774-BC2E-638FA8ED6877}"/><Properties><ItemName>Natural Gas - Low Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Natural Gas - Low Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:41:46"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Natural Gas - Low Pressure (NAT)</System>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D2330E69-0DC7-4695-9326-A779BA045CAD}"/><Properties><ItemName>Steam - Low Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe in the Steam - Low Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:42:11"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Steam - Low Pressure (LPS)</System>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{5FC0C4A4-FFBC-478B-A3B3-23069E6A49FF}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-01-14T16:39:44" modifiedUniversalDateTime="2006-01-14T16:39:44"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{2139E2F8-3059-4C0E-A28C-BB3D747D58A9}"/><Properties><ItemName>By Routing Preference</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-10-27T15:13:40" modifiedUniversalDateTime="2005-10-27T15:13:40"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{59FEF1CA-B5A9-485F-AD35-9F26DA13AA6E}"/><Properties><ItemName>Butt Welded</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe with the Butt Welded routing preference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:43:03"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Butt Welded</RoutingPreference>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3C958CBD-CEF9-4C2E-9F15-E4E0D238E740}"/><Properties><ItemName>Grooved and Threaded</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe with the Grooved and Threaded routing preference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:43:30"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Grooved and Threaded</RoutingPreference>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{05E316D7-E489-4227-8B93-A285CE072F96}"/><Properties><ItemName>Slip On Flanged - 150-lb. and Threaded</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe with the Slip On Flanged - 150-lb. and Threaded routing preference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:43:58"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Slip on Flanged - 150 Lb. and Threaded</RoutingPreference>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{286A06CA-A00B-43FA-8543-2B611D866820}"/><Properties><ItemName>Threaded 2000-lb</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe with the Threaded 2000 lb. routing preference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:44:09"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Threaded 2000-lb.</RoutingPreference>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{0E6D61E4-31FF-4679-98A1-C17F4949AE26}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-11-10T15:30:07" modifiedUniversalDateTime="2005-11-10T15:30:07"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{D938C0A2-7FCD-4819-9281-E773ACC06A2C}"/><Properties><ItemName>By Size</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-01-26T21:20:38" modifiedUniversalDateTime="2006-01-26T21:20:38"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{A341A4C3-DBB7-435D-9618-2983D1E819BC}"/><Properties><ItemName>Undefined</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a pipe with an undefined shape and size.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-16T15:14:22"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>5E5C590F-22C3-11D5-8EE2-0010B5481882</PartGUID>
+					<PartName>Placeholder - Pipe</PartName>
+					<PartSizeName>Unsized Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Placeholder</RoutingPreference>
+					<NominalSize>0</NominalSize>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{20E79C20-8A91-4151-8C83-400DF6C76A81}"/><Properties><ItemName>2" Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a 2" pipe.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:45:18"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Standard</RoutingPreference>
+					<NominalSize>2</NominalSize>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{122781F2-9ED4-4BD5-A3C8-21124833A4B6}"/><Properties><ItemName>6" Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a 6" pipe.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:45:54"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Standard</RoutingPreference>
+					<NominalSize>6</NominalSize>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{ED2FFD00-7442-410B-93A0-783ECA564EBD}"/><Properties><ItemName>10" Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Pipe.png"/></Images><Description>Creates a 10" pipe.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Pipe</HelpData></Help><Time createdUniversalDateTime="2007-10-31T07:48:33" modifiedUniversalDateTime="2007-11-05T17:46:10"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{ED201226-983F-45D0-80A5-EEF221293EFB}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4262F628-FA26-4EA1-926E-4D632D399018</PartGUID>
+					<PartName>Commercial Pipe</PartName>
+					<PartSizeName>2 -inch Commercial Pipe</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipe>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Standard</RoutingPreference>
+					<NominalSize>10</NominalSize>
+				</AecbDbPipe>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{55E24EF3-917B-41CB-ACAB-5172CCCBE70A}"/><Properties><ItemName>3/4" Flex Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Add_Flex_Pipe.png"/></Images><Description>Creates a 3/4" flex pipe.</Description><Time createdUniversalDateTime="2007-06-20T08:15:12" modifiedUniversalDateTime="2007-11-05T17:46:22"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{EEE2D543-9742-4C4F-B063-537895308DC2}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>D5513179-63AC-4F80-BEF6-FF1C312DCEC7</PartGUID>
+					<PartName>Braided Hose</PartName>
+					<PartSizeName>.75 -inch Braided Hose</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbPipeFlex>
+					<RoutingPreference ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Butt Welded and Socket Welded</RoutingPreference>
+					<NominalSize>0.75</NominalSize>
+				</AecbDbPipeFlex>
+			</Data>
+		</Tool></Tools></Palette>

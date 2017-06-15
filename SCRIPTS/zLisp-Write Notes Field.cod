@@ -1,0 +1,18 @@
+requires task.selection
+
+dim item1 = task.selection[1]
+dim Notes=inputbox("ENTER DATA FOR NOTES FIELD")
+
+
+dim i = 1
+dim jobitem
+
+while i <= task.selection.count
+    jobitem = task.selection[i]
+
+  rem *** Changes happen here
+    jobitem.NOTES = NOTES
+  rem *** End of changes
+
+  i = i + 1
+end while

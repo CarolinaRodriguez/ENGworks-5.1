@@ -1,0 +1,5 @@
+
+If item.Cid = 40 then
+   Item.Connector[2].locked = false
+endif
+Item.update()

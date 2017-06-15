@@ -1,0 +1,359 @@
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0"><ItemID idValue="{809622B1-C708-49FB-A636-45C88BFAC3C7}"/><Properties><ItemName>Duct</ItemName><Images option="0"/><Description>This palette contains a sampling of customized duct tools. They refer to the catalog specified in the Options dialog.</Description><Time createdUniversalDateTime="2005-10-20T21:37:54" modifiedUniversalDateTime="2005-12-08T16:05:14"/></Properties><Source/><Tools><Tool Revision="18.2.0" option="0"><ItemID idValue="{0B5E28FB-6481-4C00-BF94-56F28E34E74E}"/><Properties><ItemName>Duct</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\88BA1D58-1A4F-4DD1-B782-57BF048D0E22.png"/></Images><Description>Creates a duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:30:50"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{8A046894-B8EB-465E-B120-EFA3AA4A479E}"/><Properties><ItemName>Flex Duct</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_8A046894-B8EB-465E-B120-EFA3AA4A479E.png"/></Images><Description>Creates a flexible duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECBID_AECBDUCTFLEX</HelpData></Help><Time createdUniversalDateTime="2010-05-31T15:58:49" modifiedUniversalDateTime="2010-11-08T16:30:37"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{E1B72DAF-6086-455F-B588-804045B54B69}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>5485E442-B9C1-427F-ACC9-53DBCD669AD4</PartGUID>
+					<PartName>Round Corrugated FlexDucts</PartName>
+					<PartSizeName>3.0 inch Diameter Round Corrugated FlexDucts US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuctFlex>
+					<Diameter Lock="0"/>
+				</AecbDbDuctFlex>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{0587FDE6-132C-42E9-9806-3EB1845B61C1}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-26T20:24:12" modifiedUniversalDateTime="2005-10-26T20:24:12"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{0F024829-E1A1-48AF-A409-412247608231}"/><Properties><ItemName>By System</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-10-26T20:20:36" modifiedUniversalDateTime="2005-10-26T20:20:36"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{9AADE8C0-59CC-46E5-9A05-2CA5C45283CA}"/><Properties><ItemName>Outdoor Air</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_9AADE8C0-59CC-46E5-9A05-2CA5C45283CA.png"/></Images><Description>Creates a duct in the Outdoor Air system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:32:25"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Outdoor Air (OA)</System>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{F508CC39-A879-408B-BA6D-DE96BDC0E2EE}"/><Properties><ItemName>Supply - Demo</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_F508CC39-A879-408B-BA6D-DE96BDC0E2EE.png"/></Images><Description>Creates a duct in the Supply - Demo system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:30:17"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Supply - Demo (DEMO)</System>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{AA6E4829-5AA7-4FA8-94CD-2F0304EDF210}"/><Properties><ItemName>Supply - Low Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_AA6E4829-5AA7-4FA8-94CD-2F0304EDF210.png"/></Images><Description>Creates a duct in the Supply - Low Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:34:26"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Supply - Low Pressure (LPS)</System>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{C56FECC0-E862-4A4F-9AE4-05C5FB4BB2AE}"/><Properties><ItemName>Supply - Medium Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_C56FECC0-E862-4A4F-9AE4-05C5FB4BB2AE.png"/></Images><Description>Creates a duct in the Supply - Medium Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:29:59"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Supply - Medium Pressure (MPS)</System>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{D19AE686-2039-4CB7-974A-EB370E9C1491}"/><Properties><ItemName>Return</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_D19AE686-2039-4CB7-974A-EB370E9C1491.png"/></Images><Description>Creates a duct in the Return system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:29:45"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Return (RA)</System>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{E255B975-C711-4206-9431-CF350E071AFF}"/><Properties><ItemName>Exhaust</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_E255B975-C711-4206-9431-CF350E071AFF.png"/></Images><Description>Creates a duct in the Exhaust system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:33:25"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Exhaust (EXH)</System>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{FBBDAF08-3DA3-48E0-A8B2-89F66F3A7AD7}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-08T18:29:14" modifiedUniversalDateTime="2005-12-08T18:29:14"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{45684CD7-9F1C-495A-BCAC-5EAB930D3DC1}"/><Properties><ItemName>By Shape</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-10-26T20:24:54" modifiedUniversalDateTime="2005-10-26T20:24:54"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{536595C7-8C7E-4ABE-B5C0-18399601A5F6}"/><Properties><ItemName>Rectangular</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_536595C7-8C7E-4ABE-B5C0-18399601A5F6.png"/></Images><Description>Creates a rectangular duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:37:57"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>20.0 x 10.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>0</Shape>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{BD787918-B9F7-4397-AAA7-4AC6D0A27B50}"/><Properties><ItemName>Round</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_BD787918-B9F7-4397-AAA7-4AC6D0A27B50.png"/></Images><Description>Creates a round duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:39:17"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>B7B201F3-FE40-404C-B5BC-0FB413D25FF8</PartGUID>
+					<PartName>Round Duct</PartName>
+					<PartSizeName>3.0 inch Diameter Round Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>1</Shape>
+					<Diameter Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{CECD0094-8892-4136-95BD-B527BB0B2888}"/><Properties><ItemName>Flat Oval</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_CECD0094-8892-4136-95BD-B527BB0B2888.png"/></Images><Description>Creates an oval duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:46:56"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>A50520E9-0518-4B23-B624-458565109CC9</PartGUID>
+					<PartName>Oval Duct</PartName>
+					<PartSizeName>7.0 x 7.0 in. Oval Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>2</Shape>
+					<Diameter Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{72E0A2F4-6C86-4B44-9DD2-477FAD3BEFC7}"/><Properties><ItemName>1-Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_72E0A2F4-6C86-4B44-9DD2-477FAD3BEFC7.png"/></Images><Description>Creates a duct with undefined shape and size.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:40:23"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>B924CCB8-6D38-11E5-B419-00A0240FFE90</PartGUID>
+					<PartName>Ducts Placeholder</PartName>
+					<PartSizeName>Unsized Duct</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>-3</Shape>
+					<Diameter Lock="0"/>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{A977474A-3AEF-498A-972F-6055D4EFFFAE}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-26T20:24:45" modifiedUniversalDateTime="2005-10-26T20:24:45"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{22B70F1A-17FD-44CF-9DC2-4449A0679EEB}"/><Properties><ItemName>By Size</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-10-26T20:24:17" modifiedUniversalDateTime="2005-10-26T20:24:17"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{BAE70760-687A-427C-AD00-A2D87036BC81}"/><Properties><ItemName>Rectangular - 6"x6"</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_BAE70760-687A-427C-AD00-A2D87036BC81.png"/></Images><Description>Creates a 6"x6" rectangular duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:42:08"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>6.0 x 6.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>0</Shape>
+					<Width Lock="0">6</Width>
+					<Height Lock="0">6</Height>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{430B7FDB-A811-4A42-88D6-C8A3B07DC4D8}"/><Properties><ItemName>Rectangular - 12"x8"</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_430B7FDB-A811-4A42-88D6-C8A3B07DC4D8.png"/></Images><Description>Creates a 12"x8" rectangular duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:42:37"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>352B04D8-B46F-4578-8C93-82F5A0D11806</PartGUID>
+					<PartName>Rectangular Duct</PartName>
+					<PartSizeName>12.0 x 8.0 in. Rectangular Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>0</Shape>
+					<Width Lock="0">12</Width>
+					<Height Lock="0">8</Height>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{3FC116CB-EBCB-4820-BD6D-6E8187B2768D}"/><Properties><ItemName>Round - 6"</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_3FC116CB-EBCB-4820-BD6D-6E8187B2768D.png"/></Images><Description>Creates a 6" round duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:43:23"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>B7B201F3-FE40-404C-B5BC-0FB413D25FF8</PartGUID>
+					<PartName>Round Duct</PartName>
+					<PartSizeName>6.0 inch Diameter Round Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>1</Shape>
+					<Width Lock="0"/>
+					<Height Lock="0"/>
+					<Diameter>6</Diameter>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{F240E5A4-A958-4466-B611-FF81C279A7CF}"/><Properties><ItemName>Flat Oval - 12"x8"</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_F240E5A4-A958-4466-B611-FF81C279A7CF.png"/></Images><Description>Creates a 12"x8" oval duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems_AddingDuctworkandPiping</HelpData></Help><Time createdUniversalDateTime="2008-11-05T16:43:03" modifiedUniversalDateTime="2010-11-08T16:46:23"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{F96DC91F-AAB0-4B45-B038-E35949D98E3A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>A50520E9-0518-4B23-B624-458565109CC9</PartGUID>
+					<PartName>Oval Duct</PartName>
+					<PartSizeName>12.0 x 8.0 in. Oval Duct US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuct>
+					<Shape>2</Shape>
+					<Width Lock="0">12</Width>
+					<Height Lock="0">8</Height>
+					<Diameter>6</Diameter>
+				</AecbDbDuct>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{2C870F6B-5738-4FC1-8FAA-5179441030FA}"/><Properties><ItemName>Flex - 6"</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_2C870F6B-5738-4FC1-8FAA-5179441030FA.png"/></Images><Description>Creates a 6" flexible duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECBID_AECBDUCTFLEX</HelpData></Help><Time createdUniversalDateTime="2010-05-31T15:58:49" modifiedUniversalDateTime="2010-11-08T16:45:18"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{E1B72DAF-6086-455F-B588-804045B54B69}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>5485E442-B9C1-427F-ACC9-53DBCD669AD4</PartGUID>
+					<PartName>Round Corrugated FlexDucts</PartName>
+					<PartSizeName>6.0 inch Diameter Round Corrugated FlexDucts US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuctFlex>
+					<Diameter Lock="0">6</Diameter>
+				</AecbDbDuctFlex>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{6E9E6442-DDC1-4A77-826F-15C2765AEB8A}"/><Properties><ItemName>Flex - 8"</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_6E9E6442-DDC1-4A77-826F-15C2765AEB8A.png"/></Images><Description>Creates an 8" flexible duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>AECBID_AECBDUCTFLEX</HelpData></Help><Time createdUniversalDateTime="2010-05-31T15:58:49" modifiedUniversalDateTime="2010-11-08T16:45:08"/></Properties><CustomData>
+				<Version>6.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{E1B72DAF-6086-455F-B588-804045B54B69}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>5485E442-B9C1-427F-ACC9-53DBCD669AD4</PartGUID>
+					<PartName>Round Corrugated FlexDucts</PartName>
+					<PartSizeName>8.0 inch Diameter Round Corrugated FlexDucts US Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDuctFlex>
+					<Diameter Lock="0">8</Diameter>
+				</AecbDbDuctFlex>
+			</Data>
+		</Tool></Tools></Palette>

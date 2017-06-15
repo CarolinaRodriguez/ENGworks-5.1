@@ -1,0 +1,174 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{7D6BC3C9-6BBE-4B93-A71E-F046CFDD8D64}"/><Properties><ItemName>Wire</ItemName><Images option="0"/><Description>This palette contains a sampling of customized wire tools. They refer to the content specified in the Options dialog.</Description><Time createdUniversalDateTime="2005-12-10T17:04:56" modifiedUniversalDateTime="2007-11-13T15:57:21"/></Properties><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{2DBD0187-942C-441D-9846-F9FAFBBC8B2E}"/><Properties><ItemName>Wire by Shape</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-07-24T17:47:39" modifiedUniversalDateTime="2006-07-24T17:47:39"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{EAFA2D70-52D3-4ADF-A7E7-531F6A933462}"/><Properties><ItemName>Arc</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_EAFA2D70-52D3-4ADF-A7E7-531F6A933462.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:20"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<Segment>1</Segment>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6E1DC49D-A608-433D-9BD8-3444F5EE593C}"/><Properties><ItemName>Polyline</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_6E1DC49D-A608-433D-9BD8-3444F5EE593C.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:26"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<Segment>3</Segment>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6CDC0192-DEED-4323-82D7-A67F51370005}"/><Properties><ItemName>Spline</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_6CDC0192-DEED-4323-82D7-A67F51370005.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:32"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<Segment>5</Segment>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C6C12536-EED2-406E-8512-9CD7D052ACB4}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-07-25T20:49:42" modifiedUniversalDateTime="2006-07-25T20:49:42"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{8DB3F850-CB5E-40CC-BC4A-2DCF0E6C288B}"/><Properties><ItemName>Wire  by System</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-10T17:07:54" modifiedUniversalDateTime="2005-12-10T17:07:54"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{EBC95FBC-37B6-4ACC-A310-A080D37E06CB}"/><Properties><ItemName>Power</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_EBC95FBC-37B6-4ACC-A310-A080D37E06CB.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:40"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Power (PWR)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{74A8A0D2-D4AF-4FA0-9D1B-35E5D199DC0D}"/><Properties><ItemName>Lighting</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_74A8A0D2-D4AF-4FA0-9D1B-35E5D199DC0D.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:46"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Lighting (LTG)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0C92785F-AE4A-4CEE-9AD5-A4D13970EB7D}"/><Properties><ItemName>Data</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_0C92785F-AE4A-4CEE-9AD5-A4D13970EB7D.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:52"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Data (DAT)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F8F63B7E-64BB-4FE3-9C53-0CDEFAF9BBED}"/><Properties><ItemName>Emergency</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_F8F63B7E-64BB-4FE3-9C53-0CDEFAF9BBED.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:22:59"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Emergency (EMR)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5422AF29-D834-451D-AFAE-9960BAD966FD}"/><Properties><ItemName>Telephone</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_5422AF29-D834-451D-AFAE-9960BAD966FD.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:23:07"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Telephone (PHO)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{58113646-56A7-4BBD-B2D0-CEADB793A928}"/><Properties><ItemName>Power - 480V</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_58113646-56A7-4BBD-B2D0-CEADB793A928.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:23:14"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Power - 480V (PWR)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{7D5EF952-B037-43FF-9CAC-B0D37A7A0088}"/><Properties><ItemName>Lighting - 120V</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Wire_7D5EF952-B037-43FF-9CAC-B0D37A7A0088.png"/></Images><Description>Creates a Wire.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_RunningWiretoConnectDevices</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2008-01-15T16:23:20"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{8EFC613B-CCE2-42F2-90A5-476D42E5CA8A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbWire>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Devc-Lighting - 120V (LTG)</System>
+				</AecbDbWire>
+			</Data>
+		</Tool></Tools></Palette>

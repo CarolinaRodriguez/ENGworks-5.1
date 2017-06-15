@@ -1,0 +1,9 @@
+rem Round Hanger Rod to 1/4
+dim dn
+    for dn =  1 to item.dims
+ 
+ dim Rlen item.Dim[dn].numvalue = "Rod Extn Above"
+dim Rlen item.Dim[dn].numvalue = "Top Length"
+
+debug Rlen
+

@@ -1,0 +1,368 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{0FFE482F-8E39-4D59-8E2C-AF2368C962EE}"/><Properties><ItemName>Isometric Plumbing</ItemName><Images option="0"/><Description>This palette contains a sampling of customized schematic tools. They refer to the content specified in the Options dialog.</Description><Time createdUniversalDateTime="2005-10-21T00:44:02" modifiedUniversalDateTime="2006-12-05T18:41:11"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{3DE1FE70-E226-45D0-8A9A-BC859780522F}"/><Properties><ItemName>Schematic Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_3DE1FE70-E226-45D0-8A9A-BC859780522F.png"/></Images><Description>Creates a Schematic Line.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T12:55:21"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{9B1F95BF-CC5A-452A-B9C4-8BC0CD1594C5}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-12T16:01:42" modifiedUniversalDateTime="2005-12-12T16:01:42"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{EFC92FF2-CAA3-44ED-839A-C60AB9DD39B9}"/><Properties><ItemName>Line by System</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-12T16:01:40" modifiedUniversalDateTime="2005-12-12T16:01:40"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F8D8DA19-16DF-45C9-BDA2-BCBDC889EAAC}"/><Properties><ItemName>Domestic Cold Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_F8D8DA19-16DF-45C9-BDA2-BCBDC889EAAC.png"/></Images><Description>Creates a Schematic Line in P-Domestic Cold Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:50:07"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Domestic Cold Water - Supply (DCW)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F87E985F-E4D9-4EE7-8836-0305634DEDD4}"/><Properties><ItemName>Domestic Hot Water - Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_F87E985F-E4D9-4EE7-8836-0305634DEDD4.png"/></Images><Description>Creates a Schematic Line in P-Domestic Hot Water - Supply system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:50:20"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Domestic Hot Water - Supply (DHW)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{993552F1-BB77-4253-89E1-A091B9A6151B}"/><Properties><ItemName>Non-Potable Water</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_993552F1-BB77-4253-89E1-A091B9A6151B.png"/></Images><Description>Creates a Schematic Line in P-Non-Potable Water system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:50:32"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Non-Potable Water (NPW)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1868B816-F3E5-4915-A3E0-F249911EE7C2}"/><Properties><ItemName>Sanitary Sewer - Drain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_1868B816-F3E5-4915-A3E0-F249911EE7C2.png"/></Images><Description>Creates a Schematic Line in P-Sanitary Sewer - Drain system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:50:50"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Sanitary Sewer - Drain (SAN)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{8C2F125B-1210-4072-AF2B-64276D9D0B01}"/><Properties><ItemName>Sanitary Sewer - Vent</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_8C2F125B-1210-4072-AF2B-64276D9D0B01.png"/></Images><Description>Creates a Schematic Line in P-Sanitary Sewer - Vent system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:51:05"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Sanitary Sewer - Vent (V)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2013F379-E13F-4A02-9D24-D7E6B9514D87}"/><Properties><ItemName>Storm - Drain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_2013F379-E13F-4A02-9D24-D7E6B9514D87.png"/></Images><Description>Creates a Schematic Line in P-Storm - Drain system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:51:17"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Storm - Drain (STM)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{495EC749-A2E6-4F43-B48F-EE19B756C093}"/><Properties><ItemName>Storm - Overflow</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_495EC749-A2E6-4F43-B48F-EE19B756C093.png"/></Images><Description>Creates a Schematic Line in P-Storm - Overflow system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:51:29"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">P-Storm - Overflow (OD)</System>
+					<Orientation>1</Orientation>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{FBC7DB94-1432-4E16-AAF8-42A43EA51C3C}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-30T18:37:22" modifiedUniversalDateTime="2005-10-30T18:37:22"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{FD410D82-FD00-4514-B09B-519A9008AB3D}"/><Properties><ItemName>Symbols</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T05:07:07" modifiedUniversalDateTime="2006-10-25T05:07:07"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{013F55EC-2AC3-4B6C-88EE-0576A2914C9D}"/><Properties><ItemName>Back To Back Fixtures - Style 2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_013F55EC-2AC3-4B6C-88EE-0576A2914C9D.png"/></Images><Description>Creates a Back To Back Fixtures - Style 2.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-25T10:19:00" modifiedUniversalDateTime="2007-11-14T20:05:13"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Back To Back Fixtures - Style 2</PartName>
+					<PartSizeName>Back To Back Fixtures - Style 2</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Back To Back Fixtures - Style 2</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{8A18F618-65A0-4638-B23A-31C111CC91B2}"/><Properties><ItemName>Cleanout - Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_8A18F618-65A0-4638-B23A-31C111CC91B2.png"/></Images><Description>Creates a Cleanout - Line.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-14T20:05:18"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Cleanout - Line</PartName>
+					<PartSizeName>Cleanout - Line</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Cleanout - Line</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{84E3785A-AE59-4C9D-9EB4-A1CDC60C7214}"/><Properties><ItemName>Cleanout - Vent</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_84E3785A-AE59-4C9D-9EB4-A1CDC60C7214.png"/></Images><Description>Creates a Cleanout - Vent.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-14T20:05:25"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Cleanout - Vent</PartName>
+					<PartSizeName>Cleanout - Vent</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Cleanout - Vent</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E3EBEC48-AF08-4F56-AE79-1CB9FC1FDB09}"/><Properties><ItemName>Lateral - Double</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_E3EBEC48-AF08-4F56-AE79-1CB9FC1FDB09.png"/></Images><Description>Creates a Lateral - Double.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-14T20:05:32"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Lateral - Double</PartName>
+					<PartSizeName>Lateral - Double</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Lateral - Double</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B6B53AB7-B50C-48F4-8800-EA2ED65D5508}"/><Properties><ItemName>Lateral - Left-Facing</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_B6B53AB7-B50C-48F4-8800-EA2ED65D5508.png"/></Images><Description>Creates a Lateral - Left-Facing.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T18:38:58"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Lateral - Left-Facing</PartName>
+					<PartSizeName>Lateral - Left-Facing</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Lateral - Left-Facing</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{4F6DF6E3-113B-4D30-8687-8F08829458AD}"/><Properties><ItemName>Lateral - Right-Facing</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_4F6DF6E3-113B-4D30-8687-8F08829458AD.png"/></Images><Description>Creates a Lateral - Right-Facing.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T18:39:15"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Lateral - Right-Facing</PartName>
+					<PartSizeName>Lateral - Right-Facing</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Lateral - Right-Facing</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B28E3545-A0F9-46A6-84CF-8D740C22C53D}"/><Properties><ItemName>P-Trap</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_B28E3545-A0F9-46A6-84CF-8D740C22C53D.png"/></Images><Description>Creates a P-Trap.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-14T19:51:10"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Fixture Stack</PartName>
+					<PartSizeName>Fixture Stack</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Fixture Stack</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0CB2D9A3-A136-4581-ACDF-7E0F3832382E}"/><Properties><ItemName>Reducer - Concentric</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_0CB2D9A3-A136-4581-ACDF-7E0F3832382E.png"/></Images><Description>Creates a Reducer - Concentric.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T18:39:29"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Reducer - Concentric</PartName>
+					<PartSizeName>Reducer - Concentric</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Reducer - Concentric</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2D6DB200-5FA1-4EB4-A524-82BCB2AA371B}"/><Properties><ItemName>Reducer - Eccentric</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_2D6DB200-5FA1-4EB4-A524-82BCB2AA371B.png"/></Images><Description>Creates a Reducer - Eccentric.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T18:39:46"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Reducer - Eccentric</PartName>
+					<PartSizeName>Reducer - Eccentric</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Reducer - Eccentric</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D1A98E26-0A3A-4CAA-9AF2-A7225632EED5}"/><Properties><ItemName>Union</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_D1A98E26-0A3A-4CAA-9AF2-A7225632EED5.png"/></Images><Description>Creates a Union.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-12-05T10:09:39" modifiedUniversalDateTime="2006-12-05T18:42:24"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Union</PartName>
+					<PartSizeName>Union</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Union</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9A718568-06E7-4C39-B522-1A81BD3BEE40}"/><Properties><ItemName>Vent - Air</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_9A718568-06E7-4C39-B522-1A81BD3BEE40.png"/></Images><Description>Creates a Vent - Air.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:02:11"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Vent - Air</PartName>
+					<PartSizeName>Vent - Air</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Plumbing Fittings Ortho Isometric (US Imperial).dwg">Vent - Air</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>6.02138591938044</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool></Tools></Palette>

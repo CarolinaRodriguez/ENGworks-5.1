@@ -1,0 +1,9 @@
+Rem This script will Use the area/Level data to populate Fab Batch
+
+If Job.customdata[17].value > 0 then
+ dim FN = Job.Name
+    Item.customdata["Fab Batch"].value = FN
+Endif
+    item.update()
+ 
+ 

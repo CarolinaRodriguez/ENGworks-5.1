@@ -1,0 +1,924 @@
+Rem Check for valid OpCo Number in job info
+dim OpCoPar =  MapPath_Scripts + "\OpCoPar\OpcoPar.csv"
+dim delimiter = ","
+
+Rem Column Headers from OpCoPar.xlsm
+Rem Opco Parameters
+    Rem Col-1
+Dim OpcoNo
+    Rem Col-2
+Dim Company
+    Rem Col-3
+Dim DateEntered
+    Rem Col-4
+Dim 26gaAllowed
+    Rem Col-5
+Dim SnaplockAllowed
+    Rem Col-6
+Dim SPITTSAllowed
+    Rem Col-7
+Dim TDxTap
+    Rem Col-8
+Dim Min1pcCoil
+    Rem Col-9
+Dim Max1pcCoil
+    Rem Col-10
+Dim Max2pcCoil
+    Rem Col-11
+Dim MaxFoldCoil
+    Rem Col-12
+Dim Max1pcCut
+    Rem Col-13
+Dim Max2pcCut
+    Rem Col-14
+Dim LinerWrapCut
+    Rem Col-15
+Dim LinerWrapCoil
+    Rem Col-16
+Dim GorLokMach
+    Rem Col-17
+Dim RadSeamPitts
+    Rem Col-18
+Dim SmallPittsOnCoil
+    Rem Col-19
+Dim OpCoCol19
+    Rem Col-20
+Dim OpCoCol20
+    Rem Col-21
+Dim OpCoCol21
+    Rem Col-22
+Dim OpCoCol22
+    Rem Col-23
+Dim OpCoCol23
+    Rem Col-24
+Dim OpCoCol24
+    Rem Col-25
+Dim OpCoCol25
+    Rem Col-26
+Dim OpCoCol26
+    Rem Col-27
+Dim OpCoCol27
+    Rem Col-28
+Dim OpCoCol28
+    Rem Col-29
+Dim OpCoCol29
+    Rem Col-30
+Dim OpCoCol30
+
+
+
+
+Rem Column Headers from ProjectPar.xlsm
+Rem Project Parameters
+    Rem Col-1
+Dim ProjectNo
+    Rem Col-2
+Dim JobNumber
+    Rem Col-3
+REM Dim DateEntered
+    Rem Col-4
+Dim Status
+    Rem Col-5
+Dim ProjectName
+    Rem Col-6
+REM Dim 26gaAllowed
+    Rem Col-7
+REM Dim SnaplockAllowed
+    Rem Col-8
+Dim VaneSmall
+    Rem Col-9
+Dim Vane1UpTo
+    Rem Col-10
+Dim VaneLarge
+    Rem Col-11
+Dim Galv_Sealant
+    Rem Col-12
+Dim PG_Sealant
+    Rem Col-13
+Dim Alum_Sealant
+    Rem Col-14
+Dim SS_Sealant
+    Rem Col-15
+Dim PCD_Sealant
+    Rem Col-16
+Dim ProjCol16
+    Rem Col-17
+Dim ProjCol17
+    Rem Col-18
+Dim ProjCol18
+    Rem Col-19
+Dim ProjCol19
+    Rem Col-20
+Dim ProjCol20
+    Rem Col-21
+Dim ProjCol21
+    Rem Col-22
+Dim ProjCol22
+    Rem Col-23
+Dim ProjCol23
+    Rem Col-24
+Dim ProjCol24
+    Rem Col-25
+Dim ProjCol25
+    Rem Col-26
+Dim ProjCol26
+    Rem Col-27
+Dim ProjCol27
+    Rem Col-28
+Dim ProjCol28
+    Rem Col-29
+Dim ProjCol29
+    Rem Col-30
+Dim ProjCol30
+
+
+
+Rem Reading JobInfo OpCo Number
+Dim TargetOpco = trim(job.customdata["OpCo Number"].Value)
+
+requires task
+
+dim OpCoParFile as file(OpCoPar, forinput + istext)
+if OpCoParFile.isopen then
+
+  task.beginprogress(OpCoParFile.length)
+
+ Rem debug "OpcoPar File Opened"
+ 
+ 
+  dim OpCoNoFound = False
+ 
+  while not OpCoParFile.eof and not task.aborted and not OpCoNoFound
+
+    task.progress = OpCoParFile.position
+ 
+      dim initialentry=OpCoParFile.readline()
+      dim entry = ""
+      entry = initialentry + ","
+ 
+    dim c = instr( 1, entry, delimiter )
+    if c>1 then
+      OpcoNo = substring(entry, 1, c-1)
+      OpcoNo = trim(OpcoNo)
+
+     Rem debug OpcoNo
+ 
+ dim c2 = instr(c+1, entry, delimiter)
+  if c2>c+1 then
+ Company=substring(entry, c+1, c2-1)
+ Company=Trim(Company)
+ Endif
+
+dim c3 = instr(c2+1, entry, delimiter)
+  if c3>c2+1 then
+ DateEntered=substring(entry, c2+1, c3-1)
+ DateEntered=Trim(DateEntered)
+ Endif
+
+dim c4 = instr(c3+1, entry, delimiter)
+  if c4>c3+1 then
+ 26gaAllowed=substring(entry, c3+1, c4-1)
+ 26gaAllowed=Trim(26gaAllowed)
+ Endif
+
+dim c5 = instr(c4+1, entry, delimiter)
+  if c5>c4+1 then
+ SnaplockAllowed=substring(entry, c4+1, c5-1)
+ SnaplockAllowed=Trim(SnaplockAllowed)
+ Endif
+
+dim c6 = instr(c5+1, entry, delimiter)
+  if c6>c5+1 then
+ SPITTSAllowed=substring(entry, c5+1, c6-1)
+ SPITTSAllowed=Trim(SPITTSAllowed)
+ Endif
+
+dim c7 = instr(c6+1, entry, delimiter)
+  if c7>c6+1 then
+ TDxTap=substring(entry, c6+1, c7-1)
+ TDxTap=Trim(TDxTap)
+ Endif
+
+dim c8 = instr(c7+1, entry, delimiter)
+  if c8>c7+1 then
+ Min1pcCoil=substring(entry, c7+1, c8-1)
+ Min1pcCoil=Trim(Min1pcCoil)
+ Endif
+
+dim c9 = instr(c8+1, entry, delimiter)
+  if c9>c8+1 then
+ Max1pcCoil=substring(entry, c8+1, c9-1)
+ Max1pcCoil=Trim(Max1pcCoil)+.1
+ Endif
+
+dim c10 = instr(c9+1, entry, delimiter)
+  if c10>c9+1 then
+ Max2pcCoil=substring(entry, c9+1, c10-1)
+ Max2pcCoil=Trim(Max2pcCoil)+.1
+ Endif
+
+dim c11 = instr(c10+1, entry, delimiter)
+  if c11>c10+1 then
+ MaxFoldCoil=substring(entry, c10+1, c11-1)
+ MaxFoldCoil=Trim(MaxFoldCoil)+.1
+ Endif
+
+dim c12 = instr(c11+1, entry, delimiter)
+  if c12>c11+1 then
+ Max1pcCut=substring(entry, c11+1, c12-1)
+ Max1pcCut=Trim(Max1pcCut)+.1
+ Endif
+
+dim c13 = instr(c12+1, entry, delimiter)
+  if c13>c12+1 then
+ Max2pcCut=substring(entry, c12+1, c13-1)
+ Max2pcCut=Trim(Max2pcCut)+.1
+ Endif
+
+dim c14 = instr(c13+1, entry, delimiter)
+  if c14>c13+1 then
+ LinerWrapCut=substring(entry, c13+1, c14-1)
+ LinerWrapCut=Trim(LinerWrapCut)
+ Endif
+
+dim c15 = instr(c14+1, entry, delimiter)
+  if c15>c14+1 then
+ LinerWrapCoil=substring(entry, c14+1, c15-1)
+ LinerWrapCoil=Trim(LinerWrapCoil)
+ Endif
+
+dim c16 = instr(c15+1, entry, delimiter)
+  if c16>c15+1 then
+ GorLokMach=substring(entry, c15+1, c16-1)
+ GorLokMach=Trim(GorLokMach)
+ Endif
+
+dim c17 = instr(c16+1, entry, delimiter)
+  if c17>c16+1 then
+ RadSeamPitts=substring(entry, c16+1, c17-1)
+ RadSeamPitts=Trim(RadSeamPitts)
+ Endif
+
+dim c18 = instr(c17+1, entry, delimiter)
+  if c18>c17+1 then
+ SmallPittsOnCoil=substring(entry, c17+1, c18-1)
+ SmallPittsOnCoil=Trim(SmallPittsOnCoil)
+ Endif
+
+dim c19 = instr(c18+1, entry, delimiter)
+  if c19>c18+1 then
+ OpCoCol19=substring(entry, c18+1, c19-1)
+ OpCoCol19=Trim(OpCoCol19)
+ Endif
+
+dim c20 = instr(c19+1, entry, delimiter)
+  if c20>c19+1 then
+ OpCoCol20=substring(entry, c19+1, c20-1)
+ OpCoCol20=Trim(OpCoCol20)
+ Endif
+
+dim c21 = instr(c20+1, entry, delimiter)
+  if c21>c20+1 then
+ OpCoCol21=substring(entry, c20+1, c21-1)
+ OpCoCol21=Trim(OpCoCol21)
+ Endif
+
+dim c22 = instr(c21+1, entry, delimiter)
+  if c22>c21+1 then
+ OpCoCol22=substring(entry, c21+1, c22-1)
+ OpCoCol22=Trim(OpCoCol22)
+ Endif
+
+dim c23 = instr(c22+1, entry, delimiter)
+  if c23>c22+1 then
+ OpCoCol23=substring(entry, c22+1, c23-1)
+ OpCoCol23=Trim(OpCoCol23)
+ Endif
+
+dim c24 = instr(c23+1, entry, delimiter)
+  if c24>c23+1 then
+ OpCoCol24=substring(entry, c23+1, c24-1)
+ OpCoCol24=Trim(OpCoCol24)
+ Endif
+
+dim c25 = instr(c24+1, entry, delimiter)
+  if c25>c24+1 then
+ OpCoCol25=substring(entry, c24+1, c25-1)
+ OpCoCol25=Trim(OpCoCol25)
+ Endif
+
+dim c26 = instr(c25+1, entry, delimiter)
+  if c26>c25+1 then
+ OpCoCol26=substring(entry, c25+1, c26-1)
+ OpCoCol26=Trim(OpCoCol26)
+ Endif
+
+dim c27 = instr(c26+1, entry, delimiter)
+  if c27>c26+1 then
+ OpCoCol27=substring(entry, c26+1, c27-1)
+ OpCoCol27=Trim(OpCoCol27)
+ Endif
+
+dim c28 = instr(c27+1, entry, delimiter)
+  if c28>c27+1 then
+ OpCoCol28=substring(entry, c27+1, c28-1)
+ OpCoCol28=Trim(OpCoCol28)
+ Endif
+
+dim c29 = instr(c28+1, entry, delimiter)
+  if c29>c28+1 then
+ OpCoCol29=substring(entry, c28+1, c29-1)
+ OpCoCol29=Trim(OpCoCol29)
+ Endif
+
+dim c30 = instr(c29+1, entry, delimiter)
+  if c30>c29+1 then
+ OpCoCol30=substring(entry, c29+1, c30-1)
+ OpCoCol30=Trim(OpCoCol30)
+ Endif
+
+
+ 
+
+     Rem debug Snap
+ 
+     If OpcoNo = TargetOpCo Then
+       Rem Debug "Opco-" + OpCoNO + " 26ga-" + 26gaAllowed + " Snap-" + snap + " Spitt-" + Spittsallowed + " TAP-" + TdxTap + " Small Coil-" + Min1pcCoil + " 1pc Coil-" + Max1pcCoil
+       Rem Debug " 2pc Coil-" + Max2pcCoil + " MAxFold-" + MaxFoldCoil + " 1pc Cut-" + Max1pcCut + " 2pc Cut-" + Max2pcCut + " Liner Cut-" + LinerWrapCut
+       Rem Debug " Liner Coil-" + LinerWrapCoil
+
+ 
+       OpCoNoFound = True
+     Endif
+
+    endif
+  end while
+  If Not OpCoNoFound Then
+  Debug "OpCo Number Not Found"
+  Endif
+endif
+
+
+Rem Combine OpCo Number - Project number
+Dim TargetProjectNo=trim(job.customdata["OpCo Number"].value) + "-" + Trim(job.customdata["Job Number"].value)
+Rem debug TargetProjectno
+
+Rem Check for valid Project Number in job info
+dim ProjectPar =  MapPath_Scripts + "\ProjectPar\ProjectPar.csv"
+dim ProjectParFile as file(ProjectPar, forinput + istext)
+if ProjectParFile.isopen then
+
+  task.beginprogress(ProjectParFile.length)
+
+Rem debug "File Opened"
+ 
+  dim ProjectNo
+  dim ProjectNoFound = False
+ 
+  while not ProjectParFile.eof and not task.aborted and not ProjectNoFound
+
+    task.progress = ProjectParFile.position
+ 
+      dim initialentry=ProjectParFile.readline()
+      dim entry = ""
+      entry = initialentry + ","
+ 
+    dim c = instr( 1, entry, delimiter )
+    if c>1 then
+ 
+      ProjectNo = substring(entry, 1, c-1)
+      ProjectNo = trim(ProjectNo)
+       If ProjectNo = TargetProjectNo Then
+
+     Rem debug ProjectNo
+ 
+     dim c2 = instr(c+1, entry, delimiter)
+  if c2>c+1 then
+ JobNumber=substring(entry, c+1, c2-1)
+ JobNumber=Trim(JobNumber)
+ Endif
+
+dim c3 = instr(c2+1, entry, delimiter)
+  if c3>c2+1 then
+ DateEntered=substring(entry, c2+1, c3-1)
+ DateEntered=Trim(DateEntered)
+ Endif
+
+dim c4 = instr(c3+1, entry, delimiter)
+  if c4>c3+1 then
+ Status=substring(entry, c3+1, c4-1)
+ Status=Trim(Status)
+ Endif
+
+dim c5 = instr(c4+1, entry, delimiter)
+  if c5>c4+1 then
+ ProjectName=substring(entry, c4+1, c5-1)
+ ProjectName=Trim(ProjectName)
+ Endif
+
+dim c6 = instr(c5+1, entry, delimiter)
+  if c6>c5+1 then
+ 26gaAllowed=substring(entry, c5+1, c6-1)
+ 26gaAllowed=Trim(26gaAllowed)
+ Endif
+
+dim c7 = instr(c6+1, entry, delimiter)
+  if c7>c6+1 then
+ SnaplockAllowed=substring(entry, c6+1, c7-1)
+ SnaplockAllowed=Trim(SnaplockAllowed)
+ Endif
+
+dim c8 = instr(c7+1, entry, delimiter)
+  if c8>c7+1 then
+ VaneSmall=substring(entry, c7+1, c8-1)
+ VaneSmall=Trim(VaneSmall)
+ Endif
+
+dim c9 = instr(c8+1, entry, delimiter)
+  if c9>c8+1 then
+ Vane1UpTo=substring(entry, c8+1, c9-1)
+ Vane1UpTo=Trim(Vane1UpTo)
+ Endif
+
+dim c10 = instr(c9+1, entry, delimiter)
+  if c10>c9+1 then
+ VaneLarge=substring(entry, c9+1, c10-1)
+ VaneLarge=Trim(VaneLarge)
+ Endif
+
+dim c11 = instr(c10+1, entry, delimiter)
+  if c11>c10+1 then
+ Galv_Sealant=substring(entry, c10+1, c11-1)
+ Galv_Sealant=Trim(Galv_Sealant)
+ Endif
+
+dim c12 = instr(c11+1, entry, delimiter)
+  if c12>c11+1 then
+ PG_Sealant=substring(entry, c11+1, c12-1)
+ PG_Sealant=Trim(PG_Sealant)
+ Endif
+
+dim c13 = instr(c12+1, entry, delimiter)
+  if c13>c12+1 then
+ Alum_Sealant=substring(entry, c12+1, c13-1)
+ Alum_Sealant=Trim(Alum_Sealant)
+ Endif
+
+dim c14 = instr(c13+1, entry, delimiter)
+  if c14>c13+1 then
+ SS_Sealant=substring(entry, c13+1, c14-1)
+ SS_Sealant=Trim(SS_Sealant)
+ Endif
+
+dim c15 = instr(c14+1, entry, delimiter)
+  if c15>c14+1 then
+ PCD_Sealant=substring(entry, c14+1, c15-1)
+ PCD_Sealant=Trim(PCD_Sealant)
+ Endif
+
+
+dim c16 = instr(c15+1, entry, delimiter)
+  if c16>c15+1 then
+ ProjCol16=substring(entry, c15+1, c16-1)
+ ProjCol16=Trim(ProjCol16)
+ Endif
+
+dim c17 = instr(c16+1, entry, delimiter)
+  if c17>c16+1 then
+ ProjCol17=substring(entry, c16+1, c17-1)
+ ProjCol17=Trim(ProjCol17)
+ Endif
+
+dim c18 = instr(c17+1, entry, delimiter)
+  if c18>c17+1 then
+ ProjCol18=substring(entry, c17+1, c18-1)
+ ProjCol18=Trim(ProjCol18)
+ Endif
+
+dim c19 = instr(c18+1, entry, delimiter)
+  if c19>c18+1 then
+ ProjCol19=substring(entry, c18+1, c19-1)
+ ProjCol19=Trim(ProjCol19)
+ Endif
+
+dim c20 = instr(c19+1, entry, delimiter)
+  if c20>c19+1 then
+ ProjCol20=substring(entry, c19+1, c20-1)
+ ProjCol20=Trim(ProjCol20)
+ Endif
+
+dim c21 = instr(c20+1, entry, delimiter)
+  if c21>c20+1 then
+ ProjCol21=substring(entry, c20+1, c21-1)
+ ProjCol21=Trim(ProjCol21)
+ Endif
+
+dim c22 = instr(c21+1, entry, delimiter)
+  if c22>c21+1 then
+ ProjCol22=substring(entry, c21+1, c22-1)
+ ProjCol22=Trim(ProjCol22)
+ Endif
+
+dim c23 = instr(c22+1, entry, delimiter)
+  if c23>c22+1 then
+ ProjCol23=substring(entry, c22+1, c23-1)
+ ProjCol23=Trim(ProjCol23)
+ Endif
+
+dim c24 = instr(c23+1, entry, delimiter)
+  if c24>c23+1 then
+ ProjCol24=substring(entry, c23+1, c24-1)
+ ProjCol24=Trim(ProjCol24)
+ Endif
+
+dim c25 = instr(c24+1, entry, delimiter)
+  if c25>c24+1 then
+ ProjCol25=substring(entry, c24+1, c25-1)
+ ProjCol25=Trim(ProjCol25)
+ Endif
+
+dim c26 = instr(c25+1, entry, delimiter)
+  if c26>c25+1 then
+ ProjCol26=substring(entry, c25+1, c26-1)
+ ProjCol26=Trim(ProjCol26)
+ Endif
+
+dim c27 = instr(c26+1, entry, delimiter)
+  if c27>c26+1 then
+ ProjCol27=substring(entry, c26+1, c27-1)
+ ProjCol27=Trim(ProjCol27)
+ Endif
+
+dim c28 = instr(c27+1, entry, delimiter)
+  if c28>c27+1 then
+ ProjCol28=substring(entry, c27+1, c28-1)
+ ProjCol28=Trim(ProjCol28)
+ Endif
+
+dim c29 = instr(c28+1, entry, delimiter)
+  if c29>c28+1 then
+ ProjCol29=substring(entry, c28+1, c29-1)
+ ProjCol29=Trim(ProjCol29)
+ Endif
+
+dim c30 = instr(c29+1, entry, delimiter)
+  if c30>c29+1 then
+ ProjCol30=substring(entry, c29+1, c30-1)
+ ProjCol30=Trim(ProjCol30)
+ Endif
+
+
+
+    Rem Debug "Project-" + ProjectNo + " 26ga-" + 26gaAllowed + " Snap-" + snap + " Spitt-" + Spittsallowed + " TAP-" + TdxTap + " 1pc Coil-" + Max1pcCoil
+    Rem Debug " 2pc Coil-" + Max2pcCoil + " MAxFold-" + MaxFoldCoil + " 1pc Cut-" + Max1pcCut + " 2pc Cut-" + Max2pcCut + " Liner Cut-" + LinerWrapCut
+    Rem Debug " Liner Coil-" + LinerWrapCoil + " Sealant-" + Sealant + " Vane1-" + Vane1 + " Vane1Upto-" + Vane1UpTo + " Vane2-" + Vane2
+ 
+ 
+       ProjectNoFound = True
+     Endif
+
+    endif
+  end while
+  If Not ProjectNoFound Then
+  Debug "Cant Find Project Number"
+  Endif
+endif
+
+
+Rem Open OpcoPar File and apply OpCo paremeters
+
+ 
+ Rem Change 26 Gauge
+if 26gaAllowed = "No" then
+ if item.wiregauge = 26 and item.CID <> 40 then
+  item.wiregauge = 24
+ endif
+endif
+
+
+
+ Rem Change SnapLock To Small Pitts
+if SnaplockAllowed = "no" and item.seams > 0 then
+select item.seam[1].value
+  Case "Snaplock"
+        item.seam[1].value = "S-Pits"
+  Case "Snaplock PCD"
+        item.seam[1].value = "S-Pits PCD"
+  Case "Snaplock Screwed"
+        item.seam[1].value = "S-Pits"
+  Case "Snaplock Screwed PCD"
+        item.seam[1].value = "S-Pits PCD"
+  Case "Snaplock Screwed SS"
+        item.seam[1].value = "S-Pits SS"
+  Case "Snaplock SS"
+        item.seam[1].value = "S-Pits SS"
+ endselect
+  item.seam[1].locked = true
+endif
+
+Rem Change Small Pitts To Large Pitts if Coil Line Does not have Small pitts
+if SmallPittsOnCoil = "No" and Item.cuttype = "Decoiled Straight" then
+select item.seam[1].value
+  Case "S-Pits"
+        item.seam[1].value = "L-Pits"
+  Case "S-Pits PCD"
+        item.seam[1].value = "L-Pits PCD"
+  Case "S-Pits SS"
+        item.seam[1].value = "L-Pits SS"
+ endselect
+  item.seam[1].locked = true
+endif
+
+Rem Change Radius Seams To Pitts
+if RadSeamPitts = "Yes"  and item.seams > 0 then
+select item.seam[1].value
+  Case "RP"
+        item.seam[1].value = "S-Pits"
+  Case "RP PCD"
+        item.seam[1].value = "S-Pits PCD"
+  Case "RP SS"
+        item.seam[1].value = "S-Pits SS"
+  Case "RP Alum"
+        item.seam[1].value = "S-Pits Alum"
+  Case "LRP"
+        item.seam[1].value = "L-Pits"
+  Case "LRP PCD"
+        item.seam[1].value = "L-Pits PCD"
+  Case "LRP SS"
+        item.seam[1].value = "L-Pits SS"
+  Case "LRP Alum"
+        item.seam[1].value = "L-Pits Alum"
+ endselect
+  item.seam[1].locked = true
+endif
+
+Rem Set Sealant From ProjectPar
+if Galv_Sealant > 0 then
+  if Item.sealant.value = "Galv-Sealant" Then
+    Item.sealant.value = Galv_Sealant Then
+     item.sealant.locked = true
+  End if
+ Else
+endif
+ 
+if PG_Sealant > 0 then
+  if Item.sealant.value = "PG-Sealant" Then
+    Item.sealant.value = PG_Sealant Then
+     item.sealant.locked = true
+  End if
+ Else
+endif
+
+if Alum_Sealant > 0 then
+  if Item.sealant.value = "Alum-Sealant" Then
+    Item.sealant.value = Alum_Sealant Then
+     item.sealant.locked = true
+  End if
+ Else
+endif
+
+if SS_Sealant > 0 then
+  if Item.sealant.value = "SS-Sealant" Then
+    Item.sealant.value = SS_Sealant Then
+     item.sealant.locked = true
+  End if
+ Else
+endif
+
+if PCD_Sealant > 0 then
+  if Item.sealant.value = "PCD-Sealant" Then
+    Item.sealant.value = PCD_Sealant Then
+     item.sealant.locked = true
+  End if
+ Else
+endif
+
+
+Rem Set Vanes From ProjectPar
+Rem Removed Old Vane Start
+Rem Vane1
+If Item.airturns > 0 then
+ if item.airturn[1].value = "None" then
+ else
+   if item.dim["Depth"].numvalue < Vane1UpTo and VaneSmall > "" Then
+     select item.airturn[1].value
+     Case "Vane-Galv"
+      item.airturn[1].value = (VaneSmall+"-Galv")
+     Case "Vane-SS"
+      item.airturn[1].value = (VaneSmall+"-SS")
+     Case "Vane-Alum"
+      item.airturn[1].value = (VaneSmall+"-Alum")
+     Case "Vane-PCD"
+      item.airturn[1].value = (VaneSmall+"-PCD")
+     endselect
+   item.airturn[1].locked = true
+   Endif
+   if item.dim["Depth"].numvalue > Vane1UpTo and VaneLarge > "" Then
+     select item.airturn[1].value
+     Case "Vane-Galv"
+      item.airturn[1].value = (VaneLarge+"-Galv")
+     Case "Vane-SS"
+      item.airturn[1].value = (VaneLarge+"-SS")
+     Case "Vane-Alum"
+      item.airturn[1].value = (VaneLarge+"-Alum")
+     Case "Vane-PCD"
+      item.airturn[1].value = (VaneLarge+"-PCD")
+     endselect
+   item.airturn[1].locked = true
+   Endif
+ Endif
+Endif
+
+REM Vane2
+If Item.airturns = 2 then
+ if item.airturn[2].value = "None" then
+ else
+   if item.dim["Depth"].numvalue < Vane1UpTo and VaneSmall > "" Then
+     select item.airturn[2].value
+     Case "Vane-Galv"
+      item.airturn[2].value = (VaneSmall+"-Galv")
+     Case "Vane-SS"
+      item.airturn[2].value = (VaneSmall+"-SS")
+     Case "Vane-Alum"
+      item.airturn[2].value = (VaneSmall+"-Alum")
+     Case "Vane-PCD"
+      item.airturn[1].value = (VaneSmall+"-PCD")
+     endselect
+   item.airturn[2].locked = true
+   Endif
+   if item.dim["Depth"].numvalue > Vane1UpTo and VaneLarge > "" Then
+     select item.airturn[2].value
+     Case "Vane-Galv"
+      item.airturn[2].value = (VaneLarge+"-Galv")
+     Case "Vane-SS"
+      item.airturn[2].value = (VaneLarge+"-SS")
+     Case "Vane-Alum"
+      item.airturn[2].value = (VaneLarge+"-Alum")
+     Case "Vane-PCD"
+      item.airturn[2].value = (VaneLarge+"-PCD")
+     endselect
+   item.airturn[2].locked = true
+   Endif
+ Endif
+Endif
+Rem Removed Old Vane End
+
+Rem Change Tap Connector
+If Item.cid = 7 and TDxTap = "Yes" then
+  if item.connector[1].value = "TDC" or item.connector[1].value = "TDC Alum" or item.connector[1].value = "TDC Galvaneal" or item.connector[1].value = "TDC PCD" or item.connector[1].value = "TDC SS" then
+   item.connector[2].value = item.connector[1].value
+   item.connector[2].locked = true
+  Endif
+  if item.connector[1].value = "TDF" or item.connector[1].value = "TDF Alum" or item.connector[1].value = "TDF Galvaneal" or item.connector[1].value = "TDF PCD" or item.connector[1].value = "TDF SS" then
+   item.connector[2].value = item.connector[1].value
+   item.connector[2].locked = true
+  Endif
+Endif
+
+If Item.cid = 7 Then
+Dim HalfStretchout = Item.dim["Top Width"].numvalue + Item.dim["Depth"].numvalue
+  If HalfStretchout > 56 Then
+  Item.option["2 Parts"].value = "No"
+  Endif
+Endif
+
+
+Rem Change S-Pits to L-Pits on Machine Cut Duct
+If Spittsallowed = "No" and item.cuttype = "Machine Cut" then
+ select item.seam[1].value
+  Case "S-Pits"
+        item.seam[1].value = "L-Pits"
+  Case "S-Pits PCD"
+        item.seam[1].value = "L-Pits PCD"
+  Case "S-Pits SS"
+        item.seam[1].value = "L-Pits SS"
+  Case "S-Pits Alum"
+        item.seam[1].value = "L-Pits Alum"
+ endselect
+  item.seam[1].locked = true
+Endif
+
+Rem Process Coiled Duct
+If Item.cid = 866 and Item.cuttype = "Decoiled Straight" then
+Dim Stretchout = (Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue)*2
+Dim HalfStretchout = Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue
+  If item.insulation.Status = "Inside" then
+    If LinerWrapCoil = "Yes" and Stretchout < Max1pcCoil then
+    Item.option["Override"].value = "1 Part Straight"
+    else
+      if HalfStretchout < Max2pcCoil then
+      item.option["Override"].value = "2xL"
+      else
+      item.option["Override"].value = "4xI,M-F"
+      endif
+    Endif
+  Else
+    if stretchout < max1pccoil then
+     Item.option["Override"].value = "1 Part Straight"
+    else
+      if HalfStretchout < Max2pcCoil then
+      item.option["Override"].value = "2xL"
+      else
+      item.option["Override"].value = "4xI,M-F"
+      endif
+    Endif
+  Endif
+  if  item.option["Override"].value = "2xL" then
+    if item.dim["Width"].numValue > MaxFoldCoil or item.dim["Depth"].numValue > MaxFoldCoil then
+      item.option["Override"].value = "4xI,M-F"
+    Endif
+  Endif
+Endif
+
+Rem Process Coiled Duct SS Fold
+If Item.cid = 866 and Item.cuttype = "Decoiled Straight" then
+ if item.dim["Width"].numvalue < Min1pcCoil Then
+    item.option["Override"].value = "2xL"
+ Endif
+ if item.dim["Depth"].numvalue < Min1pcCoil Then
+     item.option["Override"].value = "2xL"
+ Endif
+Endif
+
+Rem Process machine Cut Duct
+If Item.cid = 866 and Item.cuttype = "Machine Cut" then
+Dim Stretchout = (Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue)*2
+Dim HalfStretchout = Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue
+  If item.insulation.Status = "Inside" then
+    If LinerWrapCut = "Yes" and Stretchout < Max1pcCut then
+    Item.option["Override"].value = "1 Part Straight"
+    else
+      if HalfStretchout < Max2pcCut then
+      item.option["Override"].value = "2xL"
+      else
+      item.option["Override"].value = "4xI,M-M,F-F"
+      endif
+    Endif
+  Else
+    if stretchout < max1pccut then
+     Item.option["Override"].value = "1 Part Straight"
+    else
+      if HalfStretchout < Max2pcCut then
+      item.option["Override"].value = "2xL"
+      else
+      item.option["Override"].value = "4xI,M-M,F-F"
+      endif
+    Endif
+  Endif
+Endif
+
+Rem Change Settings For Gore Lock Machine
+If item.cid = 61 Then
+  if GorLokMach = "Yes" and item.seam[1].value = "Gore Lap" Then
+  item.option["Seam Position"].value = "0"
+  item.option["Marker Type"].value = "None"
+  item.option["Marker Depth"].value = "Default"
+  Endif
+  Else
+Endif
+
+Rem Change Qty of Gores on Elbows
+If item.cid = 61 then
+  if item.dim["Angle"].numvalue < 91 and item.dim["Angle"].numvalue >60 then
+    item.option[1].value = "5"
+  endif
+  if item.dim["Angle"].numvalue < 61 and item.dim["Angle"].numvalue >45 then
+    item.option[1].value = "4"
+  endif
+  if item.dim["Angle"].numvalue < 46 and item.dim["Angle"].numvalue >30 then
+    item.option[1].value = "3"
+  endif
+  if item.dim["Angle"].numvalue < 31 and item.dim["Angle"].numvalue >0 then
+    item.option[1].value = "2"
+  endif
+endif
+
+
+Rem Fitting Review Add Data To ChkFlag
+Rem Square Elbow
+If item.cid = 20 Then
+  if (item.dim["Top Extension"].numvalue + item.dim["Bottom Extension"].numvalue) < 10 then
+    Item.customdata["ChkFlag"].value = "Check Throat"
+  endif
+Endif
+
+Rem Square Tee
+If item.cid = 13 Then
+  if ((item.dim["Left Extension"].numvalue + item.dim["Bottom Extension"].numvalue) < 10) or ((item.dim["Right Extension"].numvalue + item.dim["Bottom Extension"].numvalue) < 10) then
+    Item.customdata["ChkFlag"].value = "Check Throat"
+  endif
+Endif
+
+Rem Pat 866 Full Wrap Warning
+If item.cid = 866 Then
+  if item.dim["Width"].numvalue < 6 then
+  Item.customdata["ChkFlag"].value = "Check Part Qty"
+  endif
+  if item.dim["Depth"].numvalue < 6 then
+  Item.customdata["ChkFlag"].value = "Check Part Qty"
+  endif
+Endif
+
+item.update()
+
+task.endprogress()

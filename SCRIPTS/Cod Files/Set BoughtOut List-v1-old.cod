@@ -1,0 +1,35 @@
+requires task.selection
+ dim delim = ","
+ dim ret = ASCII(13)
+
+
+Rem Check for valid OpCo Number in job info
+Rem Reading JobInfo OpCo Number
+Dim TargetOpco = trim(job.customdata["OpCo Number"].Value)
+
+ dim BoughtOutPar =  MapPath_Scripts + "\OpCoBoughtOut\" + TargetOpco + "-OpCoBoughtOut-v1.csv"
+
+rem *** Create the file and verify it is open
+object outfile = new file(BoughtOutPar, forinput+foroutput+istext)
+
+
+ 
+if outfile.isopen then
+ rem *** write headers
+ outfile.writeline("ItemName" + delim + "BoTrue")
+ outfile.position = file_end
+ dim i = 1
+  while i <= task.selection.count
+  dim item = task.selection[i]
+
+  dim lineStr = ""
+
+   if item.filename then
+    lineStr = lineStr + Item.filename + delim + "Yes"
+   end if
+ outfile.writeline(lineStr)
+
+ i = i + 1
+ end while
+end if
+outfile.close()

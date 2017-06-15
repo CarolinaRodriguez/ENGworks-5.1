@@ -1,0 +1,38 @@
+rem spiral & rolled pipe
+select item.cid
+  case 40,41
+   dim pdia = item.dim["Diameter"].value
+   dim length = item.dim["Length"].value
+   dim i = item.dim["Length"].numvalue
+   dim rln = round(i,2)
+   dim result = rounddown(i,0)
+   dim lo = rln-result    
+   dim quote1 = ASCII(34)
+   dim quote2 = ASCII(47)
+   dim quote3 = ASCII(32)
+
+rem Setion to correct length    
+    if lo>0.875 then
+       result = result+1
+      elseif lo>0.625 then
+             result = result+0.75
+        elseif lo>0.375 then
+               result = result+0.5
+          elseif lo>0.125 then
+                 result = result+0.25             
+            else result = result        
+    endif
+ 
+    length=result
+
+rem notes 
+    if item.alias="40" or "41B" then
+       item.notes = pdia+quote1+quote3+quote2+quote3+length+quote1+"L"
+    end if
+ 
+ item.dim["Length"].value=length
+ item.update()
+end select
+
+
+Rem http://www.xtracad.com/forum/index.php/topic,10083.msg68269.html#msg68269

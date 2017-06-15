@@ -1,0 +1,11 @@
+Rem This will prep the selected items so that they can be sent to the decoiler
+ 
+if item.cuttype = "Decoiled Straight" Then
+ If item.boughtout = true Then
+  if Item.customdata["Decoiled"].value = "No" then
+     item.boughtout = False
+  Endif
+ Endif
+Endif
+Item.update()
+

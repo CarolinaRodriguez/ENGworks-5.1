@@ -1,0 +1,12 @@
+
+
+Rem Set Vee Notch Depth
+Dim vdepth = "2"
+
+If item.cuttype = "Machine cut" then
+ if item.connector[1].value = "TDC." then
+  item.option["Connector Fold Notch #1"].value = "Use Vee Notch"
+  item.option["Vee Notch Depth #1"].value = vdepth
+  item.option["Vee Notch Angle #1"].value = "10"
+ Endif
+Endif

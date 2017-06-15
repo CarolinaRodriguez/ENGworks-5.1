@@ -1,0 +1,139 @@
+requires task.selection
+
+dim UsrInput = inputbox("Enter 0=Galv, 1=Green, 2=Alum, 3=304SS")
+
+
+dim i = 1
+
+while i <= task.selection.count
+    dim item = task.selection[i]
+
+if item.CID=838 then
+    if item.option[1].value="Profiled Bearer" then
+    Rem --- Change Old  to FAB-Galv ----
+		if UsrInput = 0 then
+		  if item.support.value="FAB-Unistrut Hanger 0375x0.8125" then
+			item.support.value="FAB-Galv Unistrut Hanger 0375x0.8125"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0375x1.625" then
+			item.support.value="FAB-Galv Unistrut Hanger 0375x1.625"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0375x3.2500" then
+			item.support.value="FAB-Galv Unistrut Hanger 0375x3.2500"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0500x0.8125" then
+			item.support.value="FAB-Galv Unistrut Hanger 0500x0.8125"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0500x1.625" then
+			item.support.value="FAB-Galv Unistrut Hanger 0500x1.625"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0500x3.2500" then
+			item.support.value="FAB-Galv Unistrut Hanger 0500x3.2500"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0625x0.8125" then
+			item.support.value="FAB-Galv Unistrut Hanger 0625x0.8125"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0625x1.625" then
+			item.support.value="FAB-Galv Unistrut Hanger 0625x1.625"
+		  endif
+		  if item.support.value="FAB-Unistrut Hanger 0625x3.2500" then
+			item.support.value="FAB-Galv Unistrut Hanger 0625x3.2500"
+		  endif
+		 endif
+        Item.update()
+		
+    Rem --- FAB-Galv to FAB-Grn ----
+		if UsrInput = 1 then
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x0.8125" then
+			item.support.value="FAB-Grn Unistrut Hanger 0375x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x1.625" then
+			item.support.value="FAB-Grn Unistrut Hanger 0375x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x3.2500" then
+			item.support.value="FAB-Grn Unistrut Hanger 0375x3.2500"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x0.8125" then
+			item.support.value="FAB-Grn Unistrut Hanger 0500x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x1.625" then
+			item.support.value="FAB-Grn Unistrut Hanger 0500x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x3.2500" then
+			item.support.value="FAB-Grn Unistrut Hanger 0500x3.2500"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x0.8125" then
+			item.support.value="FAB-Grn Unistrut Hanger 0625x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x1.625" then
+			item.support.value="FAB-Grn Unistrut Hanger 0625x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x3.2500" then
+			item.support.value="FAB-Grn Unistrut Hanger 0625x3.2500"
+		  endif
+		 endif
+      Rem --- FAB-Galv to FAB-Alum ----
+	  if UsrInput = 2 then
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x0.8125" then
+			item.support.value="FAB-Alum Unistrut Hanger 0375x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x1.625" then
+			item.support.value="FAB-Alum Unistrut Hanger 0375x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x3.2500" then
+			item.support.value="FAB-Alum Unistrut Hanger 0375x3.2500"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x0.8125" then
+			item.support.value="FAB-Alum Unistrut Hanger 0500x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x1.625" then
+			item.support.value="FAB-Alum Unistrut Hanger 0500x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x3.2500" then
+			item.support.value="FAB-Alum Unistrut Hanger 0500x3.2500"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x0.8125" then
+			item.support.value="FAB-Alum Unistrut Hanger 0625x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x1.625" then
+			item.support.value="FAB-Alum Unistrut Hanger 0625x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x3.2500" then
+			item.support.value="FAB-Alum Unistrut Hanger 0625x3.2500"
+		  endif
+		 endif
+      Rem --- FAB-Galv to FAB-304SS ----
+	  if UsrInput = 2 then
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x0.8125" then
+			item.support.value="FAB-304SS Unistrut Hanger 0375x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x1.625" then
+			item.support.value="FAB-304SS Unistrut Hanger 0375x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0375x3.2500" then
+			item.support.value="FAB-304SS Unistrut Hanger 0375x3.2500"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x0.8125" then
+			item.support.value="FAB-304SS Unistrut Hanger 0500x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x1.625" then
+			item.support.value="FAB-304SS Unistrut Hanger 0500x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0500x3.2500" then
+			item.support.value="FAB-304SS Unistrut Hanger 0500x3.2500"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x0.8125" then
+			item.support.value="FAB-304SS Unistrut Hanger 0625x0.8125"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x1.625" then
+			item.support.value="FAB-304SS Unistrut Hanger 0625x1.625"
+		  endif
+		  if item.support.value="FAB-Galv Unistrut Hanger 0625x3.2500" then
+			item.support.value="FAB-304SS Unistrut Hanger 0625x3.2500"
+		  endif
+		endif
+  endif
+endif
+
+   i = i + 1
+end while

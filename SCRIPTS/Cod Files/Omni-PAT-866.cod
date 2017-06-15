@@ -1,0 +1,71 @@
+
+rem ********************** Define Variables ********************************
+
+rem *** Cut joint will wrap when full perimeter is Less than or Equal to number below.
+dim cut_wrap = 30
+rem *** Cut joint will use 2pc L shape when half perimeter is greater than number below.
+dim cut_2L = 30
+rem *** Cut joint will use 4pc MM-FF when half perimeter is greater than number below.
+dim cut_4pc = 60
+
+rem ********************** Sub Functions ********************************
+function MchCutType()
+  dim width = item.dim["Width"].NUMValue
+  dim depth = item.dim["Depth"].NUMValue
+  rem dim perimeter = (width + depth)*2
+  dim half_perimeter = (width + depth)
+  dim rpt = ""
+  
+  if item.cuttype = "Machine Cut" then
+    if (half_perimeter <= cut_wrap) then
+rem Delete following "rem (" and closing ")" and rem in front of endif to activate insulation test
+rem (
+      if item.insulation.status = "Inside" and item.insulation.gauge > 0 then
+rpt = "2L"
+        item.Option["Override"].Value = "2xL"
+      else
+)
+rem delete above ")" to activate insulation test
+rpt = "wrap"
+        item.Option["Override"].Value = "1 Part Straight"
+
+rem      endif
+rem Delete following "rem (" and closing ")" to activate connector test
+rem (
+      select item.connector[1].value
+        case "TDC","TDF","TDC.","PC"
+rpt = "2L"
+          item.Option["Override"].Value = "2xL"
+      endselect
+      select item.connector[2].value
+        case "TDC","TDF","TDC.","PC"
+rpt = "2L"
+          item.Option["Override"].Value = "2xL"
+      endselect
+)
+rem delete above ")" to activate connector test
+      item.update()
+    endif
+    if (half_perimeter > cut_2L) and (half_perimeter <= cut_4pc) then
+rpt = "2L"
+      item.Option["Override"].Value = "2xL"
+      item.update()
+    endif
+    if (half_perimeter > cut_4pc) then
+rpt = "4pc"
+      item.Option["Override"].Value="4xI,M-M,F-F"
+      item.update()
+    endif
+  endif
+REM  if rpt <> "" then debug rpt
+endfunction
+
+rem ********************** Main Routine ********************************
+select item.Cid
+  case 866
+    MchCutType()
+endselect
+
+
+
+

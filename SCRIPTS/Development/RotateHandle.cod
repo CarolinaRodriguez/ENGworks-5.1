@@ -1,0 +1,12 @@
+rem sample script to rotate the handle on a valve from Open to Closed or closed to open.
+rem should be used on a valve confiqured like a ball valve with handle, eg. Hattersley 100 range
+dim val					
+select item.Cid
+  case 868
+    val=item.Option[11].Value
+    if val="Yes" then
+      item.Option[11].Value="No"
+    else
+      item.Option[11].Value="Yes"
+    endif
+end select

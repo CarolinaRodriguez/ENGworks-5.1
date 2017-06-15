@@ -1,0 +1,6 @@
+if item.Seams > 0 Then
+ if item.Seam[1].value = "L-Pits." then
+  item.Seam[1].locked = False
+ Endif
+Endif
+Item.update()

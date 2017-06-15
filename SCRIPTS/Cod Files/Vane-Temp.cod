@@ -1,0 +1,6 @@
+Rem Removed Old Vane Start
+If Item.cid = 20 or Item.cid = 11 or Item.cid = 13 then
+    item.airturn[1].value = "DuroDyne-2-Galv"
+    Item.airturn[1].locked = true
+Endif
+Item.update()

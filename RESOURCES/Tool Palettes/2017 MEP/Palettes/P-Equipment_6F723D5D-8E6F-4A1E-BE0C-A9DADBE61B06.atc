@@ -1,0 +1,198 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{6F723D5D-8E6F-4A1E-BE0C-A9DADBE61B06}"/><Properties><ItemName>Equipment</ItemName><Images option="0"/><Description>This palette contains a sampling of customized MvPart tools. They refer to the catalog specified in the Options dialog. You may also drag a part onto the palette or copy one of these tools and modify it to make a new tool.</Description><Time createdUniversalDateTime="2005-10-21T00:21:50" modifiedUniversalDateTime="2007-01-22T13:16:03"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{D99D432F-AA32-41C0-B82B-E609CC7069EE}"/><Properties><ItemName>Plumbing Equipment</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_D99D432F-AA32-41C0-B82B-E609CC7069EE.png"/></Images><Description>Add Plumbing MvParts</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2003-04-24T14:38:20" modifiedUniversalDateTime="2006-02-01T13:26:33"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_MvPartAdd" "ch" "plumbing" "")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{0F47A452-FE63-47A6-A1CC-2667A1DEE0C5}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-11-09T14:29:19" modifiedUniversalDateTime="2005-11-09T14:29:19"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E52D9C39-A137-4F8A-85E4-DCF45EC5BED4}"/><Properties><ItemName>Pump - Mechanical</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_E52D9C39-A137-4F8A-85E4-DCF45EC5BED4.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:27:46"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>889C0404-9C2F-4539-A747-E81CEE8A6423</PartGUID>
+					<PartName>Horizontal Split Case Pumps</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1CDF919D-8812-4BD7-A92C-B09177084FD2}"/><Properties><ItemName>Filter</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_1CDF919D-8812-4BD7-A92C-B09177084FD2.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:28:52"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>0FC9DB75-94FB-4C32-95B7-835BA86CC110</PartGUID>
+					<PartName>Rack-Mounted Water Filter</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6016B008-F33A-4E6E-9F08-FE421EAF444B}"/><Properties><ItemName>Water Heater</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_6016B008-F33A-4E6E-9F08-FE421EAF444B.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:29:14"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>272914CE-72FB-4C99-A5E7-C1940874245A</PartGUID>
+					<PartName>Water Heater</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6FBB8B66-481A-4BDA-8E72-3315DD4A70A5}"/><Properties><ItemName>Horizontal Discharge Submersible Pump</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_6FBB8B66-481A-4BDA-8E72-3315DD4A70A5.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:29:20"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>8F0FDF4C-5C23-4351-9487-F06C29E4B1DA</PartGUID>
+					<PartName>Horizontal Discharge Submersible Pump</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{DE308306-9502-4161-B391-2AEA0E29A6DD}"/><Properties><ItemName>Vertical Discharge Submersible Pump </ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_DE308306-9502-4161-B391-2AEA0E29A6DD.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:29:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>364D3D3B-D59D-400A-8CA5-E5D4740D8CEA</PartGUID>
+					<PartName>Vertical Discharge Submersible Pump</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C9AE12CC-BA8A-4A7C-B936-7F8CDE0F84B0}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-30T18:22:25" modifiedUniversalDateTime="2005-10-30T18:22:25"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{64B97B68-7007-423F-AB8D-9FB275C0686C}"/><Properties><ItemName>Fixture</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-12T15:03:23" modifiedUniversalDateTime="2005-12-12T15:03:23"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2EBB963F-C117-46DC-A214-1E5590106F63}"/><Properties><ItemName>Drain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_2EBB963F-C117-46DC-A214-1E5590106F63.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2005-09-02T18:02:55"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>6B405BD6-E974-4EFE-A38B-760AEA42AA3C</PartGUID>
+					<PartName>Rectangular Floor Drain</PartName>
+					<PartSizeName>5 x 5 Inch Rectangular Floor Drain</PartSizeName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9E9F514E-94B1-48FD-A6A0-61D35A9D0365}"/><Properties><ItemName>Dishwasher</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_9E9F514E-94B1-48FD-A6A0-61D35A9D0365.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2005-09-02T18:02:55"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>FBC3DEAD-0DF4-4ADD-A5A6-66A6264D8C24</PartGUID>
+					<PartName>Dishwasher</PartName>
+					<PartSizeName>26 x 24 Inch Under Counter Dishwasher</PartSizeName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2F6FED9D-6B9C-4CD0-A38A-82E1F0943BA2}"/><Properties><ItemName>Water Closet</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_2F6FED9D-6B9C-4CD0-A38A-82E1F0943BA2.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:31:32"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>54AF4F51-D5FD-4F94-B8B0-107B5E15AE8B</PartGUID>
+					<PartName>Flush Tank Toilet</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{8422E6B7-D1A8-41B7-BB8E-ECD032063E97}"/><Properties><ItemName>Shower</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_8422E6B7-D1A8-41B7-BB8E-ECD032063E97.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:31:46"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>79B4CB70-8279-48D9-9179-BECE871EAEFF</PartGUID>
+					<PartName>Rectangular Shower Stall</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{536A9781-FC7C-4F58-B9D2-EDB0844B9685}"/><Properties><ItemName>Sink</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_536A9781-FC7C-4F58-B9D2-EDB0844B9685.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:32:03"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>1CFBEFFC-C159-4FE7-802C-33179D177AD0</PartGUID>
+					<PartName>Double Kitchen Sink</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{EA010051-4E81-44B0-87DC-FBA5A811C941}"/><Properties><ItemName>Water fountain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_EA010051-4E81-44B0-87DC-FBA5A811C941.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-03-13T11:56:43"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>3786295E-8817-4E3B-828B-2E16C49EC6E1</PartGUID>
+					<PartName>Rectangular Wall-Mounted Drinking Fountain</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{56B5D3FD-A246-4457-8C20-248B163D092D}"/><Properties><ItemName>Tub</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_56B5D3FD-A246-4457-8C20-248B163D092D.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2005-09-02T18:02:55"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>DB1E45A8-149C-47B1-A14F-887D10EC2BDF</PartGUID>
+					<PartName>Bath Tub</PartName>
+					<PartSizeName>30 x 42 Inch Bath Tub</PartSizeName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{12F70043-3230-4D5F-AD37-919E140DC33D}"/><Properties><ItemName>Urinal</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_12F70043-3230-4D5F-AD37-919E140DC33D.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:32:25"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>83A847BE-02C0-4D48-8F50-13A07710516B</PartGUID>
+					<PartName>Urinal Stall</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool></Tools></Palette>

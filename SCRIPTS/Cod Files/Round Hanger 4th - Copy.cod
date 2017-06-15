@@ -1,0 +1,44 @@
+rem Round Hanger Rod to 1/4
+select item.cid
+  case 838
+   dim dn
+    for dn =  1 to item.dims
+                select item.Dim[dn].Name
+                    case "Rod Length"
+                        item.Dim[dn].Value = Rlen(item.Dim[dn].numValue)
+                    case "Rod Extn Above"
+                        item.Dim[dn].Value = Rlen(item.Dim[dn].numValue)
+                  Rem  case "Top Length"
+                  Rem      item.Dim[dn].Value = Rlen(item.Dim[dn].numValue)
+                    case "Rod Length"
+                        item.Dim[dn].Value = Rlen(item.Dim[dn].numValue)
+                end select
+Next
+   Rem dim Rlen = item.dim["Length"].value
+   dim i = Rlen
+   dim rln = round(i,2)
+   dim result = rounddown(i,0)
+   dim lo = rln-result
+
+
+rem Setion to correct length
+    if lo>0.875 then
+       result = result+1
+      elseif lo>0.625 then
+             result = result+0.75
+        elseif lo>0.375 then
+               result = result+0.5
+          elseif lo>0.125 then
+                 result = result+0.25
+            else result = result
+    endif
+ 
+    length=result
+ 
+ Rlen=length
+ item.update()
+
+end select
+
+
+Rem http://www.xtracad.com/forum/index.php/topic,10083.msg68269.html#msg68269

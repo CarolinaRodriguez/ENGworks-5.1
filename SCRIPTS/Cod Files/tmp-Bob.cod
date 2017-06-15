@@ -1,0 +1,14 @@
+If item.CID = 838 Then
+   if item.option["Type"].value = "Clevis Hanger" Then
+   dim dia = item.endlocation(1, "top") - item.endlocation(1, "z")
+   dim ton = item.endlocation(1, "z") + item.dim["Total Height"].numvalue - dia
+   dim tor = item.dim["Rod Length"].numvalue
+   dim uel = 200.0
+   dim cel = ton + tor
+   dim nel = uel - cel
+   item.dim["Rod Length"].value = item.dim["Rod Length"].numvalue + nel
+  if item.dim["Rod Length"].numvalue < 0.0 then
+  item.dim["Rod Length"].numvalue = 0
+   endif
+  endif
+endif

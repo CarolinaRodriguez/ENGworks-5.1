@@ -1,0 +1,34 @@
+Rem ------Set Reducers to Bought Out-----
+If item.cid = 51 then
+   item.boughtout = True
+endif
+Item.update()
+
+If item.cid = 51 then
+  if item.dim[1].numvalue > 14 or item.dim[2].numvalue > 14 then
+      item.boughtout = False
+    if item.wiregauge > 20 then
+       item.wiregauge = 22
+    endif       
+  Endif
+  if item.dim[1].numvalue > item.dim[2].numvalue then
+   Dim SizeCH = item.dim[1].numvalue - item.dim[2].numvalue
+    if SizeCH > 2 then
+      item.boughtout = False
+      if item.wiregauge > 20 then
+         item.wiregauge = 22
+      endif 
+    Endif
+  Endif
+  if item.dim[2].numvalue > item.dim[1].numvalue then
+    Dim SizeCH = item.dim[2].numvalue - item.dim[1].numvalue
+    if SizeCH > 2 then
+      item.boughtout = False
+      if item.wiregauge > 20 then
+         item.wiregauge = 22
+      endif 
+    endif
+  endif
+Endif
+Item.update()
+Rem ------Set Reducers to Bought Out-----

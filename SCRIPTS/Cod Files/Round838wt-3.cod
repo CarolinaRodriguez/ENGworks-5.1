@@ -1,0 +1,20 @@
+
+     if item.cid =838 then
+            dim i
+            for i =  1 to item.dims 
+     next
+            Dim rl = item.Dim[i].Name
+             if rl = "Rod Length" then
+                i = RoundLength(item.Dim[i].numValue)                 
+                if rl = "Rod Extn Above" Then
+                   item.Dim[i].Value = RoundLength(item.Dim[i].numValue)              
+                  if item.Dim[i].Name = "Top Length" Then
+                     item.Dim[i].Value = RoundLength(item.Dim[i].numValue)
+                    if item.Dim[i].Name = "Rod Length" Then
+                       item.Dim[i].Value = RoundLength(item.Dim[i].numValue)
+                    endif  
+                  endif
+                endif
+             endif
+
+     endif

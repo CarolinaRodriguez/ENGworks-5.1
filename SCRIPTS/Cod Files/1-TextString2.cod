@@ -1,0 +1,54 @@
+rem converts character to integer
+function ctoi(s)
+
+dim iRet
+
+  iRet = 0
+
+  select s
+    case "0"
+      iRet = 0
+    case "1"
+      iRet = 1
+    case "2"
+      iRet = 2
+    case "3"
+      iRet = 3
+    case "4"
+      iRet = 4
+    case "5"
+      iRet = 5
+    case "6"
+      iRet = 6
+    case "7"
+      iRet = 7
+    case "8"
+      iRet = 8
+    case "9"
+      iRet = 9
+    case "."
+      iRet = "."
+ end select
+
+return iRet
+end function
+
+dim val = item.dim[1].numvalue
+dim len = len(val)
+dim pt = Instr(1,val,".")
+dim wnum = left(val,(pt-1))
+dim dnum = Right(val,(len-pt))
+dim ft = ctoi(wnum)
+
+
+
+
+
+
+
+ debug val
+ debug "len= "+len
+ debug "pt= "+pt
+ debug "wnum= "+wnum
+ debug "dnum= "+dnum
+ debug "ft= "+ft

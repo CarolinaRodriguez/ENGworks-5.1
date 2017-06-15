@@ -1,0 +1,5 @@
+dim lp
+
+for lp = 1 to item.dims
+debug item.dim[lp].name + "  " + item.dim[lp].numvalue
+next lp

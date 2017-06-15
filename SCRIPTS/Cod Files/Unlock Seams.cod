@@ -1,0 +1,12 @@
+
+
+Rem Unlock Ret Seams
+If Item.seams >0 Then
+   Item.Seam[1].locked = false
+Endif
+
+If Item.seams >1 Then
+   Item.Seam[2].locked = false
+Endif
+
+Item.update()

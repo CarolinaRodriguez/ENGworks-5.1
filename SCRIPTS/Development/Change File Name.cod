@@ -1,0 +1,9 @@
+REM Sample Script to rename all "A53 CW Sch 80 Blk T&C" to "A53 CW Sch 40 Blk T&C"
+
+dim filename=item.FileName
+
+if filename="A53 CW Sch 80 Blk T&C" then 
+  item.FileName="A53 CW Sch 40 Blk T&C"
+REM  item.Path="J:\Library\items\OEM99\BS Pipe Work\Drainage\Blucher\"
+endif
+

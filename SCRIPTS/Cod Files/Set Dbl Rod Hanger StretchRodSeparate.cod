@@ -1,0 +1,7 @@
+Rem Set Double Rod Hangers to Stretch Rods seperately
+If item.cid = 838 then
+Dim HangType = item.option[1].value
+  if HangType = "Roll" or HangType = "Profiled Bearer" or HangType = "Split Ring" or HangType = "Flat Strap Hanger" or HangType = "Double Profile Bearer"  or HangType = "Double Profile Bearer 2"  or HangType = "Stirrup"  then
+   item.option["Stretch Rods Separately"].value = "Yes"
+  endif
+endif

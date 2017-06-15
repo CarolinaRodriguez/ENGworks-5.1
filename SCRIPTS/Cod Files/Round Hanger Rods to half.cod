@@ -1,0 +1,25 @@
+function ChangeRodLength()
+    select item.CID
+        case 838
+            dim dn
+            for dn =  1 to item.dims
+                select item.Dim[dn].Name
+                    case "Rod Length"
+                        item.Dim[dn].Value = RoundLength(item.Dim[dn].numValue)
+                    case "Rod Extn Above"
+                        item.Dim[dn].Value = RoundLength(item.Dim[dn].numValue)
+                  Rem  case "Top Length"
+                  Rem      item.Dim[dn].Value = RoundLength(item.Dim[dn].numValue)
+                    case "Rod Length"
+                        item.Dim[dn].Value = RoundLength(item.Dim[dn].numValue)
+                end select
+            next
+        end select
+end function
+
+function RoundLength(length)
+    return round(length)
+end function
+
+ChangeRodLength()
+

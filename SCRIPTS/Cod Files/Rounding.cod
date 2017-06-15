@@ -1,0 +1,12 @@
+function RoundToHalfInch(myLength)
+  dim RoundedLength = round(myLength, 1)
+  dim Result = round(myLength,0)
+  dim LeftOver = RoundedLength - Result
+  if LeftOver > 0 then
+    if LeftOver > 0.5 then
+       Result = Result + 1
+    else
+       Result = Result + 0.5
+  end if
+  return Result
+end function

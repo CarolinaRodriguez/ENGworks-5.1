@@ -1,0 +1,4 @@
+Rem Set Hanger Rod Below to 2-1/2
+If item.Filename = "Unistrut Hanger" then
+   item.dim["Rod Extn Below"].value = "2.5"
+endif

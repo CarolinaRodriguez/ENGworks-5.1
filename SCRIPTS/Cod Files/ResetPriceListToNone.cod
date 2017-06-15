@@ -1,0 +1,3 @@
+REM Sets the Price List for selected Items to "None"
+
+item.pricelist = "None"

@@ -1,0 +1,33 @@
+
+
+requires task
+
+ If item.Seams > 0 Then
+  select item.seam[1].value
+   Case "S-Pits"
+        item.seam[1].value = "SP"
+   Case "L-Pits"
+        item.seam[1].value = "LP"
+   Case "Snaplock"
+        item.seam[1].value = "SL"
+  endselect
+  item.seam[1].locked = true
+ Endif
+ 
+ 
+ If item.Seams > 1 Then
+  select item.seam[2].value
+   Case "S-Pits"
+        item.seam[2].value = "SP"
+   Case "L-Pits"
+        item.seam[2].value = "LP"
+   Case "Snaplock"
+        item.seam[2].value = "SL"
+  endselect
+  item.seam[2].locked = true
+ Endif
+ 
+ 
+ item.update()
+
+task.endprogress()

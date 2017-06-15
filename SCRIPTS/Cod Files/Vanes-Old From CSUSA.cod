@@ -1,0 +1,25 @@
+Rem Removed Old Vane Start
+If Item.cid = 20 or Item.cid = 11 or Item.cid = 13 then
+  if item.airturn[1].value = "None" then
+  else
+    if item.dim[2].numvalue >Vane1UpTo then
+      item.airturn[1].value = VaneLarge
+      else
+      item.airturn[1].value = VaneSmall
+    Endif
+    Item.airturn[1].locked = true
+  Endif
+Endif
+
+If Item.cid = 11 or Item.cid = 13 then
+  if item.airturn[2].value = "None" then
+  else
+    if item.dim[2].numvalue >Vane1UpTo then
+      item.airturn[2].value = VaneLarge
+      else
+      item.airturn[2].value = VaneSmall
+    Endif
+    Item.airturn[2].locked = true
+  Endif
+Endif
+Rem Removed Old Vane End

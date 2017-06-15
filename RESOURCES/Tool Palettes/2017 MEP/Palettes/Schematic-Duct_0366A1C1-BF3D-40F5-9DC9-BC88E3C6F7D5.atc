@@ -1,0 +1,313 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{0366A1C1-BF3D-40F5-9DC9-BC88E3C6F7D5}"/><Properties><ItemName>Duct</ItemName><Images option="0"/><Description>This palette contains a sampling of customized schematic tools. They refer to the content specified in the Options dialog.</Description><Time createdUniversalDateTime="2006-10-25T07:01:32" modifiedUniversalDateTime="2006-10-25T15:05:49"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{767E52F9-6D9C-4700-AF80-9AAA89500E38}"/><Properties><ItemName>Schematic Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_767E52F9-6D9C-4700-AF80-9AAA89500E38.png"/></Images><Description>Creates a Schematic Line.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:03:00"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{5DDAD49D-BF00-4D3B-A924-F128747B13A7}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-10-25T07:03:31" modifiedUniversalDateTime="2006-10-25T07:03:31"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{91B11479-AB78-4113-B658-D32C7B1CD667}"/><Properties><ItemName>Line by System</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T07:03:32" modifiedUniversalDateTime="2006-10-25T07:03:32"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5A42DD05-B830-4359-B2FA-39EB2C4D8C7B}"/><Properties><ItemName>Exhaust</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_5A42DD05-B830-4359-B2FA-39EB2C4D8C7B.png"/></Images><Description>Creates a Schematic Line in H-Exhaust system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:33:35"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">H-Exhaust (EXH)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{EE576E12-C612-48CF-AE5F-FD67CC971E6B}"/><Properties><ItemName>Outdoor Air</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_EE576E12-C612-48CF-AE5F-FD67CC971E6B.png"/></Images><Description>Creates a Schematic Line in H-Outdoor Air system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:33:50"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">H-Outdoor Air (OA)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9A08B73C-9EA7-4CDA-88A8-724EBB08EA25}"/><Properties><ItemName>Return</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_9A08B73C-9EA7-4CDA-88A8-724EBB08EA25.png"/></Images><Description>Creates a Schematic Line in H-Return system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:34:04"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">H-Return (RTN)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F3DC5CC0-A1D7-4D4F-8DFC-95827323E240}"/><Properties><ItemName>Supply - Demo</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_F3DC5CC0-A1D7-4D4F-8DFC-95827323E240.png"/></Images><Description>Creates a Schematic Line in H-Supply - Demo system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:34:22"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">H-Supply - Demo (DEMO)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C37D122C-9C46-4EB6-84D6-47C87DB428E0}"/><Properties><ItemName>Supply - Low Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_C37D122C-9C46-4EB6-84D6-47C87DB428E0.png"/></Images><Description>Creates a Schematic Line in H-Supply - Low Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:34:38"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">H-Supply - Low Pressure (LPS)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1EBD5CC1-93E7-4991-BF15-2F41236CAA11}"/><Properties><ItemName>Supply - Medium Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicLine_1EBD5CC1-93E7-4991-BF15-2F41236CAA11.png"/></Images><Description>Creates a Schematic Line in H-Supply - Medium Pressure system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-11-13T17:34:58"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{69436122-5B21-408A-8A3F-8B53A7B92B07}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Standard</PartName>
+					<PartSizeName>Standard</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematic>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">H-Supply - Medium Pressure (MPS)</System>
+				</AecbDbSchematic>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{F0E1FF9B-67F6-46A0-801A-72EFB94439E9}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-10-25T07:08:37" modifiedUniversalDateTime="2006-10-25T07:08:37"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{AAAF53D9-5A02-452A-8792-EEF8BD0B712F}"/><Properties><ItemName>Equipment</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T07:08:39" modifiedUniversalDateTime="2006-10-25T07:08:39"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9386C83F-F116-4153-8A76-0FDD40F25131}"/><Properties><ItemName>Coil</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_9386C83F-F116-4153-8A76-0FDD40F25131.png"/></Images><Description>Creates a Coil.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:10:02"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Coil</PartName>
+					<PartSizeName>Coil</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Coil</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E81F7966-184C-4B95-89E2-28793F69E4A4}"/><Properties><ItemName>Diffuser - Ceiling Square Generic Supply</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_E81F7966-184C-4B95-89E2-28793F69E4A4.png"/></Images><Description>Creates a Diffuser - Ceiling Square Generic Supply.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:11:05"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Diffuser - Ceiling Square Generic Supply</PartName>
+					<PartSizeName>Diffuser - Ceiling Square Generic Supply</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Diffuser - Ceiling Square Generic Supply</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{81FFBF88-D92A-4B04-A0D5-39253789DCF5}"/><Properties><ItemName>Fans - Duct</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_81FFBF88-D92A-4B04-A0D5-39253789DCF5.png"/></Images><Description>Creates a Fans - Duct.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:12:24"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Fans - Duct</PartName>
+					<PartSizeName>Fans - Duct</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Fire Smoke Control (US Imperial).dwg">Fans - Duct</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2FFABF6C-B027-4913-80A2-077A534E747F}"/><Properties><ItemName>Grille - Ceiling Square Generic Return</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_2FFABF6C-B027-4913-80A2-077A534E747F.png"/></Images><Description>Creates a Grille - Ceiling Square Generic Return.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:13:21"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Grille - Ceiling Square Generic Return</PartName>
+					<PartSizeName>Grille - Ceiling Square Generic Return</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Grille - Ceiling Square Generic Return</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{5A1BA748-EBAE-455B-9580-3DA3958A2C65}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-10-25T07:13:29" modifiedUniversalDateTime="2006-10-25T07:13:29"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{81A50734-6678-4D8B-AAD7-6F2A771A4729}"/><Properties><ItemName>Sensors and Controls</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T07:13:30" modifiedUniversalDateTime="2006-10-25T07:13:30"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{DF398DAF-B581-479D-A317-2646A9B723F4}"/><Properties><ItemName>Sensor - Pressure</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_DF398DAF-B581-479D-A317-2646A9B723F4.png"/></Images><Description>Creates a Sensor - Pressure.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:14:40"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Sensor - Pressure</PartName>
+					<PartSizeName>Sensor - Pressure</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Sensor - Pressure</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{AB7E389D-6F1A-455F-B1D5-72384B1F9529}"/><Properties><ItemName>Sensor - Temperature</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_AB7E389D-6F1A-455F-B1D5-72384B1F9529.png"/></Images><Description>Creates a Sensor - Temperature.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:15:29"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Sensor - Temperature</PartName>
+					<PartSizeName>Sensor - Temperature</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Sensor - Temperature</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{8E9B5E7F-2776-48C6-850E-FADA68DCEB12}"/><Properties><ItemName>Smoke Detector</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_8E9B5E7F-2776-48C6-850E-FADA68DCEB12.png"/></Images><Description>Creates a Smoke Detector.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:22:18"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Smoke Detector</PartName>
+					<PartSizeName>Smoke Detector</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Smoke Detector</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6B669176-33DD-4296-B932-DBED95AC1866}"/><Properties><ItemName>Thermostat - Wall</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_6B669176-33DD-4296-B932-DBED95AC1866.png"/></Images><Description>Creates a Thermostat - Wall.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:23:06"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Thermostat - Wall</PartName>
+					<PartSizeName>Thermostat - Wall</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Equipment (US Imperial).dwg">Thermostat - Wall</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5DA0F767-0495-40FE-9FEA-ABA2140C1300}"/><Properties><ItemName>Volume Damper - Manual Right</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_5DA0F767-0495-40FE-9FEA-ABA2140C1300.png"/></Images><Description>Creates a Volume Damper - Manual Right.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:26:56"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Volume Damper - Manual Right</PartName>
+					<PartSizeName>Volume Damper - Manual Right</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Fittings (US Imperial).dwg">Volume Damper - Manual Right</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C873ED07-AD8C-4708-AF1E-F6B913271052}"/><Properties><ItemName>Volume Damper - Motorized Right</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_C873ED07-AD8C-4708-AF1E-F6B913271052.png"/></Images><Description>Creates a Volume Damper - Motorized Right.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-10-25T15:26:49"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Volume Damper - Motorized Right</PartName>
+					<PartSizeName>Volume Damper - Motorized Right</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical HVAC Fittings (US Imperial).dwg">Volume Damper - Motorized Right</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool></Tools></Palette>

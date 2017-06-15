@@ -1,0 +1,72 @@
+Rem Check for valid OpCo Number in job info
+Rem Reading JobInfo OpCo Number
+Dim TargetOpco = trim(job.customdata["OpCo Number"].Value)
+
+If TargetOpCo < 0 Then
+    dim UsrOpCoNumber = inputbox("Enter OpCo Number")
+    Job.customdata["OpCo Number"].value = UsrOpCoNumber
+ Endif
+
+dim BoughtOutPar =  MapPath_Scripts + "\OpCoBoughtOut\" + TargetOpco + "-OpCoBoughtOut-v1.csv"
+dim delimiter = ","
+
+Rem Column Headers from OpCoBoughtOut-v1.csv
+Rem xx Parameters
+ Rem Col-1
+ Dim ItemName
+Rem Col-2
+ Dim BOTrue
+
+
+
+
+requires task
+
+dim BOFile as file(BoughtOutPar, forinput+foroutput+istext)
+if BOFile.isopen then
+
+  task.beginprogress(BOFile.length)
+
+rem debug "BOFile File Opened"
+endif
+ 
+Rem debug "StiffPar File Opened"
+ 
+  while not BOFile.eof and not task.aborted
+
+    task.progress = BOFile.position
+ 
+      dim initialentry=BOFile.readline()
+      dim entry = ""
+      entry = initialentry + ","
+
+    dim c = instr( 1, entry, delimiter )
+    if c>1 then
+      ItemName = substring(entry, 1, c-1)
+      ItemName = trim(ItemName)
+    endif
+       rem debug ItemName
+
+   dim c2 = instr(c+1, entry, delimiter)
+    if c2>c+1 then
+     BOTrue=substring(entry, c+1, c2-1)
+     BOTrue=Trim(BOTrue)
+    Endif
+
+
+
+  If TargetOpCo > 0 then
+    If Item.filename = ItemName Then
+     item.boughtout = True
+     item.FabTable = "None"
+    Endif
+  Endif
+
+
+
+
+endwhile
+
+item.update()
+
+task.endprogress()

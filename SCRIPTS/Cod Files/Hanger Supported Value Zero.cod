@@ -1,0 +1,9 @@
+if item.cid = 838 then
+rem debug item.insulation.material
+  Dim INS = item.insulation.material
+Rem Debug ins
+   If item.insulation.status = "off" or (Wildcard(INS, "*(LS)*")) then
+  Item.dim["Supported Width"].value = "0"
+        Item.dim["Supported Depth"].value = "0"
+   Endif
+endif

@@ -1,0 +1,11 @@
+requires task.selection
+
+dim len = inputbox("Enter New Rod Length: ")
+dim i = 1
+
+while i <= task.selection.count
+  dim item = task.selection[i]
+  item.dim[7].value = len
+  i = i + 1
+end while
+ 

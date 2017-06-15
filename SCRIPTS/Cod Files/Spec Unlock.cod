@@ -1,0 +1,5 @@
+
+Rem Unlock Specs
+   Item.speclock = false
+
+Item.update()

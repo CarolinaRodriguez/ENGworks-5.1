@@ -1,0 +1,268 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{C1369AB3-E334-4A68-A5FE-DA65F089CFDA}"/><Properties><ItemName>Equipment</ItemName><Images option="0"/><Description>This palette contains a sampling of customized MvPart tools. They refer to the catalog specified in the Options dialog. You may also drag a part onto the palette or copy one of these tools and modify it to make a new tool.</Description><Time createdUniversalDateTime="2005-10-20T23:25:23" modifiedUniversalDateTime="2006-02-01T09:52:49"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{14A21979-9457-49A2-BA4F-28E9BC2367C3}"/><Properties><ItemName>Mechanical Equipment</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_14A21979-9457-49A2-BA4F-28E9BC2367C3.png"/></Images><Description>Add Mechanical MvParts</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2003-04-24T14:38:21" modifiedUniversalDateTime="2006-02-01T09:55:20"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_MvPartAdd" "CH" "Mechanical" "")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{3B65A1F9-2B79-47A5-8CDF-8331DA23BEAC}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-27T18:50:34" modifiedUniversalDateTime="2005-10-27T18:50:34"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{84E1621F-9677-4248-894B-5BFCFC26D3F7}"/><Properties><ItemName>Firetube Boiler</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_84E1621F-9677-4248-894B-5BFCFC26D3F7.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-03-16T13:01:53"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description>
+					</Description>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>54122BC8-CF0B-4301-8E3C-91FA9FCA38C5</PartGUID>
+					<PartName>Firetube Boilers</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9CF78C26-CC70-49AA-B388-7CEF13B54980}"/><Properties><ItemName>Watertube Boiler</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_9CF78C26-CC70-49AA-B388-7CEF13B54980.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:54:25"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>54E27706-6D69-4433-AD40-FE40C8F58717</PartGUID>
+					<PartName>Watertube Boilers</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0ACFC4A8-F6EA-45BA-8A4E-2E2F8B7F345C}"/><Properties><ItemName>Air-Cooled Chiller</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_0ACFC4A8-F6EA-45BA-8A4E-2E2F8B7F345C.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:53:45"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>A5E0F134-9EAA-488B-9FAD-67B790C904E4</PartGUID>
+					<PartName>Air-Cooled Chiller</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{63952294-6221-4BE9-B120-6C5FC26B88E1}"/><Properties><ItemName>Centrifugal Chiller</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_63952294-6221-4BE9-B120-6C5FC26B88E1.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:53:52"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>C9A3A6B4-6714-4F61-A4DD-C3FB7F20CAA4</PartGUID>
+					<PartName>Centrifugal Chiller</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{96148998-B673-44BA-ABAE-DC05428EAC4E}"/><Properties><ItemName>Cooling Tower</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_96148998-B673-44BA-ABAE-DC05428EAC4E.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:53:57"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>47AEC986-036E-42C5-824E-A84C7CF5C1C7</PartGUID>
+					<PartName>Cooling Towers</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{30FFC023-BD27-4964-A87F-6E986A25571A}"/><Properties><ItemName>Heat Exchanger</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_30FFC023-BD27-4964-A87F-6E986A25571A.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T09:54:06"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>C89CA11C-069D-48F2-B43E-8779BBEDFA9B</PartGUID>
+					<PartName>Shell and Tube Heat Exchangers</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{74AB9001-5ED9-4263-886E-21D46BD47EF7}"/><Properties><ItemName>Base Mounted Pump</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_74AB9001-5ED9-4263-886E-21D46BD47EF7.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:53:35"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>8C1DB1BC-1F1B-421C-B8F3-D8C946216C80</PartGUID>
+					<PartName>Base Mounted Pumps</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{271D8937-F814-4BB2-981F-14E67605C451}"/><Properties><ItemName>Inline Pump</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_271D8937-F814-4BB2-981F-14E67605C451.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T09:53:40"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>ADFF9423-C3DF-486C-9A7B-2BFAB7F90B0A</PartGUID>
+					<PartName>Inline Pumps</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{50445926-8226-4115-B132-81167E8E1B3D}"/><Properties><ItemName>Combination Expansion Tank</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_50445926-8226-4115-B132-81167E8E1B3D.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:54:11"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>6AC0601B-48B9-4936-A887-36549B405607</PartGUID>
+					<PartName>Combination Expansion Tank</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{163C8B5E-5C6B-4C9F-A437-C26584E1DC9B}"/><Properties><ItemName>Freestanding Horizontal Expansion Tank</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_163C8B5E-5C6B-4C9F-A437-C26584E1DC9B.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:54:17"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>32CD4DEC-BB17-4BF2-BC2C-A1568A422BB8</PartGUID>
+					<PartName>Freestanding Horizontal Expansion Tank</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{11F98549-7FF7-4576-819A-7BBAC1E69846}"/><Properties><ItemName>Vertical Storage Tank</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_11F98549-7FF7-4576-819A-7BBAC1E69846.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:54:30"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>9D52B204-C022-4C7F-BF7E-98CB764D354F</PartGUID>
+					<PartName>Vertical Storage Tank</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{84AA9E39-176A-4078-917D-F465A60F300E}"/><Properties><ItemName>Horizontal Storage Tank</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_84AA9E39-176A-4078-917D-F465A60F300E.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_MvPart</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T09:54:35"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>87302042-F664-4055-B020-4153FFB7FCB2</PartGUID>
+					<PartName>Horizontal Storage Tank</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{E8AB6515-5E44-43E2-B46C-F40DCAB64B1E}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2008-11-25T02:46:19" modifiedUniversalDateTime="2008-11-25T02:46:19"/></Properties><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{50BD463E-56BB-4C59-93DB-513F23B4636B}"/><Properties><ItemName>Fixture</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-12T15:03:23" modifiedUniversalDateTime="2005-12-12T15:03:23"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{81E4EEE3-26C9-4B96-9396-67905C4FCBA4}"/><Properties><ItemName>Drain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_2EBB963F-C117-46DC-A214-1E5590106F63.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2005-09-02T18:02:55"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>6B405BD6-E974-4EFE-A38B-760AEA42AA3C</PartGUID>
+					<PartName>Rectangular Floor Drain</PartName>
+					<PartSizeName>5 x 5 Inch Rectangular Floor Drain</PartSizeName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{F796127E-FE2A-4265-B0EF-5DB72EB1DBD6}"/><Properties><ItemName>Water Closet</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_2F6FED9D-6B9C-4CD0-A38A-82E1F0943BA2.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:31:32"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>54AF4F51-D5FD-4F94-B8B0-107B5E15AE8B</PartGUID>
+					<PartName>Flush Tank Toilet</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{6F999C2F-95D9-4817-94F0-BC7F5FAF319C}"/><Properties><ItemName>Shower</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_8422E6B7-D1A8-41B7-BB8E-ECD032063E97.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:31:46"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>79B4CB70-8279-48D9-9179-BECE871EAEFF</PartGUID>
+					<PartName>Rectangular Shower Stall</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{F9B04384-EF7F-43DE-BD98-F206AA9A5EC9}"/><Properties><ItemName>Sink</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_536A9781-FC7C-4F58-B9D2-EDB0844B9685.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:32:03"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>1CFBEFFC-C159-4FE7-802C-33179D177AD0</PartGUID>
+					<PartName>Double Kitchen Sink</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{7488C71E-7BE7-45C3-BB9D-7D83958BF726}"/><Properties><ItemName>Tub</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_56B5D3FD-A246-4457-8C20-248B163D092D.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2005-09-02T18:02:55"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>DB1E45A8-149C-47B1-A14F-887D10EC2BDF</PartGUID>
+					<PartName>Bath Tub</PartName>
+					<PartSizeName>30 x 42 Inch Bath Tub</PartSizeName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="21.0.0" option="0"><ItemID idValue="{10EAF55F-4D1C-44E0-8D96-CBDD327261B4}"/><Properties><ItemName>Urinal</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_12F70043-3230-4D5F-AD37-919E140DC33D.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_Plumbing_Equip_Fixtures</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:32:25"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>83A847BE-02C0-4D48-8F50-13A07710516B</PartGUID>
+					<PartName>Urinal Stall</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool></Tools></Palette>

@@ -1,0 +1,22 @@
+dim NL=ASCII(10)
+dim rpt = "Existing Links:" +NL+ "¯¯¯¯¯¯¯¯¯¯¯¯¯¯"
+dim linkNums = item.links
+
+rem Get file name and path
+dim FileNamePath = item.path + item.filename + ".itm"
+
+dim loop = 1
+while loop <= linkNums
+  rpt = rpt +NL+ loop + ": " + item.link[loop].name
+  loop = loop + 1
+end while
+
+rpt = rpt +NL+ "_______________________" +NL+ "Enter Link Number to Delete:"
+
+dim Link = Inputbox(rpt, "Delete Link", "")
+if Link >= 1 and Link <= linkNums then
+  item.DeleteLink(Link)
+endif
+
+rem Save item back to folder
+item.save(FileNamePath)

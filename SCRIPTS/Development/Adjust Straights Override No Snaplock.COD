@@ -1,0 +1,71 @@
+rem    Adjust Override for 866 straight burned and decoiled duct
+
+function StraightType()
+
+dim connector = item.connector[1].value
+
+dim width = item.dim["width"].Value
+dim depth = item.dim["depth"].Value
+
+dim length = item.dim["length"].Value
+
+dim L = width+depth
+
+if (connector = "S S&D" or connector = "F S&D") then
+  if (L < 60) then
+    item.Option["Override"].Value = "1 Part Straight"
+  endif
+  if (L >= 60) then
+    item.Option["Override"].Value = "2xL"
+  endif
+  if (L > 120) then
+    if (length = "Auto") then
+      item.Option["Override"].Value = "4xI,M-F"
+    else
+      item.Option["Override"].Value = "4xI,M-M,F-F"
+    endif
+  endif
+endif
+
+if (connector = "S D&S" or connector = "F D&S") then
+  if (L < 60) then
+    item.Option["Override"].Value = "1 Part Straight"
+  endif
+  if (L >= 60) then
+    item.Option["Override"].Value = "2xL"
+  endif
+  if (L > 120) then
+    if (length = "Auto") then
+      item.Option["Override"].Value = "4xI,M-F"
+    else
+      item.Option["Override"].Value = "4xI,M-M,F-F"
+    endif
+  endif
+endif
+
+if (connector = "TDC") then
+  if (length = "Auto") then
+    if (L < 120) then
+      item.Option["Override"].Value = "1 Part Straight"
+    else
+      item.Option["Override"].Value = "4xI,M-F"
+    endif
+  else
+    if (L > 80) then
+      item.Option["Override"].Value = "4xI,M-M,F-F"
+    else
+      item.Option["Override"].Value = "2xL"
+    endif
+  endif
+endif
+
+item.Option["Override"].locked = false
+
+end function
+
+dim val1
+select item.Cid
+case 866
+StraightType()
+item.Option["Override"].locked = false
+end select

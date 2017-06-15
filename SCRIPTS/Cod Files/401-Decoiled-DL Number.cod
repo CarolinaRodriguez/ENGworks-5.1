@@ -1,0 +1,32 @@
+requires task.selection
+Rem NOTE Task Selection has to be on the to line
+
+
+Rem This script will prompt the user for a Decoiled DL Number
+
+
+
+ 
+dim UsrDL = inputbox("Enter Decoiled Dowmload Number")
+
+
+ dim i = 1
+
+ while i <= task.selection.count
+    dim item = task.selection[i]
+   If item.CID = 866 then
+    if item.boughtout = false Then
+ Rem    if Item.customdata["Decoiled"].value = "No" then
+      if item.cuttype = "Decoiled Straight" Then
+     Item.customdata["Decoiled DL"].value = UsrDL
+     Item.customdata["Decoiled"].value = "Yes"
+
+      endif
+ Rem    endif
+    endif
+   Endif
+item.update()
+ 
+    i = i + 1
+ end while
+

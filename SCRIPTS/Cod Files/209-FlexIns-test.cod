@@ -1,0 +1,28 @@
+
+dim InsName = item.insulation.material
+dim InsStat = item.insulation.Status
+dim ISpec = Item.insSpec
+
+If item.cid = 866 then
+ if InsStat = "Inside" and item.option["Override"].value = "1 Part Straight" then
+  if InsName = "K Flex" or InsName = "Armacell" or InsName = "Armaflex" or InsName = "Poly Armor" then
+   item.option["Override"].value = "2xL"
+  endif
+ Endif
+Endif
+
+item.update()
+
+If item.cid = 866 then
+ if item.cuttype = "Decoiled Straight" then
+  if InsName = "K Flex" and item.dimside = "outside" then
+   Dim InsGauge = item.insulation.gauge
+   item.customdata["Ins Thickness"].Value = InsGauge
+  rem item.insulation.material = "K Flex"
+  rem item.insulation.gauge = 0.000
+  Item.insSpec = "0 in"
+ rem   item.insulation.materiallock = True
+  endif
+endif
+endif
+item.update()

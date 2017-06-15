@@ -1,0 +1,28 @@
+requires task.selection
+
+rem Goes through all Items in a Job (or selection) and write out the sealants
+
+object outfile = new file( "C:/JOBITEMSEALANT.TXT", foroutput + istext)
+
+dim loop = 1
+while loop <= task.selection.count
+
+  dim jobitem = task.selection[loop]
+
+  loop = loop + 1
+
+  rem loop through all the sealants on the item and extract the name
+  dim lp
+  dim Sealants = ""
+      Sealants = Sealants + jobitem.sealant.value + ","
+
+  rem Note, we are writing out the Item Number and Description to identify the part when we read it back in
+  rem HANDLE is not in scripting yet!!!!
+  dim number       = jobitem.number
+  dim description  = jobitem.description
+
+  outfile.writeline(number + "-" + description + "," + Sealants)
+
+endwhile
+
+outfile.close()

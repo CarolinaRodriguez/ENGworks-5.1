@@ -1,0 +1,127 @@
+REM *************************************************************************************************
+REM Function definitions
+REM *************************************************************************************************
+
+function CheckStraight()
+  dim width = getdimvalue("Width", void, false)
+  dim depth = getdimvalue("Depth", void, false)
+  dim length = getdimvalue("Length", void, false)
+  dim override=Item.Option["Straight Type"]
+  dim 1periphery = width+width+depth+depth
+  dim 1aUperiphery = width+width+depth
+  dim 1bUperiphery = width+depth+depth
+  dim 2Lperiphery = width+depth
+  dim maxperiphery = 12
+  dim itemSpecification = Item.specification
+  
+ 
+
+REM  debug length
+REM  debug override
+
+  if itemSpecification = "Basse Pression" then
+	if width < 24.1 then
+		if depth < 24.1 then
+			maxperiphery = 47
+		endif
+	else
+		maxperiphery = 95
+	
+	endif
+
+  elseif itemSpecification = "Medium Pression" then
+	if width < 18.1 then
+		if depth < 18.1 then
+			maxperiphery = 47
+		endif
+	else
+		maxperiphery = 95
+	
+	endif
+
+  
+
+  endif
+
+  if 1periphery < maxperiphery then
+
+	override = "1 Part Straight"
+	item.Option["override"].Value=override
+
+  
+  elseif 1aUperiphery < maxperiphery then
+
+ 	 override = "1xU,1xI"
+	 item.Option["override"].Value=override
+
+
+  elseif 1bUperiphery < maxperiphery then
+
+	override = "1xU,1xI"
+	item.Option["override"].Value=override
+
+
+  elseif 2Lperiphery < maxperiphery then
+
+	override = "2xL"
+	item.Option["override"].Value=override
+
+
+  elseif 2Lperiphery > maxperiphery then
+
+	override = "4xI,M-M,F-F"
+	item.Option["override"].Value=override 
+
+
+  endif
+  
+
+
+  
+  
+end function
+
+function getdimvalue(name1, name2="", err=true)
+
+  rem Access dims by name (including alternative name) SAFELY
+
+  dim rv=0.0
+  dim done=false
+
+  if item.dim[name1] then
+    rv=item.dim[name1].NumValue
+    done=true
+  elseif item.dim[name2] then
+    rv=item.dim[name2].NumValue
+    done=true
+  endif
+    
+  if done=false and err=true then
+
+    rem ERROR - dim not found ; show debug msg and list all dims
+
+    dim lp
+    dim all = "Unable to Locate Dim '" + name1 + "' [or '" + name2 + "'] in item " + item.Number + ascii(13)
+
+    for lp=1 to item.dims
+      dim v = item.dim[lp].Annotation + ": "+ item.dim[lp].Name + " = " + item.dim[lp].Value
+      all = all + ascii(13) + v
+    next
+
+    debug all
+
+  endif
+
+  return rv
+
+endfunction
+
+REM **************************************************************************************************
+REM Main program
+REM **************************************************************************************************
+
+select item.Cid
+  case 866
+   CheckStraight()
+	
+end select

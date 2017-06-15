@@ -1,0 +1,305 @@
+<Palette FileRevision="18.1.0" Revision="18.1.0" option="0"><ItemID idValue="{9B1D7CBB-92E2-47B9-953D-14158451375F}"/><Properties><ItemName>Cable Tray &amp; Conduit</ItemName><Images option="0"/><Description>This palette contains a sampling of customized cable tray and conduit tools. They refer to the catalogs specified in the Options dialog.</Description><Time createdUniversalDateTime="2005-12-10T16:57:38" modifiedUniversalDateTime="2009-08-24T17:13:08"/></Properties><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{5B989467-90CA-4867-B087-E14B7A39DD75}"/><Properties><ItemName>Cable Tray and Fittings</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-10T17:11:30" modifiedUniversalDateTime="2005-12-10T17:11:30"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5ED9427B-CE75-46EB-818C-4BE5C68F2860}"/><Properties><ItemName>Data</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_5ED9427B-CE75-46EB-818C-4BE5C68F2860.png"/></Images><Description>Creates a cable tray in the Cabl-Data system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:52" modifiedUniversalDateTime="2005-12-14T14:17:48"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayAdd" "sy" "Cabl-Data")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D636C612-F314-4469-B51B-76F664EBF754}"/><Properties><ItemName>Power</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_D636C612-F314-4469-B51B-76F664EBF754.png"/></Images><Description>Creates a cable tray in the Cabl-Power system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:52" modifiedUniversalDateTime="2006-07-27T11:35:12"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayAdd" "sy" "Cabl-Power")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3BDAD89C-00C2-4BE1-95B7-92C077F92BBF}"/><Properties><ItemName>Voice Data</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_3BDAD89C-00C2-4BE1-95B7-92C077F92BBF.png"/></Images><Description>Creates a cable tray in the Cabl-Voice Data system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:52" modifiedUniversalDateTime="2006-07-27T11:35:06"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayAdd" "sy" "Cabl-Voice Data")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3DBC4845-3EE2-4A85-A4D8-DE2B1CA63ED4}"/><Properties><ItemName>Existing</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_3DBC4845-3EE2-4A85-A4D8-DE2B1CA63ED4.png"/></Images><Description>Creates a cable tray in the Cabl-Existing system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:52" modifiedUniversalDateTime="2006-07-27T11:34:55"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayAdd" "sy" "Cabl-Existing")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{7899DDE0-90B9-41FE-BF9B-D7153ADAA752}"/><Properties><ItemName>Demo</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_7899DDE0-90B9-41FE-BF9B-D7153ADAA752.png"/></Images><Description>Creates a cable tray in the Cabl-Demo system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:52" modifiedUniversalDateTime="2006-07-27T11:34:45"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayAdd" "sy" "Cabl-Demo")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5AAAA398-9F7B-4F7E-A185-3019D33C1FDB}"/><Properties><ItemName>Elbow</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_5AAAA398-9F7B-4F7E-A185-3019D33C1FDB.png"/></Images><Description>Creates a cable tray fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:54" modifiedUniversalDateTime="2006-01-12T16:17:53"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayFittingAdd" "_ty" "elbow")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{954C9631-D8AA-43D1-8EE3-FD3D33515463}"/><Properties><ItemName>Transition</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_954C9631-D8AA-43D1-8EE3-FD3D33515463.png"/></Images><Description>Creates a cable tray fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:54" modifiedUniversalDateTime="2006-07-27T11:32:11"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayFittingAdd" "_ty" "transition")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{55473D2C-97C2-420D-8ED1-00FE03AF2486}"/><Properties><ItemName>Tee</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_55473D2C-97C2-420D-8ED1-00FE03AF2486.png"/></Images><Description>Creates a cable tray fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:54" modifiedUniversalDateTime="2006-07-27T11:32:20"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayFittingAdd" "_ty" "tee")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C31C7034-FA5E-477B-9835-701F30915264}"/><Properties><ItemName>Cross</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_C31C7034-FA5E-477B-9835-701F30915264.png"/></Images><Description>Creates a cable tray fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:54" modifiedUniversalDateTime="2006-01-12T16:18:08"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_AecbCableTrayFittingAdd" "_ty" "cross")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{54633C54-D807-42BB-BE72-C96CD03AB920}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-07-24T18:58:33" modifiedUniversalDateTime="2006-07-24T18:58:33"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{3C474F1C-A773-41B1-87FA-BFF592E46DF1}"/><Properties><ItemName>Conduit and Fittings</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-07-24T18:58:24" modifiedUniversalDateTime="2006-07-24T18:58:24"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2CE40A0D-349A-48B2-96BF-4BFBF956E33E}"/><Properties><ItemName>Conduit</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit_2CE40A0D-349A-48B2-96BF-4BFBF956E33E.png"/></Images><Description>Creates a Conduit.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2009-06-03T15:58:49" modifiedUniversalDateTime="2009-08-25T10:13:18"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{9A3B5C62-92D8-4462-A5EF-C4ED296E4F9A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>--</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSegment>
+					<ConnectionType>--</ConnectionType>
+				</AecbDbSegment>
+				<AecbDbConduit>
+					<NominalSize Lock="0"/>
+				</AecbDbConduit>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{148D8404-5E9E-46D3-80CD-2D1872123D97}"/><Properties><ItemName>Conduit Fitting</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit Fitting_148D8404-5E9E-46D3-80CD-2D1872123D97.png"/></Images><Description>Creates a Conduit Fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2009-06-03T15:58:49" modifiedUniversalDateTime="2009-08-25T11:14:26"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{96BACFD5-B8EF-4162-A4CC-031FB74DBD2E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>64D76CB5-5E42-465B-8846-E8A4AA0D1748</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbFitting>
+					<Rotation>0</Rotation>
+				</AecbDbFitting>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D449ABA9-164A-405B-9601-BABF867F5498}"/><Properties><ItemName>By System</ItemName><Images option="0"/><Time createdUniversalDateTime="2009-08-24T09:22:49" modifiedUniversalDateTime="2009-08-24T09:22:49"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0A293B4D-D054-4226-9FBA-E31E9576B488}"/><Properties><ItemName>Data</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit_0A293B4D-D054-4226-9FBA-E31E9576B488.png"/></Images><Description>Creates a conduit in the Cndt-Data system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:55" modifiedUniversalDateTime="2009-08-25T10:15:30"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{9A3B5C62-92D8-4462-A5EF-C4ED296E4F9A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>--</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSegment>
+					<ConnectionType>Compression</ConnectionType>
+				</AecbDbSegment>
+				<AecbDbConduit>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Cndt-Data (DAT)</System>
+					<NominalSize Lock="0"/>
+				</AecbDbConduit>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{95B688F7-3AFE-4938-9672-0FA6D4CAD35B}"/><Properties><ItemName>Emergency</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit_95B688F7-3AFE-4938-9672-0FA6D4CAD35B.png"/></Images><Description>Creates a conduit in the Cndt-Emergency system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:55" modifiedUniversalDateTime="2009-08-25T10:16:42"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{9A3B5C62-92D8-4462-A5EF-C4ED296E4F9A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>39BCD643-22D9-11D5-8EE2-0010B5481882</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSegment>
+					<ConnectionType>Compression</ConnectionType>
+				</AecbDbSegment>
+				<AecbDbConduit>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Cndt-Emergency (EMR)</System>
+					<NominalSize Lock="0"/>
+				</AecbDbConduit>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6B4F757F-F43F-44D8-854F-816CC1751325}"/><Properties><ItemName>Lighting</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit_6B4F757F-F43F-44D8-854F-816CC1751325.png"/></Images><Description>Creates a conduit in the Cndt-Lighting system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:55" modifiedUniversalDateTime="2009-08-25T10:17:41"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{9A3B5C62-92D8-4462-A5EF-C4ED296E4F9A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>39BCD643-22D9-11D5-8EE2-0010B5481882</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSegment>
+					<ConnectionType>Compression</ConnectionType>
+				</AecbDbSegment>
+				<AecbDbConduit>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Cndt-Lighting (LTG)</System>
+					<NominalSize Lock="0"/>
+				</AecbDbConduit>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B84E8395-0625-4F24-BE45-AEE41659C69B}"/><Properties><ItemName>Power</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit_B84E8395-0625-4F24-BE45-AEE41659C69B.png"/></Images><Description>Creates a conduit in the Cndt-Power system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:55" modifiedUniversalDateTime="2009-08-25T10:18:32"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{9A3B5C62-92D8-4462-A5EF-C4ED296E4F9A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>39BCD643-22D9-11D5-8EE2-0010B5481882</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSegment>
+					<ConnectionType>Compression</ConnectionType>
+				</AecbDbSegment>
+				<AecbDbConduit>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Cndt-Power (PWR)</System>
+					<NominalSize Lock="0"/>
+				</AecbDbConduit>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{138D021C-5868-4F92-B669-33F467001B57}"/><Properties><ItemName>Telephone</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit_138D021C-5868-4F92-B669-33F467001B57.png"/></Images><Description>Creates a conduit in the Cndt-Telephone system.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Draw_Cabletray_Conduit_Runs</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:55" modifiedUniversalDateTime="2009-08-25T10:19:15"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{9A3B5C62-92D8-4462-A5EF-C4ED296E4F9A}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>39BCD643-22D9-11D5-8EE2-0010B5481882</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSegment>
+					<ConnectionType>Compression</ConnectionType>
+				</AecbDbSegment>
+				<AecbDbConduit>
+					<System ref="%AECCONTENT_DIR%\Styles\Imperial\System Definitions (US Imperial).dwg">Cndt-Telephone (PHO)</System>
+					<NominalSize Lock="0"/>
+				</AecbDbConduit>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{642E8FEE-FD88-447C-AAB7-03FB814DB20F}"/><Properties><ItemName>By Shape</ItemName><Images option="0"/><Time createdUniversalDateTime="2009-08-24T09:23:08" modifiedUniversalDateTime="2009-08-24T09:23:08"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2F137AF3-9B3D-4301-BDE6-82A8B377373C}"/><Properties><ItemName>Elbow</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit Fitting_2F137AF3-9B3D-4301-BDE6-82A8B377373C.png"/></Images><Description>Creates a conduit fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:57" modifiedUniversalDateTime="2009-08-25T10:41:26"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{96BACFD5-B8EF-4162-A4CC-031FB74DBD2E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>64D76CB5-5E42-465B-8846-E8A4AA0D1748</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbFitting>
+					<PartType>Elbow</PartType>
+					<Rotation>0</Rotation>
+				</AecbDbFitting>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{71B429EB-CD66-4774-A57D-B3A145C081EE}"/><Properties><ItemName>Tee</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit Fitting_71B429EB-CD66-4774-A57D-B3A145C081EE.png"/></Images><Description>Creates a conduit fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:57" modifiedUniversalDateTime="2009-08-25T10:47:00"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{96BACFD5-B8EF-4162-A4CC-031FB74DBD2E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>A7BE0B01-6503-4474-BC52-58C080C58BB4</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbFitting>
+					<PartType>Tee</PartType>
+					<Rotation>0</Rotation>
+				</AecbDbFitting>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{36850F45-1633-4BE2-8360-104C0866308A}"/><Properties><ItemName>Body</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit Fitting_36850F45-1633-4BE2-8360-104C0866308A.png"/></Images><Description>Creates a conduit fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:57" modifiedUniversalDateTime="2009-08-25T11:20:16"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{96BACFD5-B8EF-4162-A4CC-031FB74DBD2E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>021A6A2F-F2CB-45AD-B6AA-3EF659DFF5C9</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbFitting>
+					<PartType>Conduit_Body</PartType>
+					<Rotation>0</Rotation>
+				</AecbDbFitting>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0FF3B85C-E2A5-4E70-BF49-EE9F0B2FB0D6}"/><Properties><ItemName>Transition</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Conduit Fitting_0FF3B85C-E2A5-4E70-BF49-EE9F0B2FB0D6.png"/></Images><Description>Creates a conduit fitting.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaCableTrayorConduitFitting</HelpData></Help><Time createdUniversalDateTime="2004-01-12T12:10:57" modifiedUniversalDateTime="2009-08-25T11:20:26"/></Properties><CustomData>
+				<Version>6.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{96BACFD5-B8EF-4162-A4CC-031FB74DBD2E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>B594E9BC-3C4F-4138-9CC6-D20A053B5831</PartGUID>
+					<PartName>--</PartName>
+					<PartSizeName>--</PartSizeName>
+					<InsulationThickness>0</InsulationThickness>
+				</AecbDbBuildingServiceMember>
+				<AecbDbFitting>
+					<PartType>Transition</PartType>
+					<Rotation>0</Rotation>
+				</AecbDbFitting>
+			</Data>
+		</Tool></Tools></Palette>

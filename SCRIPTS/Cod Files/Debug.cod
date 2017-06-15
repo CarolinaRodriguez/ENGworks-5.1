@@ -1,0 +1,36 @@
+Rem Debug item.struct.value
+Rem Debug item.option["Seam Number For Throat"].value
+rem Debug item.wiregauge
+Rem Debug item.dim[3].value
+Rem Debug item.description
+rem Debug Item.dim["Length"].numvalue
+Rem debug item.Stiffener[1].value
+rem Debug Item.dim["Length"].value
+rem debug item.option["Seam Number For Throat"].value
+rem debug item.handle
+rem debug systemDate
+rem dim i = 1
+rem dim uniqueIdStr = systemDateTime + " (" + i + ")"
+rem debug uniqueIdStr
+rem Debug item.option[1].value
+rem dim section = item.level("floor")
+rem debug item.section
+Rem debug item.material
+rem if item.insulation.material = "K Flex" then
+rem  item.insulation.material = "Armaflex"
+rem  item.insulation.materiallock = true
+rem endif
+rem debug item.dimside
+rem debug item.insulation.gauge
+rem debug item.insspec
+rem debug item.ispeclock
+rem item.insspec = "none"
+Rem debug item.material
+Rem debug item.material.lock
+rem debug item.scancount
+rem dim section = item.level("floor")
+rem debug drawingnumber
+rem debug job.date
+rem debug job.requiredby
+rem debug item.option[1].value
+debug Item.connector[1].type

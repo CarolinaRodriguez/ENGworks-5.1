@@ -1,0 +1,15 @@
+Rem Script Code = DynHoleAdj
+
+If item.cid = 866 then
+ Item.option["Machine Cut If Dynamic Branches"].value = "yes"
+endif
+Item.update()
+
+If item.cid = 866 and item.cuttype = "Machine Cut" and item.dim["Length"].value = "Auto" then
+ Dim Len = item.dim["Length"].numvalue
+ dim SC = Item.customdata["ScriptCode"].value
+ item.dim["Length"].value = (Len-.5)
+ Item.customdata["ScriptCode"].value = SC + "-" + "DynHoleAdj"
+endif
+Item.update()
+

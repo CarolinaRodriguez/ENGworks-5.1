@@ -1,0 +1,6 @@
+
+If item.airturns = 1 or item.airturns = 2 then
+item.airturn[1].locked = False
+Endif
+
+Item.update()

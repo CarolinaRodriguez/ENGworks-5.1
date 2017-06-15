@@ -1,0 +1,6 @@
+If item.cid = 838 Then
+
+ Item.option["Insulation Shield"].value = "Yes"
+ Item.option["Block Thickness"].value = ".1"
+ Item.option["Block Length"].value = "12"
+endif

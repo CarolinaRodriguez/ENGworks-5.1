@@ -1,0 +1,6 @@
+REM This will overide Decoiled Straight to Sheared
+
+If item.cid = 866 and Item.cuttype = "Decoiled Straight" then
+ item.customdata["ChkFlag"].Value = "Shear"
+ Item.option["Override Cut Type"].value = "Sheared"
+Endif

@@ -1,0 +1,2 @@
+Query("Top: " + Item.Dim["Top Extension"].NumValue + " | Bottom: " + Item.Dim["Bottom Extension"].NumValue + " | Seam: " + Item.Option["Seam Number For Throat"].value)
+

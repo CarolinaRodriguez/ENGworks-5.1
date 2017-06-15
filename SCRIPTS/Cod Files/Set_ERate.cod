@@ -1,0 +1,94 @@
+dim rootpath = mappath_items + "/Imperial Content/Public Health/"
+dim pathfrom = "items"
+
+REM *** DONT CHANGE ANYTHING AFTER THIS ***
+requires task
+dim cr = ascii(10)
+
+function getrelativefrom( path, relativefrom )
+  dim rellen=len(relativefrom)
+  dim rel = instr(1, path, "\" + relativefrom + "\")
+  if not rel then rel = instr(1, path, "/" + relativefrom + "/")
+  dim rv
+  if rel then
+    rv = substring( path, rel+rellen+2, 0 )
+  else
+    rv = path
+  endif
+
+  return rv
+endfunction
+
+function UpdateItem ( path )
+  rem scan for all items in the specified folder
+  dim filescan as filelocator
+  filescan.scan(path, "*.itm", true, false)
+ 
+  dim folderscan as filelocator
+  folderscan.scan(path, "*.*", false, true)
+ 
+  dim lp, lp2
+
+  dim progressfiles = (folderscan.foldercount = 0)
+ 
+  if progressfiles then task.beginprogress(filescan.filecount)
+ 
+  for lp=1 to filescan.filecount
+ 
+    rem load the item
+    dim item as itemstruct
+ 
+    dim loadfile=filescan.file[lp]
+    dim sf=getrelativefrom( path, pathfrom )
+    sf=substring(sf,1,-1)
+    sf=GetFilename(sf)
+
+    rem show parent folder name and itm filename
+    task.message = sf + cr + GetFilename( loadfile )
+ 
+    if item.load(loadfile) then
+      
+      item.InstallTable	= "MCAA"
+      if item.save(loadfile) = 0 then error "unable to save file " + loadfile
+    endif
+ 
+
+    if task.aborted then
+      lp=filescan.filecount
+    endif
+ 
+    if progressfiles then task.progress = task.progress + 1
+
+  next lp
+
+  if progressfiles then
+    task.endprogress()
+  else
+    task.beginprogress( folderscan.foldercount )
+  endif
+ 
+  for lp=1 to folderscan.foldercount
+ 
+    dim nextpath = folderscan.folder[lp]
+ 
+    task.message = "Scanning " + cr + nextpath
+ 
+    UpdateItem( nextpath )
+
+    if task.aborted then
+      lp=folderscan.foldercount
+    endif
+
+    if not progressfiles then task.progress = task.progress + 1
+ 
+  next lp
+
+  if not progressfiles then task.endprogress()
+ 
+end function
+ 
+ 
+ task.beginprogress( 1 )
+ task.progress = 0
+ UpdateItem( rootpath )
+ task.endprogress()

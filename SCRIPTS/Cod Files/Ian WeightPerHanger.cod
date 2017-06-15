@@ -1,0 +1,48 @@
+requires task.selection
+
+REM Set count and weight to zero
+
+dim HangerCount = 0
+dim PipeWeight = 0
+
+REM Count hangers in selection set
+REM Calculate weight of total pipe length (CID 2014) and weight of fittings
+REM Add other service types to the 'select' statement if required
+
+dim i = 1
+
+while i <= task.selection.count
+  dim item = task.selection[i]
+ 
+    select item.ServiceType
+      case "Pipework"
+        if item.CID=2041 then
+          PipeWeight=PipeWeight + (item.weight * (item.dim["Length"].numvalue / 12))
+        else
+          PipeWeight=PipeWeight+Item.Weight
+        endif
+      case "Hanger"
+        HangerCount=HangerCount+1
+    endselect
+
+  i = i + 1
+endwhile
+
+REM Calculate weight per hanger
+
+dim WeightPerHanger = PipeWeight / HangerCount
+
+REM Write weight per hanger into CustomData[1] for all hangers in selection set
+
+i = 1
+
+while i<=task.selection.count
+  dim item = task.selection[i]
+
+    if item.ServiceType = "Hanger" then
+      item.CustomData[1].value = WeightPerHanger
+      item.update()
+    endif
+
+  i=i+1
+endwhile

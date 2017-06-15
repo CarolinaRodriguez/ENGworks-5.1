@@ -1,0 +1,68 @@
+If item.cid = 8 then
+Dim Stretchout = (Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue)*2
+  Item.option["Marker Type"].value = "none"
+    If (Wildcard(item.seam[1].value, "*weld*")=0) then
+     item.Seam[1].value = "1/2 Lap."
+     item.Seam[1].locked = true
+    Endif
+  if stretchout < 65 then
+   Item.option["Cross Break"].value = "1"
+  Endif
+Endif
+
+Rem Change Qty of Gores on Elbows
+If item.cid = 61 then
+ if item.dim[2].numvalue < (item.dim[1].numvalue)*.9 then
+  if item.dim["Angle"].numvalue < 91 and item.dim["Angle"].numvalue >45 then
+    item.option[1].value = "4"
+  endif
+  if item.dim["Angle"].numvalue < 46 and item.dim["Angle"].numvalue >30 then
+    item.option[1].value = "3"
+  endif
+  if item.dim["Angle"].numvalue < 31 and item.dim["Angle"].numvalue >0 then
+    item.option[1].value = "2"
+  endif
+ endif
+ Item.option["Marker Type"].value = "slit"
+ Item.option["Mark Sides"].value = "yes"
+ item.Seam[1].value = "Weld Galvanized."
+  item.Seam[1].locked = true
+ item.Connector[1].value = "Butt Weld."
+   item.Connector[1].locked = true
+endif
+
+rem debug item.dim[2].numvalue
+
+Rem Change old XL-Pits to L-Pits
+
+If item.seams > 0 then
+    if item.seam[1].value = "XL-Pits" or item.seam[1].value = "LRP" or item.seam[1].value = "RP" Then
+      item.seam[1].value = "L-Pits"
+       item.seam[1].locked = true
+  Endif
+Endif
+
+If Item.Seams = 2 then
+    if item.seam[2].value = "XL-Pits" Then
+      item.seam[2].value = "L-Pits"
+       item.seam[2].locked = true
+  Endif
+Endif
+
+Rem Change New L-Pits to XL-Pits
+If item.seams > 0 then
+    if item.seam[1].value = "XL-Pits." or item.seam[1].value = "LRP." or item.seam[1].value = "RP." Then
+      item.seam[1].value = "L-Pits."
+       item.seam[1].locked = true
+  Endif
+Endif
+
+If Item.Seams = 2 then
+    if item.seam[2].value = "XL-Pits." Then
+      item.seam[2].value = "L-Pits."
+       item.seam[2].locked = true
+  Endif
+Endif
+
+
+Item.update ()

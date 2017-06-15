@@ -1,0 +1,40 @@
+Rem This script will set locks on items that are issued
+
+
+if item.status = "Issued" then
+ if item.connectors > 0 then
+  item.Connector[1].locked = true
+ endif
+ if item.connectors > 1 then
+  item.Connector[2].locked = true
+ endif
+ if item.connectors > 2 then
+  item.Connector[3].locked = true
+ endif
+ if item.connectors > 4 then
+  item.Connector[4].locked = true
+ endif
+ 
+ if item.seams > 0 then
+  item.seam[1].locked = true
+ endif
+ if item.seams > 1 then
+  item.seam[2].locked = true
+ endif
+ 
+ if Item.airturns > 0 then
+  item.airturn[1].locked = true
+ endif
+ if Item.airturns > 1 then
+  item.airturn[2].locked = true
+ endif
+
+ if item.stiffeners > 0 Then
+ item.stiffener[1].locked = true
+ endif
+
+ item.speclock = true
+ item.gaugelock = True
+ item.ispeclock = true
+ item.insulation.materiallock = true
+endif

@@ -1,0 +1,159 @@
+rem demonstrates scanning for item files, loading them, modifying them
+rem and saving them back
+rem also outputting to console / debug file
+rem and using Task abort/message/progress information
+
+requires task
+
+dim frompath = mappath_items
+dim cr=ascii(10)
+dim practiserun = false
+
+function ModifyItem( item, descr)
+
+  rem ** don't change this - it determines whether we need to save the file
+  rem ** change practiserun to false to control saving the items!
+  dim save = false
+ 
+  if not item.doublewall then
+
+    if item.skinmaterial<>"none" and item.skinmaterial<>"error" then
+      item.skinmaterial="none"
+      output descr + ": skin material set" + cr
+      save = true
+    endif
+
+    rem this is needed to access dw insulation, rather than normal insulation
+    if item.candoublewall() then
+      item.doublewall=true
+ 
+      if item.insulation.material<>"none" and item.insulation.material<>"error" then
+        item.insulation.material="none"
+        output descr + ": skin insulation set" + cr
+        save = true
+      endif
+ 
+      item.doublewall=false
+    endif
+
+    dim clp
+    for clp = 1 to item.connectors
+      dim conn=item.skinconnector[clp]
+      if conn then
+        if conn.value <> "none" then
+          conn.value = "none"
+          output descr + ": connector " + clp + " set" + cr
+          save = true
+        endif
+      endif
+    next
+ 
+    dim slp
+    for slp = 1 to item.seams
+      dim seam=item.skinseam[slp]
+      if seam then
+        if seam.value <> "none" then
+          seam.value = "none"
+          output descr + ": seam " + slp + " set" + cr
+          save = true
+        endif
+      endif
+    next
+ 
+  endif
+ 
+  return save
+ 
+end function
+
+rem ** DONT CHANGE ANYTHING AFTER THIS **
+
+function CheckItem(item, filename)
+
+  dim save = Modifyitem(item, filename)
+ 
+  dim lp
+  for lp = 1 to item.subitems
+    if ModifyItem(item.subitem[lp], filename + " #" + lp) then
+      save = true
+    endif
+  next
+ 
+  return save
+end function
+ 
+dim changed = 0
+
+function scanfolder( folder )
+
+  object list = new filelocator
+  list.scan( folder, "*.itm", true, false)
+ 
+  dim lp, count = 0
+ 
+  for lp=1 to list.filecount
+
+    dim file = list.file[lp]
+     dim ifile=GetFilename( list.file[lp] )
+ 
+    task.message = folder + cr + ifile
+ 
+    object itm = new itemstruct
+    if itm.load(list.file[lp]) then
+
+      if CheckItem( itm, ifile ) then
+ 
+        dim saved = true
+ 
+        if not practiserun then
+          saved = itm.save(list.file[lp])
+        endif
+ 
+        if saved then
+          changed = changed + 1
+        else
+          debug "failed to save item '" + list.file[lp] + "'"
+        endif
+ 
+      endif
+
+      count = count + 1
+ 
+    endif
+
+    if task.aborted then
+      lp=list.filecount
+    endif
+ 
+  next
+
+  list.scan( folder, "*.*", false, true)
+
+  rem ** use progress just on subfolders
+  task.beginprogress(list.foldercount)
+ 
+  for lp=1 to list.foldercount
+ 
+    dim subfolder = list.folder[lp]
+ 
+    count = count + scanfolder(subfolder)
+ 
+    if task.aborted then
+      task.progress = list.foldercount
+      lp=list.foldercount
+    else
+      task.progress = task.progress + 1
+    endif
+ 
+  next
+ 
+  task.endprogress()
+
+  return count
+
+endfunction
+
+task.caption = "Scanning Items"
+dim count = scanfolder(frompath)
+task.message = "completed"
+if not task.aborted then debug "Changed " + changed + "/" + count + " item files"

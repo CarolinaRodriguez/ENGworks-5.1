@@ -1,0 +1,5 @@
+if 26ga = "No" and item.sourcefilename not "Spiral Pipe" then
+  if item.wiregauge = 26 then
+    item.wiregauge = 24
+  endif
+endif

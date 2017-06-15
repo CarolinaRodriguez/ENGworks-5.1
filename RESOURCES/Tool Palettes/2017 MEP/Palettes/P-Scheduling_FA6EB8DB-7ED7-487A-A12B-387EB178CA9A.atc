@@ -1,0 +1,208 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{FA6EB8DB-7ED7-487A-A12B-387EB178CA9A}"/><Properties><ItemName>Tag &amp; Schedule</ItemName><Images option="0"/><Description>This palette contains schedule and tag tools.  Use the tag tools to tag objects transparently through xrefs.</Description><Time createdUniversalDateTime="2005-12-08T18:19:27" modifiedUniversalDateTime="2006-03-17T15:40:21"/></Properties><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{44B88AEB-1717-42C1-9D35-AE0A0E33C396}"/><Properties><ItemName>Tag</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-12T15:49:50" modifiedUniversalDateTime="2005-12-12T15:49:50"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5211FDC8-3C33-4BEC-8624-23065A3D4A44}"/><Properties><ItemName>Generic Equipment - Text</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Tag Tool_74E593F9-DD6D-4595-982F-C86A7AD21572.png"/></Images><Description>Creates an intelligent tag for a piece of equipment.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Aecb_Generic_Equipment_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>GEquipmentCommonObjects;GEquipmentCommonStyles</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg"/>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5EA26412-F510-4B4D-81AD-BDDD5C2BF077}"/><Properties><ItemName>Plumbing Fixture - Text</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Tag Tool_D0C9E777-31DA-4D8C-8E7D-9C4C464AB239.png"/></Images><Description>Creates an intelligent tag for a plumbing fixture.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Aecb_Plumbing_Fixture_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>GEquipmentCommonObjects;GEquipmentCommonStyles</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg"/>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D9FD0074-85CB-424F-A9A9-39E9451A1314}"/><Properties><ItemName>Plumbing Fixtures &amp; Piping Connections - Text</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Tag Tool_C61C6963-54E1-4436-93B8-366B7AFFE6DB.png"/></Images><Description>Creates an intelligent tag for plumbing fixtures and piping connnections.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Aecb_Plumbing_Fixture_&amp;_Piping_Connections_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>GEquipmentCommonObjects;GEquipmentCommonStyles;PFIXTURECONNECTIONSPECIFICOBJECTS</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg"/>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{5DDE728B-063F-431F-A348-7F9A039CA266}"/><Properties><ItemName>Plumbing Pump - Text</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Tag Tool_F7F1BF2C-5D5E-4DD3-B08B-1497526EA054.png"/></Images><Description>Creates an intelligent tag for a pump.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Aecb_Plumbing_Pump_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>GEquipmentCommonObjects;PPumpSpecificObjects;MMOTORSPECIFICOBJECTS;ECURRENTOBJECTS;EVOLTAGEOBJECTS</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg"/>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{60143049-23CA-42D0-9A6C-775090AB33CA}"/><Properties><ItemName>Submersible Ejector Pump - Text</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Tag Tool_9910C91B-259E-4DC7-8851-83DB1ACAC471.png"/></Images><Description>Creates an intelligent tag for a submersible ejector pump.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Aecb_Plumbing_Submersible_Ejector_Pump_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>GEquipmentCommonObjects;PPumpSpecificObjects;PPumpSubmersibleSpecificObjects;MMOTORSPECIFICOBJECTS;ECURRENTOBJECTS;EVOLTAGEOBJECTS</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg"/>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F46711A1-7A19-4C76-9B0D-CA08E8411A95}"/><Properties><ItemName>Water Heater (Gas) - Text</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Tag Tool_7EDC9EEC-A3C4-42FF-A0D3-3C5A252251E8.png"/></Images><Description>Creates an intelligent tag for a water heater.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Aecb_Plumbing_Water_Heater_(Gas)_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>GEquipmentCommonObjects;PWaterHeaterSpecificObjects;HProcessHeatingGasSideObjects;ECURRENTOBJECTS;EVOLTAGEOBJECTS</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg"/>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{D2258CE8-FC87-4009-8A03-418304FFDAB7}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-12T16:37:33" modifiedUniversalDateTime="2005-12-12T16:37:33"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{7E22DB69-DE28-40C6-BA9B-F65BF3056567}"/><Properties><ItemName>Schedule</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-12T16:37:35" modifiedUniversalDateTime="2005-12-12T16:37:35"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0605B345-89B0-4550-B4AF-3AE41BD052E0}"/><Properties><ItemName>Plumbing Fixture</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Table Tool_9F9107C6-3B87-47A9-9370-0E3C721330D5.png"/></Images><Description>Creates a Schedule Table</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Schedule</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbGeo>
+					<LayerKey>SCHEDOBJ</LayerKey>
+				</AecDbGeo>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Plumbing Fixture Schedule</Style>
+				</AecDbScheduleTable>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3BFE0A58-6863-428C-A3FA-6E42E8300146}"/><Properties><ItemName>Plumbing Fixture &amp; Pipe Connection</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Table Tool_53D78090-51D6-4CDA-A98B-9489AD8BA18C.png"/></Images><Description>Creates a Schedule Table</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Schedule</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbGeo>
+					<LayerKey>SCHEDOBJ</LayerKey>
+				</AecDbGeo>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Plumbing Fixture &amp; Pipe Connection Schedule</Style>
+				</AecDbScheduleTable>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E2972288-2088-4EC7-84FF-69BA284D16BE}"/><Properties><ItemName>Plumbing Pump</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Table Tool_DBA6D30B-1AB9-4143-8CD7-B7E1A7C0C407.png"/></Images><Description>Creates a Schedule Table</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Schedule</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbGeo>
+					<LayerKey>SCHEDOBJ</LayerKey>
+				</AecDbGeo>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Plumbing Pump Schedule</Style>
+				</AecDbScheduleTable>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{3990D16C-DAE8-45D8-B339-2B9FB0729C89}"/><Properties><ItemName>Submersible Ejector Pump</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Table Tool_68B39315-0068-4500-B84A-FA91FB740AD5.png"/></Images><Description>Creates a Schedule Table</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Schedule</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbGeo>
+					<LayerKey>SCHEDOBJ</LayerKey>
+				</AecDbGeo>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Plumbing Submersible Ejector Pump Schedule</Style>
+				</AecDbScheduleTable>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1FA30541-FA62-456B-BBAE-B1FE03F3F06F}"/><Properties><ItemName>Water Heater (Gas)</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Schedule Table Tool_B8D142D5-603F-47A3-BC33-2E1D5524EB1E.png"/></Images><Description>Creates a Schedule Table</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Schedule</HelpData></Help><Time createdUniversalDateTime="2005-02-22T15:53:49" modifiedUniversalDateTime="2005-02-22T15:53:49"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{D7D57910-0EAC-4174-A3D9-43ED9B3673BD}"/><Data>
+				<AecDbGeo>
+					<LayerKey>SCHEDOBJ</LayerKey>
+				</AecDbGeo>
+				<AecDbScheduleTable>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Plumbing Equipment Tags &amp; Schedules (US Imperial).dwg">Plumbing Water Heater (Gas) Schedule</Style>
+				</AecDbScheduleTable>
+				<Units>inch</Units>
+			</Data>
+		</Tool></Tools></Palette>

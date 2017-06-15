@@ -1,0 +1,9 @@
+If item.CID = 838 Then
+ if item.option["Type"].value = "Clevis Hanger" Then
+  dim REA = item.dim[7].numvalue
+  debug REA
+ endif
+endif
+debug item.dim["Rod Extn Above"].value
+debug item.dim[7].value
+debug "("+item.dim[7].name+")"

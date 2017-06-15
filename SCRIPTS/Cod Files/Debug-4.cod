@@ -1,0 +1,4 @@
+if item.weight = 0 then
+   item.weight = 1.5
+endif
+Item.update()

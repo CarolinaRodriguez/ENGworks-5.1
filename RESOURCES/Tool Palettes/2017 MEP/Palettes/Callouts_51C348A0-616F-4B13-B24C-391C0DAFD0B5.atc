@@ -1,0 +1,737 @@
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0"><ItemID idValue="{51C348A0-616F-4B13-B24C-391C0DAFD0B5}"/><Properties><ItemName>Callouts</ItemName><Images option="0"/><Description>This palette contains a sampling of various callout tools.</Description><Time createdUniversalDateTime="2005-01-09T13:51:46" modifiedUniversalDateTime="2005-01-09T13:51:46" refreshedUniversalDateTime="2005-01-09T13:51:46"/></Properties><Source/><Tools><Tool Revision="18.2.0" option="0"><ItemID idValue="{AA5FE356-FE48-4276-9D7F-1FAB5D9E9886}"/><Properties><ItemName>Detail Boundary A</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_AA5FE356-FE48-4276-9D7F-1FAB5D9E9886.png"/></Images><Description>Detail Boundary (Circle)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:37:14"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>1</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>3</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.25</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{BB485940-C618-494C-8096-C1472E6D2DF4}"/><Properties><ItemName>Detail Boundary B</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_BB485940-C618-494C-8096-C1472E6D2DF4.png"/></Images><Description>Detail Boundary (Rectangle)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:37:44"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>2</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.25</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{5465C6FE-695D-4234-BB1F-21B4F33BE472}"/><Properties><ItemName>Detail Boundary C</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_5465C6FE-695D-4234-BB1F-21B4F33BE472.png"/></Images><Description>Detail Boundary (Free Form)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:37:57"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.25</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{02A44A6A-DC2D-4F6F-9503-878FE1EE2E39}"/><Properties><ItemName>Detail Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_02A44A6A-DC2D-4F6F-9503-878FE1EE2E39.png"/></Images><Description>Detail Mark</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A1</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.0625</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{D9C18A67-486D-4195-998F-F8567D1BE90D}"/><Properties><ItemName>Detail Mark A1T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_D9C18A67-486D-4195-998F-F8567D1BE90D.png"/></Images><Description>Detail Mark (w/ Tail)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A1</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{A73D7074-04B9-42C9-AC89-DC25711EC0A3}"/><Properties><ItemName>Detail Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_A73D7074-04B9-42C9-AC89-DC25711EC0A3.png"/></Images><Description>Detail Mark (w/ Sheet No.)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{1744F455-EF12-4CE2-BEBA-C4B847160387}"/><Properties><ItemName>Detail Mark A2T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_1744F455-EF12-4CE2-BEBA-C4B847160387.png"/></Images><Description>Detail Mark (w/ Sheet No. &amp; Tail)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNDTOBJ</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>2</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style Background</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{250D910D-9956-44FB-9EC0-8BD7AC3D8515}"/><Properties><ItemName>Elevation Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_250D910D-9956-44FB-9EC0-8BD7AC3D8515.png"/></Images><Description>Elevation Mark</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_A1</Tag>
+					<Arrow>Anno_Arrow_A1</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{A8A10962-4B3E-4FB8-A3B3-B9098E04DA3D}"/><Properties><ItemName>Elevation Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_A8A10962-4B3E-4FB8-A3B3-B9098E04DA3D.png"/></Images><Description>Elevation Mark (w/ Sheet No.)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{08AEDBBF-37AB-4F74-8B57-B06A3AEE14F3}"/><Properties><ItemName>Exterior Elevation Mark A3</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_08AEDBBF-37AB-4F74-8B57-B06A3AEE14F3.png"/></Images><Description>Exterior Elevation Mark (Entire Building)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>4</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>1</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{70A24AAD-CF33-4AAE-BA41-9E217034B4F6}"/><Properties><ItemName>Interior Elevation Mark B1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_70A24AAD-CF33-4AAE-BA41-9E217034B4F6.png"/></Images><Description>Interior Elevation Mark (4-Way) "1/2/3/4"</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>4</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_B1</Tag>
+					<Arrow>Anno_Arrow_1234</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>32</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{489744A5-A133-4AF4-8FB9-00680DC4C13A}"/><Properties><ItemName>Interior Elevation Mark B2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_489744A5-A133-4AF4-8FB9-00680DC4C13A.png"/></Images><Description>Interior Elevation Mark (4-Way) "N/E/S/W"</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:26"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>4</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_B1</Tag>
+					<Arrow>Anno_Arrow_NESW</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>32</Scale>
+					<ViewName>North Elevation;East Elevation;South Elevation;West Elevation</ViewName>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{2C0B6F44-079D-482C-8E52-E7CE5E76E8A5}"/><Properties><ItemName>Interior Elevation Mark C1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_2C0B6F44-079D-482C-8E52-E7CE5E76E8A5.png"/></Images><Description>Interior Elevation Mark (Single)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_C1</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>0</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>32</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{8C319390-3155-4DA8-B25C-61312DE9DCE5}"/><Properties><ItemName>Interior Elevation Mark C2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_8C319390-3155-4DA8-B25C-61312DE9DCE5.png"/></Images><Description>Interior Elevation Mark (Single) - Inverted Text</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNELKEY</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_C2</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>0</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<FourWayElevationType>0</FourWayElevationType>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>32</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{556CABB5-C648-4867-AF1B-AF0CF0C170AA}"/><Properties><ItemName>Section Mark A1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_556CABB5-C648-4867-AF1B-AF0CF0C170AA.png"/></Images><Description>Section Mark</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Section_A1</Tag>
+					<Arrow>Anno_Arrow_A1</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{4F6F5335-BD2A-488A-B3ED-8343936167AA}"/><Properties><ItemName>Section Mark A1T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_4F6F5335-BD2A-488A-B3ED-8343936167AA.png"/></Images><Description>Section Mark (w/ Tail)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Section_A1</Tag>
+					<Arrow>Anno_Arrow_A1</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{257B3A4D-7874-426A-8F6F-E94EFC7214BB}"/><Properties><ItemName>Section Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_257B3A4D-7874-426A-8F6F-E94EFC7214BB.png"/></Images><Description>Section Mark (w/ Sheet No.)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0</TailLength>
+						<TailWidth>0</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{F2BD5D41-08F5-46B2-B13D-B46A90D3B858}"/><Properties><ItemName>Section Mark A2T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_F2BD5D41-08F5-46B2-B13D-B46A90D3B858.png"/></Images><Description>Section Mark (w/ Sheet No. &amp; Tail)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:27"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{31A2954B-908B-4C8C-B280-E29F0DE145A5}"/><Properties><ItemName>Section Mark A3T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Callout Tool_31A2954B-908B-4C8C-B280-E29F0DE145A5.png"/></Images><Description>Section Mark - Section Mark (w/ Sheet No.)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2005-01-06T14:38:36"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>ANNSXKEY</LayerKey>
+					<CalloutType>6</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle ref="%AECCONTENT_DIR%\Styles\Imperial\SectionStyles (Imperial).dwg">2D Section Style 96</SectElevStyle>
+					<DisplaySet>Section_Elev</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{4D0C814E-E04E-43F7-97C9-4A96B7947A2B}"/><Properties><ItemName>Title Mark</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Title Mark Tool_4D0C814E-E04E-43F7-97C9-4A96B7947A2B.png"/></Images><Description>Adds a title mark with number.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2004-01-20T20:54:46"/></Properties><CustomData>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+				<AecDbTitleMarkObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<Justification>0</Justification>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<Title ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</Title>
+					<PolylineWidth>0.025</PolylineWidth>
+				</AecDbTitleMarkObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{DCB69763-0F13-4EEB-8318-EB10906EEA81}"/><Properties><ItemName>Title Mark</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Title Mark Tool_DCB69763-0F13-4EEB-8318-EB10906EEA81.png"/></Images><Description>Adds a title mark.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2002-07-28T23:13:33" modifiedUniversalDateTime="2004-01-20T20:54:54"/></Properties><CustomData>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+				<AecDbTitleMarkObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<Justification>0</Justification>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg"/>
+					<AttrTextStyle>1</AttrTextStyle>
+					<Title ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T2</Title>
+					<PolylineWidth>0.025</PolylineWidth>
+				</AecDbTitleMarkObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool></Tools></Palette>

@@ -1,0 +1,7 @@
+Dim OldCon = "TDF."
+Dim NewCon = "TDC."
+
+if item.connector[1].value = OldCon then
+   item.connector[1].value = NewCon
+   Item.Connector[1].locked = true
+endif

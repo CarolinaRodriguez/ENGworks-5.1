@@ -1,0 +1,27 @@
+if item.connector[2].value = "1/2 out" then
+ item.connector[2].value = "OSHL-1.875"
+Endif
+
+if item.connector[1].value = "1/2 out" then
+ item.connector[1].value = "OSHL-1.875"
+Endif
+
+if item.connector[2].value = "tiotap" then
+ item.connector[2].value = "OSHL-1.875"
+Endif
+
+if item.filename = "Square-Round" then
+ if item.connector[1].value = "Ward J" then
+  item.connector[1].value = "Ductmate 35"
+ Endif
+ if item.connector[2].value = "SpiralMate Rings" then
+  item.connector[2].value = "SpiralMate Rings Collar"
+ Endif
+Endif
+
+if item.connector[2].value = "1-1/4 out" then
+ item.connector[2].value = "OSHL-1.875"
+Endif
+
+
+item.update()

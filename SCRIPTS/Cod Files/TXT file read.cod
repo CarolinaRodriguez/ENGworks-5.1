@@ -1,0 +1,24 @@
+requires task.selection
+ dim str
+ dim i = 1
+ dim delim = ","
+ dim fileName = "C:/CSUSA-FAB/DataExp/CadMepData.txt"
+
+rem *** Check if the file is open then perform acton
+object infile = new file(fileName, forinput+istext)
+
+str = infile.readline()
+
+dim tn = str
+
+
+while i <= task.selection.count
+    dim item = task.selection[i]
+
+item.customdata["Terminal Number"].value = tn
+item.update()
+
+i = i + 1
+
+end while
+

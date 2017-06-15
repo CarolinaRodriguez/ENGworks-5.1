@@ -1,0 +1,78 @@
+Rem Check for valid OpCo Number in job info
+dim StiffPar =  MapPath_Scripts + "\Parameter-v2\Stiffeners-v1.csv"
+dim delimiter = ","
+
+Rem Column Headers from Stiffeners-v1.csv
+Rem Stiffener Parameters
+ Rem Col-1
+ Dim StiffName
+Rem Col-2
+Dim Lnum
+ Rem Col-3
+ Dim Snum
+Rem Col-4
+Dim StiffDesc
+ Rem Col-5
+ Dim StiffCol5
+Rem Col-6
+Dim StiffCol6
+
+requires task
+
+dim StiffFile as file(StiffPar, forinput + istext)
+if StiffFile.isopen then
+
+  task.beginprogress(StiffFile.length)
+
+endif
+ 
+  while not StiffFile.eof and not task.aborted
+
+    task.progress = StiffFile.position
+ 
+    dim initialentry=StiffFile.readline()
+ 
+rem    debug initialentry
+
+    StiffName=left(initialentry,instr(1,initialentry,delimiter)-1)
+    initialentry=right(initialentry,len(initialentry)-instr(1,initialentry,delimiter))
+    Snum=left(initialentry,instr(1,initialentry,delimiter)-1)
+    initialentry=right(initialentry,len(initialentry)-instr(1,initialentry,delimiter))
+    Lnum=left(initialentry,instr(1,initialentry,delimiter)-1)
+    initialentry=right(initialentry,len(initialentry)-instr(1,initialentry,delimiter))
+    StiffDesc=left(initialentry,instr(1,initialentry,delimiter)-1)
+    initialentry=right(initialentry,len(initialentry)-instr(1,initialentry,delimiter))
+    StiffCol5=left(initialentry,instr(1,initialentry,delimiter)-1)
+    initialentry=right(initialentry,len(initialentry)-instr(1,initialentry,delimiter))
+    StiffCol6=left(initialentry,instr(1,initialentry,delimiter)-1)
+    initialentry=right(initialentry,len(initialentry)-instr(1,initialentry,delimiter))
+
+Rem debug stiffname+ "  "+ Snum + "  " + Lnum + "  " + StiffDesc + "  " + StiffCol5 + "  " + StiffCol6
+
+
+
+
+
+
+if Item.library = "Rectangular" then
+ Dim Width = Item.dim[1].numvalue
+ Dim Depth = Item.dim[2].numvalue
+  if item.Stiffeners > 0 then
+   if (width > Snum and Width <=Lnum and stiffname = Item.Stiffener[1].Value) then
+    Item.customdata["Stif Width"].value = stiffdesc
+   Endif
+   if (Depth > Snum and Depth <=Lnum and stiffname = Item.Stiffener[1].Value) then
+    Item.customdata["Stif Depth"].value = stiffdesc
+   Endif
+  Endif
+Endif
+
+rem Debug snum
+rem Debug lnum
+rem Debug stiffdesc
+rem debug stiffname
+ endwhile
+
+item.update()
+
+task.endprogress()

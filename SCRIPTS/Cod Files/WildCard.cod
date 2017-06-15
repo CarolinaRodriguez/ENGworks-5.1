@@ -1,0 +1,14 @@
+rem debug item.service
+
+Dim SERV = Item.Service
+
+If (Wildcard(Serv, "D>*")) or (Wildcard(Serv, "S>*")) then
+	Item.customdata["Wet-Dry"].value = "Dry"
+endif
+debug Item.customdata[28].value
+
+if wildcard(con1, "*RSA*")=1) then
+
+note: =1 equals true, =0 equals false
+
+http:/

@@ -1,0 +1,194 @@
+rem debug item.insulation.status
+Rem debug item.insulation.Gauge
+rem Debug item.connector[2].value
+
+Rem Dim Stretchout = (Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue)*2
+Rem Dim HalfStretchout = Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue
+
+
+Rem Change patten 7 (Tap)----------------------
+if item.cid = 7 then
+ if item.insulation.status = "Off" or item.insulation.status = "Outside" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "OT-.5265."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 7 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = ".5" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-.50."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 7 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "1" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-1.00."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 7 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "1.5" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-1.50."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 7 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "2" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-2.00."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 7 then
+Dim TapStretchout = Item.dim["Top Width"].numvalue + Item.dim["Top Width"].numvalue + Item.dim["Depth"].numvalue
+ if TapStretchout > 46 then
+  item.option["2 Parts"].value = "No"
+ Endif
+Endif
+
+
+Rem Change patten 15 (Angle Tap)-------------------------
+if item.cid = 15 then
+ if item.insulation.status = "Off" or item.insulation.status = "Outside" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "OT-.5265."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 15 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = ".5" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-.50."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 15 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "1" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-1.00."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 15 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "1.5" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-1.50."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 15 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "2" then
+  if item.connector[2].value = "F1-Tap." or item.connector[2].value = "1 Out" then
+   rem item.connector[2].alt = ""
+   item.connector[2].value = "IT-2.00."
+   item.connector[2].locked = true
+  Endif
+ Endif
+Endif
+
+Rem Change Patern 25 Taps-------------------------
+
+if item.cid = 25 then
+ if item.insulation.status = "Off" or item.insulation.status = "Outside" then
+  if item.connector[1].value = "F1-Tap." or item.connector[1].value = "1 Out" then
+   rem item.connector[1].alt = ""
+   item.connector[1].value = "OT-.5265."
+   item.connector[1].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 25 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = ".5" then
+  if item.connector[1].value = "F1-Tap." or item.connector[1].value = "1 Out" then
+   rem item.connector[1].alt = ""
+   item.connector[1].value = "IT-.50."
+   item.connector[1].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 25 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "1" then
+  if item.connector[1].value = "F1-Tap." or item.connector[1].value = "1 Out" then
+   rem item.connector[1].alt = ""
+   item.connector[1].value = "IT-1.00."
+   item.connector[1].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 25 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "1.5" then
+  if item.connector[1].value = "F1-Tap." or item.connector[1].value = "1 Out" then
+   rem item.connector[1].alt = ""
+   item.connector[1].value = "IT-1.50."
+   item.connector[1].locked = true
+  Endif
+ Endif
+Endif
+
+if item.cid = 25 then
+ if item.insulation.status = "Inside" and item.insulation.Gauge = "2" then
+  if item.connector[1].value = "F1-Tap." or item.connector[1].value = "1 Out" then
+   rem item.connector[1].alt = ""
+   item.connector[1].value = "IT-2.00."
+   item.connector[1].locked = true
+  Endif
+ Endif
+Endif
+
+Rem --------------------------------------------------
+
+Rem Pat 7 Connector Check
+If item.cid = 7 Then
+  If item.connector[2].value <> "OT-.5265." and item.connector[2].value <> "IT-.50." and item.connector[2].value <> "IT-1.00." and item.connector[2].value <> "IT-1.50." and item.connector[2].value <> "IT-2.00."  then
+  Item.customdata["ChkFlag"].value = "Check Conn-2"
+  endif
+Endif
+
+Rem Pat 15 Connector Check
+If item.cid = 15 Then
+  If item.connector[2].value <> "OT-.5265." and item.connector[2].value <> "IT-.50." and item.connector[2].value <> "IT-1.00." and item.connector[2].value <> "IT-1.50." and item.connector[2].value <> "IT-2.00."  then
+  Item.customdata["ChkFlag"].value = "Check Conn-2"
+  endif
+Endif
+
+Rem Pat 25 Connector Check
+If item.cid = 25 Then
+  If item.connector[1].value <> "OT-.5265." and item.connector[1].value <> "IT-.50." and item.connector[1].value <> "IT-1.00." and item.connector[1].value <> "IT-1.50." and item.connector[1].value <> "IT-2.00."  then
+  Item.customdata["ChkFlag"].value = "Check Conn-1"
+  endif
+Endif
+
+item.update()

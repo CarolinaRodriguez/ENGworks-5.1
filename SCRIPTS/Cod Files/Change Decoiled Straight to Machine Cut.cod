@@ -1,0 +1,6 @@
+REM This will override Decoiled Straight to Machine Cut
+
+If item.cid = 866 and Item.cuttype = "Decoiled Straight" then
+ item.customdata["ChkFlag"].Value = "Edge Nest"
+ Item.option["Override Cut Type"].value = "Machine Cut"
+Endif

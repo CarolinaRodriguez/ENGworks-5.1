@@ -1,0 +1,58 @@
+Rem This script will lock any standing s&d connector
+
+
+If item.connectors > 0 then
+ Dim Conn1 = Item.Connector[1].value
+ If (Wildcard(Conn1, "Standing*")) then
+  item.Connector[1].locked = true
+ Endif
+endif
+
+If item.connectors > 1 then
+ Dim Conn2 = Item.Connector[2].value
+ If (Wildcard(Conn2, "Standing*")) then
+  item.Connector[2].locked = true
+ Endif
+endif
+
+If item.connectors > 2 then
+ Dim Conn3 = Item.Connector[3].value
+ If (Wildcard(Conn3, "Standing*")) then
+  item.Connector[3].locked = true
+ Endif
+endif
+
+If item.connectors > 3 then
+ Dim Conn4 = Item.Connector[4].value
+ If (Wildcard(Conn4, "Standing*")) then
+  item.Connector[4].locked = true
+ Endif
+endif
+
+If item.connectors > 0 then
+ Dim Conn1 = Item.Connector[1].value
+ If (Wildcard(Conn1, "*S&D*")) then
+  item.Connector[1].locked = true
+ Endif
+endif
+
+If item.connectors > 1 then
+ Dim Conn2 = Item.Connector[2].value
+ If (Wildcard(Conn2, "*S&D*")) then
+  item.Connector[2].locked = true
+ Endif
+endif
+
+If item.connectors > 2 then
+ Dim Conn3 = Item.Connector[3].value
+ If (Wildcard(Conn3, "*S&D*")) then
+  item.Connector[3].locked = true
+ Endif
+endif
+
+If item.connectors > 3 then
+ Dim Conn4 = Item.Connector[4].value
+ If (Wildcard(Conn4, "*S&D*")) then
+  item.Connector[4].locked = true
+ Endif
+endif

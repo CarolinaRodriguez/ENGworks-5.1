@@ -1,0 +1,4 @@
+Debug item.type
+debug item.weight
+debug item.Library
+debug item.option[1].value

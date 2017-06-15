@@ -1,0 +1,120 @@
+
+
+
+
+rem Write the calculated rod length to custom data field 19 "Clevis Rod Length"
+
+
+if item.filename = "260 Clevis Hanger Blk" or item.filename = "260 Clevis Hanger Galv" or item.filename = "Insulated 260 Clevis Hanger Galv" then
+  dim v5 = item.dim["Rod Extn Below"].value
+  dim v6 = item.dim["Rod Length"].value
+  dim rodlength = roundex((number(v5) + number(v6)),.5)
+
+  item.customdata[19].value = rodlength
+
+endif
+
+rem rounds dNum down to nearest dUnit
+function roundEx(dNum, dUnit)
+  dim dRet, i, iFix, iMax
+  
+  dRet = 0.0
+  i = 0
+  iFix = fix(dNum)
+  iMax = Round(1.0 / dUnit) + 1
+
+  while i < iMax
+    if ((iFix + (i * dUnit) + dUnit) > dNum) then
+      dRet = iFix + (i * dUnit)
+      i = iMax
+    end if
+    i = i + 1
+  endwhile
+
+  return dRet
+end function
+
+rem return integer portion of number
+function fix(dNum)
+  dim i, iRet
+  
+  iRet = 0.0
+  i = Instr(1, dNum, ".")
+
+  if i = 0 then
+    iRet = dNum
+  else
+    iRet = atof(Left(dNum, i - 1))
+  end if
+  
+  return iRet
+end function
+
+rem converts string (ascii) to number (float)
+function atof(sNum)
+  dim i, iDec, iPow, dRet
+  
+  dRet = 0.0
+  iDec = Instr(1, sNum, ".")
+  
+  if iDec = 0 then
+    iPow = Pow(10, Len(sNum) - 1)
+  else
+    iPow = Pow(10, (iDec - 2))
+  end if
+  
+  i = 0
+
+  while i < Len(sNum)
+    i = i + 1
+  
+    if i <> iDec then
+      dRet = dRet + (iPow * ctoi(Mid(sNum, i, 1)))
+      iPow = iPow / 10
+    end if
+  endwhile
+
+  return dRet
+end function
+
+rem converts character to integer
+function ctoi(s)
+  dim iRet
+  
+  iRet = 0
+  
+  select s
+    case "0"
+      iRet = 0
+    case "1"
+      iRet = 1
+    case "2"
+      iRet = 2
+    case "3"
+      iRet = 3
+    case "4"
+      iRet = 4
+    case "5"
+      iRet = 5
+    case "6"
+      iRet = 6
+    case "7"
+      iRet = 7
+    case "8"
+      iRet = 8
+    case "9"
+      iRet = 9
+  end select
+  
+  return iRet
+end function
+
+
+
+
+
+
+
+
+
+http://www.xtracad.com/forum/index.php/topic,7553.msg50240.html#msg50240

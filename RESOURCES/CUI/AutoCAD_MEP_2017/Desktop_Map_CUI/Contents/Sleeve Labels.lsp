@@ -1,0 +1,52 @@
+; Paper Space Ctext for Round Sleeves
+(defun c:slvtrndps (/ ss )
+  (setq ss (ssget '((0 . "MAPS_SOLID"))))
+   (mapfilter "#39 = #1049 & #5025 = #61" 0 1 0 ss) ; filters CID(1049) and Service Type 61(Floor Sleeve)
+     ;(if ss (settext ss 64 "off"))     
+      (CTEXT "PS_Sleeve-Rnd" ss)
+      (settext ss 64 "on")
+       (sssetfirst nil)
+  (princ)
+)
+
+; Model Space Ctext for Round Sleeves
+(defun c:slvtrndms (/ ss )
+  (setq ss (ssget '((0 . "MAPS_SOLID"))))
+   (mapfilter "#39 = #1049 & #5025 = #61" 0 1 0 ss) ; filters CID(1049) and Service Type 61(Floor Sleeve)
+     ;(if ss (settext ss 64 "off"))     
+      (CTEXT "MS_Sleeve-Rnd" ss)
+      (settext ss 64 "on")
+       (sssetfirst nil)
+  (princ)
+)
+
+; Paper Space Ctext for Rectangular Sleeves
+(defun c:slvtrecps (/ ss )
+  (setq ss (ssget '((0 . "MAPS_SOLID"))))
+   (mapfilter "#39 =#972" 0 1 0 ss) ; filters CID(1049) and Service Type 61(Floor Sleeve)
+     ;(if ss (settext ss 64 "off"))     
+      (CTEXT "PS_Sleeve-Rect" ss)
+      (settext ss 64 "on")
+       (sssetfirst nil)
+  (princ)
+)
+
+; Model Space Ctext for Round Sleeves
+(defun c:slvtrecms (/ ss )
+  (setq ss (ssget '((0 . "MAPS_SOLID"))))
+   (mapfilter "#39 = #972" 0 1 0 ss) ; filters CID(1049) and Service Type 61(Floor Sleeve)
+     ;(if ss (settext ss 64 "off"))     
+      (CTEXT "MS_Sleeve-Rect" ss)
+      (settext ss 64 "on")
+       (sssetfirst nil)
+  (princ)
+)
+
+; Sleeve Reports
+(defun c:SLVPP (/ ss)
+  (setq ss (ssget '((0 . "MAPS_SOLID"))))
+  (executescript "zLisp-area level.cod" ss)
+  (command "executeprocess" "Z-ReportSleeves" ss "")
+  (sssetfirst nil)
+  (princ)
+)

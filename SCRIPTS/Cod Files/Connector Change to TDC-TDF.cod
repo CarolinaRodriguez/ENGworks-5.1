@@ -1,0 +1,13 @@
+
+Rem Change Connectors
+If Item.connector[1].value = "TDC" Then
+   Item.Connector[1].value = "TDF"
+   Item.Connector[1].locked = True
+Endif
+
+If Item.connector[2].value = "TDC" Then
+   Item.Connector[2].value = "TDF"
+   Item.Connector[2].locked = True
+Endif
+
+Item.update()

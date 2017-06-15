@@ -1,0 +1,43 @@
+dim relpath  = "X:/CadDuct Solids/items/Piping Components/Piping - Fittings (Pressure)/Black Mild Steel/Flanged/PN25/"
+dim material = "Carbon Steel"
+dim spec =     "None"
+dim con1 = "Bevel End"
+dim con2 = "PN-25"
+requires task
+
+  rem scan for all items in the specified folder
+  object scanner = new filelocator
+  scanner.scan(relpath, "*.itm", true, false)
+ 
+
+  dim lp,lp2
+ 
+  task.beginprogress( scanner.filecount )
+  rem debug scanner.filecount
+  for lp=1 to scanner.filecount
+ 
+    rem load the item
+    object item = new itemstruct
+ 
+    task.message = "Loading " + GetFilename( scanner.file[lp] )
+    task.progress = lp
+ rem debug getfilename(scanner.file[lp])
+ 
+    if item.load(scanner.file[lp]) then
+rem debug lp
+     rem for lp2 = 1 to item.connectors
+        item.connector[1].value = con1
+        item.connector[1].locked = true
+        item.connector[2].value = con2
+        item.connector[2].locked = true
+
+
+     rem  next lp2
+ 
+      item.specification = spec
+      item.Material      = material
+      item.save(relpath + GetFilename( scanner.file[lp] ))
+    endif
+  next lp
+
+  task.endprogress()

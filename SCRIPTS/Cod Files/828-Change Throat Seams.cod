@@ -1,0 +1,13 @@
+Rem--------  Change Spits to L-Pits on Sq Elbow
+
+Rem Debug item.option["Seam Number For Throat"].value
+
+If item.cid = 20 or item.cid = 17 then
+ if item.option["Seam Number For Throat"].value = 0 or item.option["Seam Number For Throat"].value = 30 then
+    item.option["Seam Number For Throat"].value = 13
+ Endif
+Endif
+
+
+Rem Debug item.option["Seam Number For Throat"].value
+ 

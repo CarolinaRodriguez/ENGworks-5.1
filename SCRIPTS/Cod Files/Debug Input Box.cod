@@ -1,0 +1,4 @@
+Dim ElevChange = Item.dim["Length"].numvalue
+Dim BtmElev = Item.dim["Length"].numvalue
+
+ElevChange = inputbox("Enter new Bottom Elev (0'-0'')","Elevation change",BtmElev)

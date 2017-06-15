@@ -1,0 +1,129 @@
+dim rootpath = mappath_items
+REM dim rootpath = ""
+rem This routine requires the text file "C:/ITEMORDERPLUSCODES.CSV" to contain the data:
+rem Path, Order, Description (Size), dbid (Price Code)
+rem It then fills in this data in the Database (Item Folder Items)
+
+dim csv =  "C:/PRODUCTSINFOLDERS.CSV"
+dim delimiter = ","
+
+requires task
+ 
+dim csvfile as file( csv, forinput + istext)
+if csvfile.isopen then
+
+  task.beginprogress(csvfile.length)
+ 
+  dim anitem = false
+ 
+  while not csvfile.eof and not task.aborted
+
+    task.progress = csvfile.position
+ 
+      dim initialentry=csvfile.readline()
+      dim entry = ""
+      entry = initialentry + ","
+ 
+    dim ItemFile = ""
+    dim eOrder= ""
+    dim eMat= ""
+    dim eSpec= ""
+    dim Description = ""
+    dim eCID = ""
+    dim ePriceList = ""
+    dim id = ""
+    dim NewDescription =""
+
+    rem parse line of csv file
+
+    dim c = instr( 1, entry, delimiter )
+    if c>1 then
+      ItemFile = substring(entry, 1, c-1)
+      ItemFile = trim(ItemFile)
+
+      dim c2 = instr(c+1, entry, delimiter)
+      if c2>c+1 then
+        eOrder=substring(entry, c+1, c2-1)
+        eOrder=trim(eOrder)
+      endif
+
+      dim c3 = instr(c2+1, entry, delimiter)
+      if c3>c2+1 then
+         eMat=substring(entry, c2+1, c3-1)
+         eMat=trim(eMat)
+      endif
+
+      dim c4 = instr(c3+1, entry, delimiter)
+      if c4>c3+1 then
+        eSpec=substring(entry, c3+1, c4-1)
+        eSpec=trim(eSpec)
+      endif
+
+      dim c5 = instr(c4+1, entry, delimiter)
+      if c5>c4+1 then
+         Description=substring(entry, c4+1, c5-1)
+         Description=trim(Description)
+      endif
+
+      dim c6 = instr(c5+1, entry, delimiter)
+      if c6>c5+1 then
+        eCID=substring(entry, c5+1, c6-1)
+        eCID=trim(eCID)
+      endif
+
+      dim c7 = instr(c6+1, entry, delimiter)
+      if c7>c6+1 then
+         ePriceList=substring(entry, c6+1, c7-1)
+         ePriceList=trim(ePriceList)
+      endif
+
+      dim c8 = instr(c7+1, entry, delimiter)
+      if c8>c7+1 then
+        id=substring(entry, c7+1, c8-1)
+        id=trim(id)
+      endif
+
+      dim c9 = instr(c8+1, entry, delimiter)
+      if c9>c8+1 then
+         NewDescription=substring(entry, c8+1, c9-1)
+         NewDescription=trim(NewDescription)
+      endif
+
+      if len(ItemFile)>0 then
+        anitem = new itemstruct
+        if anitem.load( ItemFile ) then
+          anitem.Order = eOrder
+
+          if anItem.hasproduct then
+
+            rem verify the existance of the order field and the id field (add them if not present)
+
+            if not anitem.product.hasorder then
+              anitem.product.addorder()
+            endif
+
+            if not anitem.product.hasDatabaseId then
+              anitem.product.addDatabaseId()
+            endif
+
+ 
+            dim lp2=1
+            dim found = false
+            while not found and lp2<=anitem.product.entries
+              if anitem.product.entry[lp2].name = Description then
+                anitem.product.entry[lp2].DatabaseId = id
+                anitem.product.entry[lp2].Order = eOrder
+                anitem.product.entry[lp2].name = NewDescription
+                lp2=anitem.product.entries
+                found = true
+              endif
+              lp2=lp2+1
+            end while
+          endif
+          anitem.save(itemfile)
+        endif
+      endif
+    endif
+  end while
+endif
+task.endprogress()

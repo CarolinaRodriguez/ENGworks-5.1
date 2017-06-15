@@ -1,0 +1,40 @@
+requires task.selection
+ dim delim = ","
+ dim ret = ASCII(13)
+ dim fileName = "C:/CSUSA-FAB/DataExp/CadMepData.txt"
+
+rem *** Create the file and verify it is open
+object outfile = new file(fileName, foroutput+istext)
+if outfile.isopen then
+
+rem *** write headers
+
+outfile.writeline("Item Status" + delim + "CData1")
+
+dim i = 1
+while i <= task.selection.count
+dim item = task.selection[i]
+
+dim lineStr = ""
+
+if item.status then
+lineStr = lineStr + item.status
+end if
+
+lineStr = lineStr + delim
+
+rem if item.status then
+rem lineStr = lineStr + item.status
+rem end if
+
+if item.customdata["Terminal Number"].value then
+lineStr = lineStr + item.customdata["Terminal Number"].value
+end if
+
+outfile.writeline(lineStr)
+
+
+i = i + 1
+end while
+end if
+outfile.close()

@@ -1,0 +1,12 @@
+rem    Adjust Override for 866 straight burned and decoiled duct
+
+function StraightType()
+item.Option["Override"].Value = "4xI,M-F"
+end function
+
+dim val1
+select item.Cid
+case 866
+StraightType()
+item.Option["Override"].locked = false
+end select

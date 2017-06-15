@@ -1,0 +1,17 @@
+if item.connector[2].value = "Ward J" then
+ item.connector[2].value = "Ductmate 35"
+Endif
+
+if item.connector[1].value = "Ward J" then
+ item.connector[1].value = "Ductmate 35"
+Endif
+
+if item.connector[2].value = "TDF" then
+ item.connector[2].value = "TDC"
+Endif
+
+if item.connector[1].value = "TDF" then
+ item.connector[1].value = "TDC"
+Endif
+
+item.update()

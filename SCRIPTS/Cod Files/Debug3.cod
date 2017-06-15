@@ -1,0 +1,9 @@
+
+
+
+rem debug item.seam[1].value
+Rem R-Spits. = index 2
+Rem R-Lpits. = index 1
+rem Debug item.option["Seam Number For Throat"].value
+
+debug item.option[1].value

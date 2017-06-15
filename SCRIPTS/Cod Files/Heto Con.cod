@@ -1,0 +1,10 @@
+If item.cid = 28 then
+ item.connector[1].value = "1 Out"
+ item.connector[1].locked = true
+ item.connector[2].value = "SE Collar"
+ item.connector[2].locked = true
+ item.Seam[1].value = "3/4 Spot"
+ item.seam[1].locked = true
+ item.seam[2].value = "3/4 Spot"
+ item.seam[2].locked = true
+Endif

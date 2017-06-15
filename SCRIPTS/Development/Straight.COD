@@ -1,0 +1,65 @@
+REM *************************************************************************************************
+REM Function definitions
+REM *************************************************************************************************
+
+function CheckStraight()
+  dim width = getdimvalue("Width", void, false)
+  dim depth = getdimvalue("Depth", void, false)
+  dim length = getdimvalue("Length", void, false)
+  dim override=Item.Option["Override"]
+  dim periphery = width+width+depth+depth
+
+REM  debug length
+  debug override
+
+  if (length < 56.25) then
+    if (periphery>80) then override="2xL"
+  endif
+  
+  item.Option["Override"].Value=override
+end function
+
+function getdimvalue(name1, name2="", err=true)
+
+  rem Access dims by name (including alternative name) SAFELY
+
+  dim rv=0.0
+  dim done=false
+
+  if item.dim[name1] then
+    rv=item.dim[name1].NumValue
+    done=true
+  elseif item.dim[name2] then
+    rv=item.dim[name2].NumValue
+    done=true
+  endif
+    
+  if done=false and err=true then
+
+    rem ERROR - dim not found ; show debug msg and list all dims
+
+    dim lp
+    dim all = "Unable to Locate Dim '" + name1 + "' [or '" + name2 + "'] in item " + item.Number + ascii(13)
+
+    for lp=1 to item.dims
+      dim v = item.dim[lp].Annotation + ": "+ item.dim[lp].Name + " = " + item.dim[lp].Value
+      all = all + ascii(13) + v
+    next
+
+    debug all
+
+  endif
+
+  return rv
+
+endfunction
+
+REM **************************************************************************************************
+REM Main program
+REM **************************************************************************************************
+
+select item.Cid
+  case 866
+   CheckStraight()
+	
+end select

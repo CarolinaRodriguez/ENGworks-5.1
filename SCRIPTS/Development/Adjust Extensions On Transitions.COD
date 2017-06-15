@@ -1,0 +1,38 @@
+REM Add 2" extensions by TDC connections for transitions
+
+
+function Transition()
+
+  dim connector1 = item.connector[1].value
+  dim connector2 = item.connector[2].value
+
+  if (connector1 = "TDC") then
+    item.dim[6].value = 2
+  elseif (connector1 = "S S&D") then
+    item.dim[6].value = 0
+  elseif (connector1 = "F S&D") then
+    item.dim[6].value = 0
+  elseif (connector1 = "S D&S") then
+    item.dim[6].value = 0
+  elseif (connector1 = "F D&S") then
+    item.dim[6].value = 0
+  endif
+
+  if (connector2 = "TDC") then
+    item.dim[7].value = 2
+  elseif (connector2 = "S S&D") then
+    item.dim[7].value = 0
+  elseif (connector2 = "F S&D") then
+    item.dim[7].value = 0
+  elseif (connector2 = "S D&S") then
+    item.dim[7].value = 0
+  elseif (connector2 = "F D&S") then
+    item.dim[7].value = 0
+  endif
+
+end function
+
+select item.cid
+  case 2
+    Transition()
+end select

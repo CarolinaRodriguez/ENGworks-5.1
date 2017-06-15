@@ -1,0 +1,6 @@
+
+Rem Change Connectors
+   Item.Connector[1].value = "F1."
+   Item.Connector[1].locked = True
+
+Item.update()

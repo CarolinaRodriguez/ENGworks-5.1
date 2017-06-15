@@ -1,0 +1,312 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{3A57B135-3EB9-4F42-928A-A601D6C96B9D}"/><Properties><ItemName>Power-Lighting Device</ItemName><Images option="0"/><Description>This palette contains a sampling of customized device tools. They refer to the content specified in the Options dialog.</Description><Time createdUniversalDateTime="2005-10-21T00:36:30" modifiedUniversalDateTime="2006-11-14T14:42:13"/></Properties><CustomData><Translation status="1"/></CustomData><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{FB7FEE7C-41F8-4843-A94B-63427B018B51}"/><Properties><ItemName>Receptacles</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-07-24T17:18:39" modifiedUniversalDateTime="2006-07-24T17:18:39"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{BF539A00-760C-4A9F-ACC3-4A6D100EC170}"/><Properties><ItemName>Duplex</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_BF539A00-760C-4A9F-ACC3-4A6D100EC170.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:44:01"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Duplex Receptacle</PartName>
+					<PartSizeName>Duplex Receptacle</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Receptacles (US Imperial).dwg">Duplex Receptacle</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D5463653-0805-44D0-8EFF-F61544DD340B}"/><Properties><ItemName>Quadruplex</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_D5463653-0805-44D0-8EFF-F61544DD340B.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:45:38"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Quadruplex Receptacle</PartName>
+					<PartSizeName>Quadruplex Receptacle</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Receptacles (US Imperial).dwg">Quadruplex Receptacle</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{39E9FF35-D84F-4D5D-88C5-3228ECB24B07}"/><Properties><ItemName>Ground Fault</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_39E9FF35-D84F-4D5D-88C5-3228ECB24B07.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:45:52"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Ground Fault Receptacle</PartName>
+					<PartSizeName>Ground Fault Receptacle</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Receptacles (US Imperial).dwg">Ground Fault Receptacle</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1821E0DF-063E-475B-94CD-FB0D1F58D92D}"/><Properties><ItemName>Recessed Duplex 1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_1821E0DF-063E-475B-94CD-FB0D1F58D92D.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:46:09"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Recessed Duplex Receptacle 1</PartName>
+					<PartSizeName>Recessed Duplex Receptacle 1</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Receptacles (US Imperial).dwg">Recessed Duplex Receptacle 1</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{44F75632-8D43-4E2A-AEEA-22187C58A430}"/><Properties><ItemName>Space</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Space Tool_44F75632-8D43-4E2A-AEEA-22187C58A430_2.png"/></Images><Description>Generates space objects from walls, AEC objects or linework.</Description><Time createdUniversalDateTime="2006-01-09T14:55:00" modifiedUniversalDateTime="2007-01-08T11:46:37" refreshedUniversalDateTime="2006-01-09T14:55:00"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}"/><Data>
+				<AecDbSpace>
+					<ActualDimensions>
+						<CreateType>3</CreateType>
+						<Area>100</Area>
+					</ActualDimensions>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Mechanical Tags (US Imperial).dwg">Aecb_Space_Name_Tag</Tag>
+				</AecDbSpace>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{4883ABDA-39DB-4139-9139-0B45469B1EAB}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-28T18:52:14" modifiedUniversalDateTime="2005-10-28T18:52:14"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{0F2D369C-F207-4C06-BF58-83B0D5AE9F19}"/><Properties><ItemName>Lighting </ItemName><Images option="0"/><Time createdUniversalDateTime="2005-11-08T21:23:35" modifiedUniversalDateTime="2005-11-08T21:23:35"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{BB57F20E-C01C-4799-BBE1-40B15C959A43}"/><Properties><ItemName>2x4 Recessed</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_BB57F20E-C01C-4799-BBE1-40B15C959A43.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-27T14:00:05"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>24x48 Recessed</PartName>
+					<PartSizeName>24x48 Recessed</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Lighting - Fluorescent (US Imperial).dwg">24x48 Recessed</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{8288835C-44A3-44CF-B43D-3CBD0D9514AF}"/><Properties><ItemName>2x2 Recessed</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_8288835C-44A3-44CF-B43D-3CBD0D9514AF.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:46:58"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>24x24 Recessed</PartName>
+					<PartSizeName>24x24 Recessed</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Lighting - Fluorescent (US Imperial).dwg">24x24 Recessed</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{04279DF2-D5E2-4DB9-8B0E-A71D9D5E442F}"/><Properties><ItemName>2x4 Emergency Red</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_04279DF2-D5E2-4DB9-8B0E-A71D9D5E442F.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:47:24"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>24x48 Emergency Red</PartName>
+					<PartSizeName>24x48 Emergency Red</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Lighting - Fluorescent (US Imperial).dwg">24x48 Emergency Red</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{70FC724B-386C-4F67-A5D3-2C9A8A6A7254}"/><Properties><ItemName>Down Light</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_70FC724B-386C-4F67-A5D3-2C9A8A6A7254.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:47:51"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Down Light</PartName>
+					<PartSizeName>Down Light</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Lighting - Other (US Imperial).dwg">Down Light</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{4E752106-FAFA-4837-9A4B-8F92818DEE51}"/><Properties><ItemName>Down Light 1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_4E752106-FAFA-4837-9A4B-8F92818DEE51.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:48:16"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Down Light 1</PartName>
+					<PartSizeName>Down Light 1</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Lighting - Other (US Imperial).dwg">Down Light 1</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6E231B18-BF91-43E9-A3D8-135399500F92}"/><Properties><ItemName>Exit 1</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_6E231B18-BF91-43E9-A3D8-135399500F92.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:49:01"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Exit 1</PartName>
+					<PartSizeName>Exit 1</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Lighting - Other (US Imperial).dwg">Exit 1</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{E16458C3-2CED-4E3B-B5B7-860DF771220A}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-11-08T21:21:55" modifiedUniversalDateTime="2005-11-08T21:21:55"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C712E61D-ECBD-4384-92D3-493D80447A34}"/><Properties><ItemName>Switches</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-07-27T15:24:12" modifiedUniversalDateTime="2006-07-27T15:24:12"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{7D36DF3B-1942-48C5-BD68-ECA82700B3F0}"/><Properties><ItemName>Single Pole</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_7D36DF3B-1942-48C5-BD68-ECA82700B3F0.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:52:12"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Single Pole Switch</PartName>
+					<PartSizeName>Single Pole Switch</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Switches (US Imperial).dwg">Single Pole Switch</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{DB79EA03-4384-40BB-B62C-FE25BA7D7017}"/><Properties><ItemName>Three Way</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_2A6C4DCD-9F3E-4081-B01C-556888FAEBA6.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:52:34"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Three Way Switch</PartName>
+					<PartSizeName>Three Way Switch</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Switches (US Imperial).dwg">Three Way Switch</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{F7B5206F-3C96-46BC-9EE6-84E34DCC9FB8}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-07-27T15:24:10" modifiedUniversalDateTime="2006-07-27T15:24:10"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C9FF3AF0-4378-42D3-9DC5-38D49A8C8BC9}"/><Properties><ItemName>Junction Boxes</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-07-25T20:37:26" modifiedUniversalDateTime="2006-07-25T20:37:26"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{DCFE666A-2360-4820-A89D-62430D2B0D84}"/><Properties><ItemName>Square</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_DCFE666A-2360-4820-A89D-62430D2B0D84.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:49:28"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Square Junction Box</PartName>
+					<PartSizeName>Square Junction Box</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Junction Boxes (US Imperial).dwg">Square Junction Box</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2CF04E61-7E6B-4983-9836-EE5D5742C50C}"/><Properties><ItemName>Round Plain</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_2CF04E61-7E6B-4983-9836-EE5D5742C50C.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:49:46"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Round Plain Junction Box</PartName>
+					<PartSizeName>Round Plain Junction Box</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Junction Boxes (US Imperial).dwg">Round Plain Junction Box</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{366775BB-1926-4FAD-8DE3-80B8A0883ED4}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-07-25T20:37:23" modifiedUniversalDateTime="2006-07-25T20:37:23"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{73DA1C41-CB87-4E7C-B7CA-EB29B1F031CA}"/><Properties><ItemName>Power</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-07-24T17:18:23" modifiedUniversalDateTime="2006-07-24T17:18:23"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B4B6C2D0-80C0-4345-B2B7-86AE14350E08}"/><Properties><ItemName>Disconnect</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_B4B6C2D0-80C0-4345-B2B7-86AE14350E08.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:50:08"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Disconnect</PartName>
+					<PartSizeName>Disconnect</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Power (US Imperial).dwg">Disconnect</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F70BC775-23BA-4061-8122-2B0E53C42D2F}"/><Properties><ItemName>Fused Disconnect</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_F70BC775-23BA-4061-8122-2B0E53C42D2F.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:50:29"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Fused Disconnect</PartName>
+					<PartSizeName>Fused Disconnect</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Power (US Imperial).dwg">Fused Disconnect</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6BB5EFEC-373C-4D1B-9311-C1457C1862F7}"/><Properties><ItemName>Motor 2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Device_6BB5EFEC-373C-4D1B-9311-C1457C1862F7.png"/></Images><Description>Creates a device</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingElectricalSystems_AddingaDevice</HelpData></Help><Time createdUniversalDateTime="2006-07-24T16:43:10" modifiedUniversalDateTime="2006-07-26T13:50:46"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{1C3F4EE5-2C06-4D20-B5A8-6B6895E3855E}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Motor 2</PartName>
+					<PartSizeName>Motor 2</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbDevice>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Electrical\Devices\Power (US Imperial).dwg">Motor 2</Style>
+				</AecbDbDevice>
+			</Data>
+		</Tool></Tools></Palette>

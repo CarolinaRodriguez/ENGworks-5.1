@@ -1,0 +1,54 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{A2E7CBEC-DD6F-408F-8C3D-FC5E917DA383}"/><Properties><ItemName>Analysis</ItemName><Images option="0"/><Description>This palette contains tools for use in analyzing size and attributes of spaces and zones within a building.</Description><Time createdUniversalDateTime="2005-10-20T23:17:22" modifiedUniversalDateTime="2006-11-14T14:44:42"/></Properties><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{6D4F3E47-2819-4BD0-A6B2-98BEB7406550}"/><Properties><ItemName>Space</ItemName><Images option="2"><Image cx="64" cy="64" IsDark="false" src=".\Images\Space Tool_6D4F3E47-2819-4BD0-A6B2-98BEB7406550.png"/></Images><Description>Generates space objects from walls, AEC objects or linework.</Description><Time createdUniversalDateTime="2006-01-09T14:55:00" modifiedUniversalDateTime="2007-01-08T11:46:15" refreshedUniversalDateTime="2006-01-09T14:55:00"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{FEDDC4F1-33E1-47FA-B4BB-A110B5352C70}"/><Data>
+				<AecDbSpace>
+					<ActualDimensions>
+						<CreateType>3</CreateType>
+						<Area>100</Area>
+					</ActualDimensions>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Mechanical Tags (US Imperial).dwg">Aecb_Space_Name_Tag</Tag>
+				</AecDbSpace>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{ECD4C154-CB13-4EF3-82AF-B8E1B558D116}"/><Properties><ItemName>Zone</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Zone Tool_62B495D5-C154-49D5-8C68-22B4734074DB.png"/></Images><Description>Creates a zone object.</Description><Time createdUniversalDateTime="2006-01-10T17:17:22" modifiedUniversalDateTime="2006-01-10T17:17:22" refreshedUniversalDateTime="2006-01-10T17:17:22"/></Properties><CustomData/>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{2B554799-FB4B-4031-BD52-E54FFEA12116}"/><Data>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{90F4F1EE-185C-4FE6-A4CF-09EF9D997E42}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-09T21:05:33" modifiedUniversalDateTime="2005-12-09T21:05:33"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{BF9F6525-CD87-4826-9E13-E40644C0DD5D}"/><Properties><ItemName>Calculation</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-09T21:05:34" modifiedUniversalDateTime="2005-12-09T21:05:34"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{27C0F5D0-CD57-4E60-8656-0B825D166D59}"/><Properties><ItemName>Duct System Size Calculator</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\duct_resize.png"/></Images><Description>Resize a duct system</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems33</HelpData></Help><Time createdUniversalDateTime="2004-01-12T11:35:02" modifiedUniversalDateTime="2005-01-13T11:22:41"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C_AecbDuctSystemSizeCalc</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{8894ADEE-6BE0-4344-85B6-4DD100E4D941}"/><Properties><ItemName>External Data Resize</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\external_resize.png"/></Images><Description>Resize a duct or pipe system based on external calculations</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>BS-UG-DraftingMechanicalSystems33</HelpData></Help><Time createdUniversalDateTime="2004-01-12T11:35:02" modifiedUniversalDateTime="2005-01-13T11:22:52"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C_AecbSystemResize</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{3D56357A-97D5-45AD-B8A3-0B4662BD9D1F}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-09T21:05:05" modifiedUniversalDateTime="2005-12-09T21:05:05"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{AAEEB442-9CFF-4936-ABDE-67DDEEC34F54}"/><Properties><ItemName>Theme</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-09T21:05:07" modifiedUniversalDateTime="2005-12-09T21:05:07"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{8AD1B934-D786-469B-9E65-6E94571C23DF}"/><Properties><ItemName>by Velocity</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Display Theme Tool_4088AA11-6E55-4DC5-99CA-B59211C74DA9.png"/></Images><Description>Creates a display theme by velocity in ducts.</Description><Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2005-01-27T19:58:24"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Mechanical Display Themes (US Imperial).dwg">Duct Velocity</Style>
+				</AecDbDisplayTheme>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{B49F220F-49DB-4836-9B7A-BE5A655BEFA0}"/><Properties><ItemName>by Friction Loss</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Display Theme Tool_32166089-E587-40CC-855A-9114B57CCA43.png"/></Images><Description>Creates a display theme by friction loss value in ducts.</Description><Time createdUniversalDateTime="2002-04-05T21:58:00" modifiedUniversalDateTime="2005-01-27T19:59:01"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{30BC217F-86F2-437A-8DB1-27AEFA4426A3}"/><Data>
+				<AecDbDisplayTheme>
+					<Style ref="%AECCONTENT_DIR%\Styles\Imperial\Mechanical Display Themes (US Imperial).dwg">Duct Friction Loss</Style>
+				</AecDbDisplayTheme>
+				<Units>inch</Units>
+			</Data>
+		</Tool></Tools></Palette>

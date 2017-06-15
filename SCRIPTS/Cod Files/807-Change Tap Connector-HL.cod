@@ -1,0 +1,18 @@
+rem debug item.insulation.status
+Rem debug item.insulation.Gauge
+rem Debug item.connector[2].value
+
+Rem Dim Stretchout = (Item.dim["Width"].numvalue + Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue)
+Rem Dim HalfStretchout = Item.dim["Width"].numvalue + Item.dim["Depth"].numvalue
+
+
+if item.cid = 7 then
+Dim TapStretchout = Item.dim["Top Width"].numvalue + Item.dim["Top Width"].numvalue + Item.dim["Depth"].numvalue
+ if TapStretchout > 46 then
+  item.option["2 Parts"].value = "No"
+ Endif
+Endif
+
+
+
+item.update()

@@ -1,0 +1,313 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{338A633C-6911-4EDC-8C83-7A4D0657AF70}"/><Properties><ItemName>Valves</ItemName><Images option="0"/><Description>This palette contains a sampling of customized schematic tools. They refer to the content specified in the Options dialog.</Description><Time createdUniversalDateTime="2006-10-21T01:57:47" modifiedUniversalDateTime="2006-10-25T14:16:08"/></Properties><CustomData><Translation status="1"/></CustomData><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{DE646DD0-2CBA-4250-8A4E-D7D6C72CC53E}"/><Properties><ItemName>Plan Symbols</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:01:17" modifiedUniversalDateTime="2006-10-25T06:01:17"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{687D7F32-530A-453D-A0A7-51C272F9061A}"/><Properties><ItemName>3-Way Lever</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_687D7F32-530A-453D-A0A7-51C272F9061A.png"/></Images><Description>Creates a Valve - 3-Way Lever.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:39:30"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - 3-Way Lever</PartName>
+					<PartSizeName>Valve - 3-Way Lever</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - 3-Way Lever</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{67D93F5F-970B-4240-BCCD-1F7DD2AFB1B1}"/><Properties><ItemName>3-Way Motorized Up</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_67D93F5F-970B-4240-BCCD-1F7DD2AFB1B1.png"/></Images><Description>Creates a Valve - 3-Way Motorized Up.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-11-08T15:24:30"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - 3-Way Motorized Up</PartName>
+					<PartSizeName>Valve - 3-Way Motorized Up</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - 3-Way Motorized Up</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{D63771B5-042A-4CAB-94A3-EBABC604ED01}"/><Properties><ItemName>Ball Lever Normally Open</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_D63771B5-042A-4CAB-94A3-EBABC604ED01.png"/></Images><Description>Creates a Valve - Ball Lever Normally Open.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:39:58"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Ball Lever Normally Open</PartName>
+					<PartSizeName>Valve - Ball Lever Normally Open</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - Ball Lever Normally Open</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{6BBAF2DC-84A3-4002-83BB-6835C7599491}"/><Properties><ItemName>Butterfly Lever Normally Closed</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_6BBAF2DC-84A3-4002-83BB-6835C7599491.png"/></Images><Description>Creates a Valve - Butterfly Lever Normally Closed.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:02"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Butterfly Lever Normally Closed</PartName>
+					<PartSizeName>Valve - Butterfly Lever Normally Closed</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - Butterfly Lever Normally Closed</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1DA8A607-140F-4A6D-9034-1B41067CB260}"/><Properties><ItemName>Check</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_1DA8A607-140F-4A6D-9034-1B41067CB260.png"/></Images><Description>Creates a Valve - Check.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2007-01-15T13:52:59"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Check</PartName>
+					<PartSizeName>Valve - Check</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - Check</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{1DBB347A-10B7-47E4-B37B-D8E909CB9A78}"/><Properties><ItemName>Gate Lever</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_1DBB347A-10B7-47E4-B37B-D8E909CB9A78.png"/></Images><Description>Creates a Valve - Gate Lever.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:12"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Gate Lever</PartName>
+					<PartSizeName>Valve - Gate Lever</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - Gate Lever</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{B7C32623-1629-4186-9DE4-AC57C82DEC48}"/><Properties><ItemName>Gate Manual</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_B7C32623-1629-4186-9DE4-AC57C82DEC48.png"/></Images><Description>Creates a Valve - Gate Manual.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:16"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Gate Manual Imperial</PartName>
+					<PartSizeName>Valve - Gate Manual Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - Gate Manual</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E842A30B-AA5C-4F3E-8C42-73611E518887}"/><Properties><ItemName>Globe Manual</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_E842A30B-AA5C-4F3E-8C42-73611E518887.png"/></Images><Description>Creates a Valve - Globe Manual.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:20"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Globe Manual Imperial</PartName>
+					<PartSizeName>Valve - Globe Manual Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - Globe Manual</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{20691A5C-A403-42B8-BC56-26229BFEF038}"/><Properties><ItemName>Pressure Relief</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_20691A5C-A403-42B8-BC56-26229BFEF038.png"/></Images><Description>Creates a Valve - Pressure Relief.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:24"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Pressure Relief Imperial</PartName>
+					<PartSizeName>Valve - Pressure Relief Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - Pressure Relief</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F20A7BE1-CDC1-4C1F-B78E-97A804C7339E}"/><Properties><ItemName>Relief</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_F20A7BE1-CDC1-4C1F-B78E-97A804C7339E.png"/></Images><Description>Creates a Valve - Relief.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:49"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Relief Imperial</PartName>
+					<PartSizeName>Valve - Relief Imperial</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Only (US Imperial).dwg">Valve - Relief</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{CBBEB830-8164-426C-85B1-460850385012}"/><Properties><ItemName>Backflow Preventer - Double Check Type</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_CBBEB830-8164-426C-85B1-460850385012.png"/></Images><Description>Creates a Backflow Preventer - Double Check Type.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:40:43"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Backflow Preventer - Double Check Type</PartName>
+					<PartSizeName>Backflow Preventer - Double Check Type</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Fire Suppression (US Imperial).dwg">Backflow Preventer - Double Check Type</Style>
+					<Mode>0</Mode>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{4AB7F5F7-45C3-4292-B2AB-10CC742370D3}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:11:46" modifiedUniversalDateTime="2006-10-25T06:11:46"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{3E6C287E-9345-4F74-9D0C-EBBBBC4DD12A}"/><Properties><ItemName>Isometric Symbols</ItemName><Images option="0"/><Time createdUniversalDateTime="2006-10-25T06:11:59" modifiedUniversalDateTime="2006-10-25T06:11:59"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{7288D0C1-51CE-4702-A47A-DC6BBBDD066E}"/><Properties><ItemName>3-Way Lever</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_7288D0C1-51CE-4702-A47A-DC6BBBDD066E.png"/></Images><Description>Creates a Valve - 3-Way Lever.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:42:41"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - 3-Way Lever</PartName>
+					<PartSizeName>Valve - 3-Way Lever</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - 3-Way Lever</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{2CA99CBE-1460-4676-945B-1518C5AC9942}"/><Properties><ItemName>3-Way Motorized</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_2CA99CBE-1460-4676-945B-1518C5AC9942.png"/></Images><Description>Creates a Valve - 3-Way Motorized.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:43:11"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - 3-Way Motorized</PartName>
+					<PartSizeName>Valve - 3-Way Motorized</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - 3-Way Motorized</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{15571A7F-E99E-4A4C-B6B9-1FB2F54B98BE}"/><Properties><ItemName>Check</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_15571A7F-E99E-4A4C-B6B9-1FB2F54B98BE.png"/></Images><Description>Creates a Valve - Check.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:43:17"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Check</PartName>
+					<PartSizeName>Valve - Check</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - Check</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C87DE67D-B546-445F-A1CF-06E53620ED40}"/><Properties><ItemName>Gate Lever</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_C87DE67D-B546-445F-A1CF-06E53620ED40.png"/></Images><Description>Creates a Valve - Gate Lever.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-12-05T19:43:22"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Gate Lever</PartName>
+					<PartSizeName>Valve - Gate Lever</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - Gate Lever</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0CA81459-AD1F-40F9-8659-EBAABAD90D45}"/><Properties><ItemName>Globe Lever</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\SchematicSymbol_0CA81459-AD1F-40F9-8659-EBAABAD90D45.png"/></Images><Description>Creates a Valve - Globe Lever.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Create_Schematic_System</HelpData></Help><Time createdUniversalDateTime="2006-10-19T03:28:38" modifiedUniversalDateTime="2006-11-02T19:13:52"/></Properties><CustomData>
+				<Version>5.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DD5799D1-0E3D-4F7C-AC88-D71D75ADD7B9}"/><Data>
+				<AecDbGeo>
+					<BoundSpaces>1</BoundSpaces>
+					<ShadowDisplay>0</ShadowDisplay>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartName>Valve - Globe Lever</PartName>
+					<PartSizeName>Valve - Globe Lever</PartSizeName>
+				</AecbDbBuildingServiceMember>
+				<AecbDbSchematicSymbol>
+					<Style ref="%AECCONTENT_DIR%\MEPContent\USI\Schematic\Mechanical Valves Ortho Isometric (US Imperial).dwg">Valve - Globe Lever</Style>
+					<Mode>1</Mode>
+					<Justification>0</Justification>
+					<Rotation>0</Rotation>
+				</AecbDbSchematicSymbol>
+			</Data>
+		</Tool></Tools></Palette>

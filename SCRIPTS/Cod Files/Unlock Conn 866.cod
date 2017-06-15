@@ -1,0 +1,5 @@
+if item.cid = 866 then
+ item.connector[1].locked = false
+ item.connector[2].locked = false
+endif
+Item.update()

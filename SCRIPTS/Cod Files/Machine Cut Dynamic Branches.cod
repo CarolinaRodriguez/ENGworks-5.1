@@ -1,0 +1,4 @@
+Rem Setup Pattern 866 (Straight) to machine cut if dynamic branches exist
+if item.CID = 866 Then
+ item.option["Machine Cut If Dynamic Branches"].value = "Yes"
+Endif

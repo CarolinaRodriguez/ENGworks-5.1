@@ -1,0 +1,11 @@
+rem    Unlock Override
+
+function UnlockOverride()
+  item.Option["Override"].locked = false
+end function
+
+dim val1
+select item.Cid
+case 866
+  UnlockOverride()
+end select

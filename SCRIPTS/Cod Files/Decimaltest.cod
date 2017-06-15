@@ -1,0 +1,42 @@
+
+
+
+dim length = item.dim[7].numvalue
+ Rem debug length
+dim dval = Instr(1,length,".") + 1
+ Rem debug "dval "+dval
+dim wnum = left(length, dval-2)
+ Rem debug "wnum "+wnum
+dim dnum = mid(length, dval, 4)
+ debug "dnum "+dnum
+Dim newdec =""
+dim dec0 = ".0000"
+dim dec25 = ".2500"
+dim dec50 = ".5000"
+dim dec75 = ".7500"
+
+
+
+
+ if dnum  < 1249 then
+  item.dim[7].value = wnum + dec0
+ endif
+
+ if dnum <= 3749 > 1249 then
+  item.dim[7].value = wnum + dec25
+ endif
+
+ if dnum <= 6249 > 3749 then
+  item.dim[7].value = wnum + dec50
+ endif
+
+ if dnum <= 8749 > 6249 then
+ item.dim[7].value = wnum + dec75
+ endif
+
+ if dnum > 8749 then
+ item.dim[7].value = wnum + 1 + dec0
+ endif 
+
+
+

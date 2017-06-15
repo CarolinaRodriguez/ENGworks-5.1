@@ -1,0 +1,15 @@
+
+requires task.selection
+
+dim bnum = inputbox("Enter Fab Batch Number")
+
+
+dim i = 1
+
+while i <= task.selection.count
+    dim item = task.selection[i]
+    item.customdata["FAB Batch"].value = bnum
+    item.update()
+ 
+    i = i + 1
+end while

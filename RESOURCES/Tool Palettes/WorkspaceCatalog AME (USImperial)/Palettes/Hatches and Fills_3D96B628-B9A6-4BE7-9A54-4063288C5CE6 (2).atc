@@ -1,0 +1,530 @@
+<Palette FileRevision="20.1.0" Revision="20.1.1" option="0"><ItemID idValue="{3D96B628-B9A6-4BE7-9A54-4063288C5CE6}"/><Properties><ItemName>Detail Creation</ItemName><Images option="0"/><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-11-12T10:01:07"/></Properties><CustomData><Translation status="1"/></CustomData><Source/><Tools><Tool Revision="18.0.0" option="0"><ItemID idValue="{E2F9D2AA-50C7-4EEA-9E05-01A7DC501C26}"/><Properties><ItemName resource="187" src="AcTpCatalogRes.dll"/><Images option="0"/><Time createdUniversalDateTime="2004-12-14T03:10:37" modifiedUniversalDateTime="2004-12-14T03:10:37"/></Properties><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{AC7BB190-D002-4169-B236-49086468B08F}"/><Properties><ItemName resource="144" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_SOLID_SIMPLE" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_SOLID_SIMPLE" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_SOLID_SIMPLE_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_SOLID_SIMPLE_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="1"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>SOLID</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>0.5</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{5DC474DF-B4C3-413E-A78F-F53DFFB6D506}"/><Properties><ItemName resource="145" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_BRICK_SIMPLE" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_BRICK_SIMPLE" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_BRICK_SIMPLE_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_BRICK_SIMPLE_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="1"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>BRICK</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>1</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{A10B4039-673A-4F66-81F5-7DBB4D51ED9B}"/><Properties><ItemName resource="147" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_BRICK_ROT90" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_BRICK_ROT90" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_BRICK_ROT90_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_BRICK_ROT90_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>BRICK</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>1.570796326794897</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>1</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{06D7973E-FFEA-4BDE-84E0-312DBDAF74E7}"/><Properties><ItemName resource="149" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_BRICK_RGB108_7_7" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_BRICK_RGB108_7_7" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_BRICK_RGB108_7_7_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_BRICK_RGB108_7_7_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3261859591"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>BRICK</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>0.5</Scale>
+					<Spacing>0.5</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>1</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{A77D53F5-A408-4D40-9D69-DA810E4DB236}"/><Properties><ItemName resource="153" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_STEEL" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_STEEL" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_STEEL_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_STEEL_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>STEEL</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>0.5</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{D38D13F9-4F83-415A-8CFD-A84B2387C6A7}"/><Properties><ItemName resource="155" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_EARTH_RGB96_57_19" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_EARTH_RGB96_57_19" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_EARTH_RGB96_57_19_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_EARTH_RGB96_57_19_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3261085971"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>EARTH</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>0.7853981633974483</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>0.5</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{172335B2-0C5E-4A33-BABE-ACAEC80DDA1E}"/><Properties><ItemName resource="156" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_AR_CONC" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_AR_CONC" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_AR_CONC_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_AR_CONC_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="1"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>AR-CONC</PatternName>
+					<SourceFile>%ProgramName%.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>1.5</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{3EA035EA-092C-4E43-B63B-2235CD662F65}"/><Properties><ItemName resource="147" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_ISO_BRICK_ROT90" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_ISO_BRICK_ROT90" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_ISO_BRICK_ROT90_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_ISO_BRICK_ROT90_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>BRICK</PatternName>
+					<SourceFile>%ProgramName%iso.pat</SourceFile>
+					<Angle>1.570796326794897</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>1</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{C2AA9289-EF0F-49F7-B592-84AE20E5078C}"/><Properties><ItemName resource="149" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_ISO_BRICK_RGB108_7_7" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_ISO_BRICK_RGB108_7_7" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_ISO_BRICK_RGB108_7_7_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_ISO_BRICK_RGB108_7_7_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3261859591"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>BRICK</PatternName>
+					<SourceFile>%ProgramName%iso.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>0.5</Scale>
+					<Spacing>0.5</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>1</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{EEB1A95D-7CA4-4BCA-BE16-C8E84C75E005}"/><Properties><ItemName resource="153" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_32_ISO_STEEL" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_ISO_STEEL" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_32_ISO_STEEL_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_ISO_STEEL_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="0"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>STEEL</PatternName>
+					<SourceFile>%ProgramName%iso.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>0.5</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool><Tool Revision="20.0.0" option="0"><ItemID idValue="{67A8107F-8E04-46DC-A0DF-827EF7628110}"/><Properties><ItemName resource="157" src="AcTpCatalogRes.dll"/><Images option="0"><Image cx="16" cy="16" IsDark="false" resource="IDB_BITMAP_16_ISO_GRAVEL" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="false" resource="IDB_BITMAP_32_ISO_GRAVEL" src="AcTpCatalogRes.dll"/><Image cx="16" cy="16" IsDark="true" resource="IDB_BITMAP_16_ISO_GRAVEL_DARK" src="AcTpCatalogRes.dll"/><Image cx="32" cy="32" IsDark="true" resource="IDB_BITMAP_32_ISO_GRAVEL_DARK" src="AcTpCatalogRes.dll"/></Images><Time createdUniversalDateTime="2015-10-19T22:24:26" modifiedUniversalDateTime="2015-10-19T22:24:26"/></Properties><Source idValue="{59A63456-0025-4EA0-9CB2-608916D5177C}"/><ToolType>1</ToolType><StockToolRef idValue="{AF0F641B-9CCE-4474-8582-EFE0A38410FC}"/><Data>
+				<GeneralProperties>
+					<Color>
+						<BasicPropInfo>
+							<PropValue unspecified="FALSE" valueType="2" value="0"/>
+						</BasicPropInfo>
+						<CreateInfo>
+							<AcCmColor mRGB="3221225472"/>
+						</CreateInfo>
+					</Color>
+					<Layer>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Layer>
+					<Linetype>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</Linetype>
+					<LinetypeScale>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="3" value="1"/>
+						</BasicPropInfo>
+					</LinetypeScale>
+					<PlotStyle>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="1"/>
+						</BasicPropInfo>
+					</PlotStyle>
+					<LineWeight>
+						<BasicPropInfo>
+							<PropValue unspecified="TRUE" valueType="2" value="0"/>
+						</BasicPropInfo>
+					</LineWeight>
+				</GeneralProperties>
+				<Hatch>
+					<HatchType>1</HatchType>
+					<PatternName>GRAVEL</PatternName>
+					<SourceFile>%ProgramName%iso.pat</SourceFile>
+					<Angle>0</Angle>
+					<Scale>1</Scale>
+					<Spacing>1</Spacing>
+					<PenWidth>100</PenWidth>
+					<Double>0</Double>
+					<BlockExtent>0.5</BlockExtent>
+				</Hatch>
+			</Data>
+		</Tool></Tools></Palette>

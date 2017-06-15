@@ -1,0 +1,370 @@
+<Palette FileRevision="18.0.0" Revision="18.2.0" option="0"><ItemID idValue="{AA015094-5243-42F7-AA06-158CB58E5B4E}"/><Properties><ItemName>Annotation</ItemName><Images option="0"/><Description>This palette contains some basic labels and annotation tools for Piping objects and drawings. More tools can be found in the Documentation catalogs within Content Browser.</Description><Time createdUniversalDateTime="2005-10-20T23:54:57" modifiedUniversalDateTime="2006-03-17T15:44:35"/></Properties><CustomData><Translation status="1"/></CustomData><Source/><Tools><Tool Revision="18.2.0" option="0"><ItemID idValue="{76BCDBC3-152A-45C1-8AA1-7ED8B14F0268}"/><Properties><ItemName>Text Tool</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Text_Tool.png"/></Images><Description>Creates a multiple-line text object.</Description><Keywords>_text</Keywords><Time createdUniversalDateTime="2003-12-10T20:45:15" modifiedUniversalDateTime="2003-12-10T20:45:15"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{966EF5C7-7467-4F0C-B6A5-D7A758E77AF6}"/><Data>
+				<AecDbKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<LeaderType>0</LeaderType>
+					<ContentType>0</ContentType>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol/>
+					<MaskMText>1</MaskMText>
+				</AecDbKeyNoteObject>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{0B4FE6F5-17FE-45C2-BD0F-D54C43B7B384}"/><Properties><ItemName>Text (Straight Leader)</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Annotation_183CFFC8-3C62-4521-A1DB-B36DBC7F94F1.png"/></Images><Description>Creates text with straight leader</Description><Time createdUniversalDateTime="2003-12-09T16:49:56" modifiedUniversalDateTime="2003-12-09T16:49:56"/></Properties><CustomData>
+				<Units>inch</Units>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{966EF5C7-7467-4F0C-B6A5-D7A758E77AF6}"/><Data>
+				<AecDbKeyNoteObject>
+					<LayerKey>ANNOBJ</LayerKey>
+					<LayerKeyOverride/>
+					<LeaderType>2</LeaderType>
+					<ContentType>0</ContentType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Leader Symbols (Imperial).dwg">Annotative</LeaderDimensionStyle>
+					<AttrTextStyle>0</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Symbol/>
+					<MaskMText>1</MaskMText>
+				</AecDbKeyNoteObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{B72FAE71-C827-4269-AC7A-CA995DD41D5D}"/><Properties><ItemName>Cut Line</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Break Mark_D539CE17-148F-4478-8BFB-7DE67A60A11B.png"/></Images><Description>Creates a straight cut line (single "Z")</Description><Time createdUniversalDateTime="2004-08-24T00:46:40" modifiedUniversalDateTime="2004-08-24T00:46:40" refreshedUniversalDateTime="2004-08-24T00:46:40"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{DE792013-CEF5-46F0-8AD3-549CAF1B27BE}"/><Data>
+				<AecDbBreakMarkObject>
+					<LayerKey>ANNSYMOBJ</LayerKey>
+					<Symbol ref="%AECCONTENT_DIR%\Styles\Imperial\Break Marks (Imperial).dwg">Aec6_Anno_Break_Single</Symbol>
+					<SymbolBehavior>1</SymbolBehavior>
+					<PolygonStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Break Marks (Imperial).dwg">Masking Polygon</PolygonStyle>
+					<BreakLineBehavior>0</BreakLineBehavior>
+					<Type>0</Type>
+				</AecDbBreakMarkObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{71A08201-4EF5-4AB3-AA33-80A8BF6AFDD0}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-10-21T00:26:53" modifiedUniversalDateTime="2005-10-21T00:26:53"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{D208FCD8-6A43-41F5-A343-7478AA7390BE}"/><Properties><ItemName>Revision Cloud</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Medium_Arcs_Tags.png"/></Images><Description>Revision Cloud with Tag</Description><Time createdUniversalDateTime="2004-01-12T12:02:16" modifiedUniversalDateTime="2004-01-12T13:59:25"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{95F81488-066B-4245-B1B4-A7167F715433}"/><Data>
+				<AecDbRevisionCloudObject>
+					<LayerKey>ANNREV</LayerKey>
+					<Symbol>Anno_Revision_A</Symbol>
+					<SymbolLocation>%AECCONTENT_DIR%\Styles\Imperial\AEC Annotation Symbols (Imperial).dwg</SymbolLocation>
+					<ArcLength>1.0</ArcLength>
+					<LineWidth>0.03125</LineWidth>
+				</AecDbRevisionCloudObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{746E6842-1F3E-492F-888C-D22803A3F866}"/><Properties><ItemName>Pipe Label</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Schedule Tag Tool_2BB5237B-1139-44CC-9B51-93BAF0CD37CB.png"/></Images><Description>Creates a lable for pipes.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-01-27T08:04:12" modifiedUniversalDateTime="2005-01-27T20:48:16"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<PropertyData>PipeObject</PropertyData>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg</PropertyDataLocation>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aecb_Pipe_Tag</TagName>
+					<Constrain>0</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>1</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aec-Arch-I-192</LeaderDimensionStyle>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>1</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{2CAE3AB5-9411-420A-A695-EA0D6A3F7C57}"/><Properties><ItemName>Pipe System Label</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Pipe_System_tag.png"/></Images><Description>Creates a label to show the system of a section of pipe</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-03-20T11:01:50" modifiedUniversalDateTime="2005-03-20T11:01:50" refreshedUniversalDateTime="2005-03-20T11:01:50"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aecb_Pipe_System_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData/>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>0</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>1</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aec-Arch-I-192</LeaderDimensionStyle>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>1</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="20.1.0" option="0"><ItemID idValue="{EDAF3239-1D51-4C47-B533-D77EEF8F4940}"/><Properties><ItemName>Start Elevation</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Annotation Tool_A5674A8F-076B-4dc6-AE55-79FD37D19E0C.png"/></Images><Description>Creates a label to show the start elevation of a section of pipe</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-03-20T11:01:50" modifiedUniversalDateTime="2008-11-24T17:41:30" refreshedUniversalDateTime="2005-03-20T11:01:50"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Pipe_Invert_In_Feet</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>PipeObject</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride>
+						</LayerKeyOverride>
+					</Tag>
+					<Constrain>0</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>1</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\AEC Dimension Styles (Imperial).dwg">Annotative</LeaderDimensionStyle>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>1</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="20.1.0" option="0"><ItemID idValue="{DB9AF018-0F2D-4C05-9DA5-3C2632FA468F}"/><Properties><ItemName>End Elevation</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\AEC Annotation Tool_6EAB6102-86B4-4b08-A0BC-17DCC057B24E.png"/></Images><Description>Creates a label to show the end elevation of a section of pipe</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-03-20T11:01:50" modifiedUniversalDateTime="2008-11-24T17:41:30" refreshedUniversalDateTime="2005-03-20T11:01:50"/></Properties><CustomData>
+				<Version>5.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Pipe_invert_Out_Feet</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData>PipeObject</PropertyData>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_TAG</LayerKey>
+						<LayerKeyOverride>
+						</LayerKeyOverride>
+					</Tag>
+					<Constrain>0</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>1</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\AEC Dimension Styles (Imperial).dwg">Annotative</LeaderDimensionStyle>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>1</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{9693BF00-6759-457A-9651-51DE85C15411}"/><Properties><ItemName>Bottom of Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Bottom_of_Pipe.png"/></Images><Description>Creates a label for the bottom elevation of a pipe (Does not work on sloped objects)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-03-20T11:01:50" modifiedUniversalDateTime="2005-03-20T11:01:50" refreshedUniversalDateTime="2005-03-20T11:01:50"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aecb_Pipe_BOP_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData/>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_LABL</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aec-Arch-I-192</LeaderDimensionStyle>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{CB6DF1A4-20E7-4077-9BF1-437F8A24F79A}"/><Properties><ItemName>Top of Pipe</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\Top_of_Pipe.png"/></Images><Description>Creates a label for the top elevation of a pipe (Does not work on sloped objects)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Add_A_Tag</HelpData></Help><Time createdUniversalDateTime="2005-03-20T11:01:50" modifiedUniversalDateTime="2005-03-20T11:01:50" refreshedUniversalDateTime="2005-03-20T11:01:50"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{6B44E5D7-AA54-4572-9DBF-843C6D0116DD}"/><Data>
+				<AecDbScheduleTagObject>
+					<Type>0</Type>
+					<TagName ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aecb_Pipe_TOP_Tag</TagName>
+					<PropertyDataLocation>%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg</PropertyDataLocation>
+					<PropertyData/>
+					<Tag>
+						<LayerKey>G-DS-ANNO-STD-TEXT_LABL</LayerKey>
+						<LayerKeyOverride/>
+					</Tag>
+					<Constrain>1</Constrain>
+					<Rotate>0</Rotate>
+					<LeaderType>0</LeaderType>
+					<LeaderDimensionStyle ref="%AECCONTENT_DIR%\Styles\Imperial\Piping Tags (US Imperial).dwg">Aec-Arch-I-192</LeaderDimensionStyle>
+					<LimitPoints>0</LimitPoints>
+					<MaxPoints>0</MaxPoints>
+					<AttTextStyle>0</AttTextStyle>
+					<AttTextAngle>0</AttTextAngle>
+				</AecDbScheduleTagObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{60AAA989-856D-4BC4-A25C-9D468A2C7634}"/><Properties><ItemName>Label</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\add_label.png"/></Images><Description>Creates a Building Systems label.</Description><Help><HelpFile>WBH</HelpFile><HelpData>ABS_Add_A_Label</HelpData></Help><Time createdUniversalDateTime="2003-04-24T14:38:21" modifiedUniversalDateTime="2003-04-24T14:38:21"/></Properties><Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<CommandString>^C^C_AecbLabelCurveAdd</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{CE511FC8-BFAB-4D26-A937-CD64C8A3696E}"/><Properties><ItemName>Title Mark</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Title Mark_E836A986-99AF-487C-946F-77C9A50C7294.png"/></Images><Description>Creates a title mark with number and sheet reference.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2004-01-21T17:36:33" modifiedUniversalDateTime="2004-01-21T17:36:33" refreshedUniversalDateTime="2004-01-21T17:36:33"/></Properties><CustomData>
+				<Units>inch</Units>
+				<Version>4.5</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{85032F3F-352E-4B6C-B27D-6F38F313A3D6}"/><Data>
+				<AecDbTitleMarkObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A2</Tag>
+					<AttrTextStyle>1</AttrTextStyle>
+					<Title ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</Title>
+					<PolylineWidth>0.025</PolylineWidth>
+				</AecDbTitleMarkObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{200FABFE-E0CC-4F6A-8D33-C5106DFF7327}"/><Properties><ItemName>Section Mark A2T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Callout_27489C05-5AD4-4C19-A424-61B3EEFC2E5D.png"/></Images><Description>Section Mark (w/ Sheet No. &amp; Tail)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2004-01-25T16:17:37" modifiedUniversalDateTime="2006-02-02T11:16:20" refreshedUniversalDateTime="2004-01-25T16:17:37"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<CalloutType>5</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Section_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle>MEP Standard</SectElevStyle>
+					<DisplaySet>MEP Section &amp; Elevation</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{84D63D83-F5A0-4152-8B24-E8C38CE11D74}"/><Properties><ItemName>Elevation Mark A2</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Callout_A43E1254-77E4-4371-8B85-5FAF3BA6AEED.png"/></Images><Description>Elevation Mark (w/ Sheet No.)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2004-01-25T16:17:25" modifiedUniversalDateTime="2006-02-02T11:16:47" refreshedUniversalDateTime="2004-01-25T16:17:25"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<CalloutType>3</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Elevation_A2</Tag>
+					<Arrow>Anno_Arrow_A2</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>1</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle>MEP Standard</SectElevStyle>
+					<DisplaySet>MEP Section &amp; Elevation</DisplaySet>
+					<Scale>96</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{3A7077EC-CAB7-4B5B-A6E1-6C5CCCAAD3E4}"/><Properties><ItemName>Detail Mark A2T</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Callout_2799D038-2729-4837-9933-0A1790E27A3F.png"/></Images><Description>Detail Mark (w/ Sheet No. &amp; Tail)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2004-01-25T16:17:08" modifiedUniversalDateTime="2006-02-02T11:17:09" refreshedUniversalDateTime="2004-01-25T16:17:08"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<CalloutType>2</CalloutType>
+					<BoundaryType>3</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.1875</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>0</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle>MEP Standard</SectElevStyle>
+					<DisplaySet>MEP Section &amp; Elevation</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool><Tool Revision="18.2.0" option="0"><ItemID idValue="{A3E8D78C-AB99-49F5-A9B5-3A79BA1EC5EA}"/><Properties><ItemName>Detail Boundary B</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src="Images\AEC Callout_138A2ADE-CFEA-4407-9BB1-8C8653017C0A.png"/></Images><Description>Detail Boundary (Rectangle)</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ADT_UG_CALLOUT</HelpData></Help><Time createdUniversalDateTime="2004-01-25T16:17:08" modifiedUniversalDateTime="2006-03-17T15:48:24" refreshedUniversalDateTime="2004-01-25T16:17:08"/></Properties><CustomData>
+				<Version>5.0</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{361017AB-7947-4A3C-8DAE-8C1F82207241}"/><Data>
+				<AecDbCalloutObject>
+					<LayerKey>TITTEXT</LayerKey>
+					<CalloutType>1</CalloutType>
+					<BoundaryType>2</BoundaryType>
+					<Tag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Detail_A2</Tag>
+					<Arrow>_ArchTick</Arrow>
+					<AttrTextStyle>1</AttrTextStyle>
+					<AttrTextAngle>1</AttrTextAngle>
+					<Dimensions>
+						<Radius>0.25</Radius>
+						<BoundaryLineType>DASHED2</BoundaryLineType>
+						<BoundaryWidth>0.03125</BoundaryWidth>
+						<TailLength>0.25</TailLength>
+						<TailWidth>0.0625</TailWidth>
+					</Dimensions>
+					<ViewType>0</ViewType>
+					<GenerateSectionElevation>0</GenerateSectionElevation>
+					<SectElevStyle>MEP Standard</SectElevStyle>
+					<DisplaySet>MEP Section &amp; Elevation</DisplaySet>
+					<Scale>24</Scale>
+					<ViewNameIncrement>0</ViewNameIncrement>
+					<PlaceTitlemark>0</PlaceTitlemark>
+					<TitleMark>
+						<TitlemarkJustification>0</TitlemarkJustification>
+						<TitleMarkTag ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_A1</TitleMarkTag>
+						<TitleMarkTitle ref="%AECCONTENT_DIR%\Styles\Imperial\Callouts (Imperial).dwg">Anno_Title_T1</TitleMarkTitle>
+						<TitleMarkAttrTextStyle>1</TitleMarkAttrTextStyle>
+						<TitleMarkPolylineWidth>0.025</TitleMarkPolylineWidth>
+						<LayerKey>TITTEXT</LayerKey>
+					</TitleMark>
+				</AecDbCalloutObject>
+				<Units>inch</Units>
+			</Data>
+		</Tool></Tools></Palette>

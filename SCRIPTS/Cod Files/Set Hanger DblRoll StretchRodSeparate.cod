@@ -1,0 +1,6 @@
+Rem Set Double Rob Roll Hangers to Stretch Rods seperately
+If item.cid = 838 then
+  if item.option[1].value = "Roll" then
+   item.option["Stretch Rods Separately"].value = "Yes"
+  endif
+endif

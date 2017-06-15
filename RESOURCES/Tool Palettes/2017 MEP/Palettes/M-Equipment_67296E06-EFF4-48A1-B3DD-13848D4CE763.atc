@@ -1,0 +1,241 @@
+<Palette FileRevision="18.0.0" Revision="18.0.0" option="0"><ItemID idValue="{67296E06-EFF4-48A1-B3DD-13848D4CE763}"/><Properties><ItemName>Equipment</ItemName><Images option="0"/><Description>This palette contains a sampling of customized MvPart tools. They refer to the catalog specified in the Options dialog. You may also drag a part onto the palette or copy one of these tools and modify it to make a new tool.</Description><Time createdUniversalDateTime="2005-10-20T22:42:18" modifiedUniversalDateTime="2006-02-01T13:18:43"/></Properties><Source/><Tools><Tool Revision="18.1.0" option="0"><ItemID idValue="{4E20BC10-5B16-4D4A-AA7B-5A6AE2C60E10}"/><Properties><ItemName>Mechanical Equipment</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\Command Tool_4E20BC10-5B16-4D4A-AA7B-5A6AE2C60E10.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2004-01-12T11:37:04" modifiedUniversalDateTime="2006-02-01T12:54:35"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{791EA574-382B-470F-B285-28C8EF43E7C7}"/><Data>
+				<Units>inch</Units>
+				<CommandString>^C^C(command "_MvPartAdd" "ch" "Mechanical" "")</CommandString>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{DA09C914-7F75-433D-8E0F-E991060F3899}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2006-02-01T17:59:24" modifiedUniversalDateTime="2006-02-01T17:59:24"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{5CE207DA-3FFD-4272-AE17-A05AFAB9FCBF}"/><Properties><ItemName>Air Terminal</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:34:05" modifiedUniversalDateTime="2005-12-09T20:34:05"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{A81EFA55-FDA0-4AAE-B72D-FDC43F1DE11B}"/><Properties><ItemName>Diffuser</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_A81EFA55-FDA0-4AAE-B72D-FDC43F1DE11B.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T12:57:17"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>ACDDF5B6-88C2-49B5-AB5D-5C25F198A549</PartGUID>
+					<PartName>18 x 18 Inch Generic Square Louver Face Ceiling Diffuser Round Neck</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{38046669-16A7-4A3F-905D-73ABA8762BA7}"/><Properties><ItemName>Grille</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_38046669-16A7-4A3F-905D-73ABA8762BA7.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:55:55"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>10B709EA-A76B-4733-BDEA-2D1488203ECF</PartGUID>
+					<PartName>Ceiling Return Air Grilles with Trim</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{94393B95-853F-4DEA-AC72-89689F1ED15D}"/><Properties><ItemName>Register</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_94393B95-853F-4DEA-AC72-89689F1ED15D.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T12:56:02"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>3A99F77F-C3EB-4B7C-9BCC-AD34B5650A7B</PartGUID>
+					<PartName>Rectangular Floor Register</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C80A4016-51BF-408A-91E5-1B84FBD599DF}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-08T19:01:10" modifiedUniversalDateTime="2005-12-08T19:01:10"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{066DF7F5-FA4E-4347-AC92-1F5E8F13B900}"/><Properties><ItemName>Damper</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:34:26" modifiedUniversalDateTime="2005-12-09T20:34:26"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{ED085C59-7693-4DDD-8821-EBCF7B6E4B29}"/><Properties><ItemName>Balancing - Rectangular</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_ED085C59-7693-4DDD-8821-EBCF7B6E4B29.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:19:41"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>D5BAA8FF-D584-49E5-8162-85175A2515C8</PartGUID>
+					<PartName>Simple Rectangular Balancing Damper</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{A2574A9A-464A-4557-B494-90C3648C35CC}"/><Properties><ItemName>Balancing - Round</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_A2574A9A-464A-4557-B494-90C3648C35CC.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:19:47"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>4B1B0393-F54B-406A-AE4B-4F078872EF97</PartGUID>
+					<PartName>Simple Round Balancing Damper</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{18D5AF8B-352C-4C46-8207-5B4BD58B0A71}"/><Properties><ItemName>Fire - Rectangular</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_18D5AF8B-352C-4C46-8207-5B4BD58B0A71.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:19:57"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>B698AA4A-E96A-4D3F-AEFD-E8EF49AF0D5F</PartGUID>
+					<PartName>Simple Rectangular Fire Damper</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{9DDB808A-C53F-4FB1-AF9C-A7EA7396C924}"/><Properties><ItemName>Fire - Round</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_9DDB808A-C53F-4FB1-AF9C-A7EA7396C924.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:06"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>EEEBCE04-722B-44D1-8FD4-ADD3E8D203A9</PartGUID>
+					<PartName>Simple Round Fire Damper</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{B2D75EA1-F526-4AB5-82F9-C38A730162E7}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:41:44" modifiedUniversalDateTime="2005-12-09T20:41:44"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{7A33D6F0-9E53-46CC-9AF5-DE21904DC47C}"/><Properties><ItemName>VAV Box</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:40:04" modifiedUniversalDateTime="2005-12-09T20:40:04"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{58EA586E-B4B4-4393-B86A-6ADD42AE26DE}"/><Properties><ItemName>Shut-Off</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_58EA586E-B4B4-4393-B86A-6ADD42AE26DE.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:12"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>E4F4813B-138C-4C0D-8782-12805E24D74D</PartGUID>
+					<PartName>Shut Off VAV Boxes</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{716D752F-27C4-4324-ACEA-334B5A68AC32}"/><Properties><ItemName>Parallel Fan Powered</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_716D752F-27C4-4324-ACEA-334B5A68AC32.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:18"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>0A343828-2559-4199-B3F4-A699381D9237</PartGUID>
+					<PartName>Parallel Fan Powered VAV</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0F83DE72-EE27-4A51-9E13-5E305021D97C}"/><Properties><ItemName>Series Fan Powered</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_0F83DE72-EE27-4A51-9E13-5E305021D97C.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:25"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>F011D500-838D-4F72-9A16-0CE40B604CF3</PartGUID>
+					<PartName>Series Fan Powered VAV</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{861D9215-3B72-4EB1-82E3-466289E5CAB3}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:39:26" modifiedUniversalDateTime="2005-12-09T20:39:26"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{C75FF986-1C7F-4892-8DB6-346DBCA01C37}"/><Properties><ItemName>Coil</ItemName><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:42:11" modifiedUniversalDateTime="2005-12-09T20:42:11"/></Properties><Source/><ToolType>3</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{F66B1D2A-CFAD-4DDC-A858-DCC7E5B4C903}"/><Properties><ItemName>Electric</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_F66B1D2A-CFAD-4DDC-A858-DCC7E5B4C903.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:32"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>6D6AF1E3-BEB9-4C3E-8BC7-CB05CE5F1195</PartGUID>
+					<PartName>Electric Air Heating Coil</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{79A92BC0-A53B-4482-8177-2007FE74BC37}"/><Properties><ItemName>Hydronic</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_79A92BC0-A53B-4482-8177-2007FE74BC37.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:39"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>7A883B16-A746-4984-A16E-015CE6270D68</PartGUID>
+					<PartName>Hydronic Air Heating Coil</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.0.0" option="0"><ItemID idValue="{ED680184-172E-4215-8F76-0F2BF0369B48}"/><Properties><Images option="0"/><Time createdUniversalDateTime="2005-12-09T20:33:47" modifiedUniversalDateTime="2005-12-09T20:33:47"/></Properties><Source/><ToolType>4</ToolType><StockToolRef/><Data/>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{C1D1A7E3-7AAC-4FDB-9FEE-979B344236C9}"/><Properties><ItemName>Condensing Unit</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_C1D1A7E3-7AAC-4FDB-9FEE-979B344236C9.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:21:05"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>5DA4BC21-7274-44A7-8DE3-E4E79D6B6848</PartGUID>
+					<PartName>17-265 MBH Small Vertical Air-Cooled Condenser</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{E0B864C7-FD0A-4BED-965F-32ABD703F9B3}"/><Properties><ItemName>Fan</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_E0B864C7-FD0A-4BED-965F-32ABD703F9B3.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:20:46"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>42DB8EB3-515B-422B-8B75-34F9B903809B</PartGUID>
+					<PartName>Belt Drive Fans</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{0BCFE521-C74C-4727-BFBF-A616C78B142A}"/><Properties><ItemName>Furnace</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_0BCFE521-C74C-4727-BFBF-A616C78B142A.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-12-01T19:15:44" modifiedUniversalDateTime="2006-02-01T13:20:52"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>714C05AF-C80F-4A37-B745-573783E6C021</PartGUID>
+					<PartName>Furnace</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool><Tool Revision="18.1.0" option="0"><ItemID idValue="{43825844-6514-459B-8996-A6EDE5549AE6}"/><Properties><ItemName>Roof Top Unit</ItemName><Images option="0"><Image cx="64" cy="64" IsDark="false" src=".\Images\MvPart_43825844-6514-459B-8996-A6EDE5549AE6.png"/></Images><Description>Creates an MvPart object.</Description><Help><HelpFile>WBH</HelpFile><HelpCommand>HELP_HHWND_TOPIC</HelpCommand><HelpData>ABS_Adding_an_HVAC_Part</HelpData></Help><Time createdUniversalDateTime="2005-09-02T18:02:55" modifiedUniversalDateTime="2006-02-01T13:20:58"/></Properties><CustomData>
+				<Version>4.7</Version>
+			</CustomData>
+			<Source/><ToolType>1</ToolType><StockToolRef idValue="{166AEA63-C368-4029-8AEA-FF4195595C53}"/><Data>
+				<AecDbGeo>
+					<Description/>
+				</AecDbGeo>
+				<Units>inch</Units>
+				<AecbDbBuildingServiceMember>
+					<PartGUID>C50864BE-6498-47B7-B68D-A418968A40A8</PartGUID>
+					<PartName>Gas Fired</PartName>
+					<Catalog>3DEB3772-D7C5-4D0F-A64F-4FFE27C1FEC3</Catalog>
+				</AecbDbBuildingServiceMember>
+			</Data>
+		</Tool></Tools></Palette>
