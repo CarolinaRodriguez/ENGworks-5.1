@@ -1,0 +1,419 @@
+; Product-Set Codes : 8 Digits
+; currently contained in the File Products.DAT
+; This File together with Buttons.DAT provides the basis of Product Selection.
+; The File will be extended by MAP on request to contain New Product Sets.
+;
+; Note : OEM Codes are outside the Product Set Code
+; 
+; Format for Product Set Code:  SAMMGGCC
+;
+; S=0-9, Services breakdown
+;
+;0	N/A	
+;1 	Building Ducted
+;2	Building Piped
+;3	Drainage
+;4	Electrical
+;5	Structural
+;6	Process
+;7
+;8
+;9
+;
+; A=0-9, Product Types (for S=1,2,3,6)
+;
+;0 	N/A
+;1	Duct Ftgs
+;2	Equip-In-Line (excluding Valves)
+;3	Pipe
+;4	Pipe Ftgs
+;5	Pipe work Valves
+;6	End-of-Line Equipment
+;7
+;8
+;9
+[GROUPS]
+10=DWV
+11=Ductwork Fittings
+12=Ductwork IL Equipment
+16=Ductwork End of Line Equipment
+22=Pipework IL Equipment
+23=Pipework Pipes
+24=Pipework Fittings
+25=Pipework Valves
+26=Pipework End of Line Equipment
+33=DWV
+34=Drainage Fittings
+35=Drainage Equipment
+40=Electrical Containment
+45=Electrical Equipment
+50=Structural
+;
+;
+[PRODUCTS]
+;
+;  SAMMGGCC  mm=00-99,	Materials/Weight or can be (SA) dependent 
+;  if the Mat'l is not relevent.
+;			
+;00	N/A
+;01	Black Steel
+;02	Black Steel Light
+;03	Black Steel Medium
+;03	Black Steel Seamless
+;04	Malleable iron	
+;10	Galv Steel
+;11	Galv Steel Light
+;12	Galv Steel Medium
+;13	Galv Steel Seamless	
+;20	SS 304
+;21	SS 306
+;30	Cast Iron
+;40	Copper
+;41	Copper Light
+;42	Copper Heavy
+;50	Brass
+;55	Bronze				
+;60	PVC
+;61	PVC Thin Wall
+;65	PVC U
+;70	MuPVC
+;75	ABS
+;80	Poly-Prop
+;85	Polyethylene
+;90	Concrete			
+;
+;GG=00-99, 	(SA) dependent, Mat'l Grade, description; see (SA) sections for details
+;		(GG) could be used to define Pressure rating 
+;
+;CC=00-99,	Connectivity. This defined by the Product or is derived from a Specification.
+;	
+;00	None
+;01	Duct					(Spec Driven, Duct flanges)
+;02	Socket Threaded
+;03	Socket Soldered				(capillary, solder added)
+;04	Socket Brazed
+;05	Socket Solvent Welded
+;06	Socket Pressed 				(crimped)
+;07	Socket Solder ring 			(socket includes a solder ring)
+;08	Socket Quick Fit 			(Quick Fit connection)
+;09
+;10
+;11	Butt Welded
+;12	Grooved
+;13	Flanged 				(Pipe or Fittings joined with Coupling
+;14	Thermo Fusion				(Butted & fused)
+;15 	Compression Joint			(Thread + Olive)		
+;16	No Hub
+;17	Plain					(used on pipe)
+;18	Coupled					(other couplings)
+;
+; Product Sets
+;
+;*** Service (1) Building Services Duct
+;
+; if (SA)=11, (GG) 01-09=Rect Man, 10-19=Rect B'Out, 20-29=Round Man, 
+; 30-39=Round B'Out, 40-49=Oval Man, 50-59=Oval B'Out.
+; If (SA)=12, Describes the Type of In-Line-Equipment, New types added as required.
+; (GG) 01-39=Rect, 40-79=Round/Oval, 90-99 Oval only.  
+;
+; Description						Code
+; --------------------------------------        	--------
+Tyler=							10000001
+Charlotte=						10000002
+Nibco=							10000003
+Enfield=						10000004
+Duct Rect-Galv-Strts+Ftgs-Dw144= 			11100101
+Duct Rect-Galv-Strts+Ftgs-Dw144 Supply= 		11100201
+Duct Rect-Galv-Strts+Ftgs-Dw144 Extract= 		11100301
+Duct Rect-Galv-Strts+Ftgs-Fire Protection= 		11100402
+Duct Rect-Black Steel-Strts+Ftgs-Welded= 		11010106
+;
+Duct Rect-IL Equip-All=					12000099
+Duct Rect-IL Equip-Silencers=				12100101
+Duct Rect-IL Equip-Fire Dampers=			12100201
+Duct Rect-IL Equip-VCD's=				12100301
+Duct Rect-IL Equip-Heaters=				12100401
+Duct Rect-IL Equip-Fans=				12100501
+Duct Rect-IL Equip-Misc.=				12103901
+;
+Duct Round-Galv-Tube+Ftgs= 				11102001
+Duct Round-Black Steel-Tube+Ftgs= 			11102101
+Duct Round-Galv-Catalogue-Ftgs= 			11103001
+Duct Round-Galv-Catalogue-Fire Protection= 		11103102
+;
+Duct Round-IL Equip-All=				12004099
+Duct Round-IL Equip-Silencers=				12104001
+Duct Round-IL Equip-Fire Dampers=			12104101
+Duct Round-IL Equip-VCD's=				12104201
+Duct Round-IL Equip-Heaters=				12104301
+Duct Round-IL Equip-Fans=				12104401
+Duct Round-IL Equip-Flex=				12104501
+Duct Round-IL Equip-Misc.=				12107901
+;
+Duct Oval-Galv-Tube+Ftgs= 				11103001
+Duct Oval-Galv-Catalogue-Ftgs= 				11104001
+;
+Duct Oval-IL Equip-All=					12008099
+Duct Oval-IL Equip-Silencers=				12108001		
+Duct Oval-IL Equip-Fire Dampers=			12108101
+Duct Oval-IL Equip-VCD's=				12108201
+Duct Oval-IL Equip-Heaters=				12108901
+Duct Oval-IL Equip-Fans=				12108401	
+Duct Oval-IL Equip-Misc.=				12109901
+;
+;Duct End of Line Equipment (SA)=16, (MM) and (CC) can be used if required
+;
+Duct EOL Equip-All=					16100099
+Duct EOL Equip-Fan Coil Units=				16100000
+Duct EOL Equip-Air Handling Units=			16101000
+Duct EOL Equip-Fans=					16102000
+Duct EOL Equip-Grilles, Diffusers=			16103000
+Duct EOL Equip-Plenum Boxes=				16104000
+Duct EOL Misc.=						16109000
+;
+; *** Building Services Pipe 
+;
+; (SA)=23 or 24, (GG) = Grade, values as below
+;			
+;00	N/A	N/A
+;01	Sch 5S		
+;02	Sch 10S
+;03	Sch 10
+;04	Sch 20
+;05	Sch 30
+;06	Sch 40
+;07	Sch 40S
+;08	Sch 60
+;09	Sch 80
+;10	Sch 80S
+;11	Sch 100
+;12	Sch 120
+;13	Sch 140
+;14	Sch 160
+;15	Std
+;16	XS
+;17	XXS
+;18	Spare-1
+;19	Spare-2
+;30	BS1387 Mdm
+;31	BS1387 Hvy
+;32	BS1965 Mdm
+;33	BS1965 Hvy	
+;40	Hard
+;41	Soft			
+;60	Light					
+;61	Medium
+;62	Heavy
+;
+Pipe-Copper-Plain=					23400017
+Pipe-Galv-Plain=					23100017
+Pipe-Galv-Thrd=						23100002
+Pipe-Iron-Plain=					23300017
+Pipe-Steel-BS1387-Plain=				23013017
+Pipe-Steel-BS1387-Scr=					23013002
+Pipe-Steel-BS1387-Gr=					23013012
+Pipe-Steel-Sch 40-Plain=				23010617
+Pipe-Steel-Sch 40-Scr=					23010602
+Pipe-Steel-Sch 40-Gr=					23010612
+Pipe-SS 304-Plain=					23200017
+Pipe-SS 306-Plain=					23210017
+;
+; Plastic
+;
+Pipe-ABS-Plain=						23750017
+Pipe-PVC U-Plain=					23650017
+Pipe-MuPVC-Plain=					23700017
+;
+; Building Services Pipe Fittings (metal & Plastic)
+;
+; Metal Ftgs
+;
+Ftgs-Steel-Medium-welded=		   		24016111
+Ftgs-Steel-Heavy-Welded=		   		24016211
+Ftgs-Mall Iron-None-Screwed=				24040002
+Ftgs-Steel-Medium-Grooved=		   		24016112
+Ftgs-Mall Bronze-None-Screwed=				24550002
+Ftgs-Galv-Screwed=					24100002
+Ftgs-Copper-Solder=					24400007
+Ftgs-Copper-Capillary=					24400003
+Ftgs-Copper-Pressed=					24400006
+Ftgs-Steel-Pressed=					24010006
+Ftgs-Cast Iron-Grooved=					24300012
+;
+; Plastic Ftgs for Building services
+; Note Drainage is in Service (3)
+;
+; In-Line Equipment for Building Services Pipe work
+;
+; Valves; (SA) = 25
+; Each Product Set contains All Valve Types and pressure ratings
+; Button codes allow Valve Type and Pressure to be allocated. 
+; (GG) could be expanded to represent (TP), where (T) 0-9 = Valve Type, Gate,Stop... 
+; and (P) = 0-9 Pressure rating. PN6, PN10,PN16, PN20...
+;
+; **** Not in Use for now *******
+;
+;Valves-All=						25009999
+;valves-Bronze-All-All=					25550099
+;valves-Bronze-all-Flanged=				25550013
+;valves-Bronze-all-Grooved=				25550012
+;valves-Bronze-all-Threaded=				25550002
+;valves-Bronze-all-Socket solder=			25550003
+;valves-Bronze-all-Quick fit=				25550008
+;valves-Bronze-all-Compression=				25550015
+;valves-Brass-All=					25500099
+;valves-Brass-Flanged=					25500013
+;valves-Brass-Grooved=					25500012
+;valves-Brass-Threaded=					25500002
+;valves-Brass-Socket solder=				25500003
+;valves-Brass-Quick fit=				25500008
+;valves-Brass-Compression=				25500015
+;valves-Cast Iron-All=					25300099
+;valves-Cast Iron-Flanged=				25300013
+;valves-Cast Iron-Grooved=				25300012
+;valves-Cast Iron-Threaded=				25300002
+;
+; Useage (A), (C), (C4), etc. determines the Service
+; that the Valve can be used for.
+; The Valve product File name should should reflect the material
+; and rating to enable the User to configure the Buttons
+;
+Nibco=							25000000
+Red White=						25000100
+Stockholm=						25000200
+Valve-Gate-Category (A3)=				25000300
+Valve-Gate-Category (A4)=				25000400
+Valve-Butterfly-Category (B)=				25000500
+Valve-Butterfly-Category (B2)=				25000600
+Valve-Butterfly-Category (B3)=				25000700
+Valve-Butterfly-Category (B4)=				25000800
+Valve-Commissioning-Category (C)=			25000900
+Valve-Commissioning-Category (C1)=			25001000
+Valve-Commissioning-Category (C2)=			25001100
+Valve-VODRV-Category (C3)=				25001200
+Valve-VODRV-Category (C4)=				25001300
+Valve-Double Regulating-Category (D)=			25001400
+Valve-Double Regulating-Category (D1)=			25001500
+Valve-Double Regulating-Category (D2)=			25001600
+Valve-Globe-Category (D3)=				25001700
+Valve-Gate-Category (E)=				25001800
+Valve-Gate-Category (E1)=				25001900
+Valve-Category (F)=					25002000
+Valve-Category (F1)=					25002100
+Valve-Category (G)=					25002200
+Valve-Category (G1)=					25002300
+Valve-Category (G2)=					25002400
+Valve-Category (H)=					25002500
+Valve-Category (H1)=					25002600
+Valve-Category (H2)=					25002700
+Valve-Category (H3)=					25002800
+Valve-Category (H4)=					25002900
+Valve-Category (J)=					25003000
+Valve-Category (J1)=					25003100
+Valve-Category (L)=					25003200
+Valve-Category (L1)=					25003300
+Valve-Category (M1)=					25003400
+Valve-Category (M2)=					25003500
+Valve-Category (M3)=					25003600
+Valve-Category (M4)=					25003700
+Valve-Category (M5)=					25003800
+Valve-Category (N)=					25003900
+Valve-Category (N1)=					25004000
+Valve-Category (P)=					25004100
+Valve-Category (P1)=					25004200
+Valve-Category (P2)=					25004300
+Valve-Category (R)=					25004400
+Valve-Category (T)=					25004500
+Valve-Category (T1)=					25004600
+Valve-Category (V)=					25004700
+Valve-Category (W)=					25004800
+Valve-Category (W1)=					25004900
+Valve-Category (W2)=					25005000
+Valve-Category (Y)=					25005100
+Valve-Category (Y1)=					25005200
+Valve-Category (Y2)=					25005300
+Valve-Category (Y3)=					25005400
+;
+; In-Line Equipment for Building Services Pipe work
+; (SA) = 22
+; 
+; Strainers (GG) = 01-19 can define strainer type if required
+;
+;Strainers-All-All-All=					22009999
+;Strainers-Bronze-All-All=				22550099
+;Strainers-Bronze-all-Flanged=				22550013
+;Strainers-Bronze-all-Grooved=				22550012
+;Strainers-Bronze-all-Threaded=				22550002
+;Strainers-Bronze-all-Socket solder=			22550003
+;Strainers-Bronze-all-Quick fit=			22550008
+;Strainers-Bronze-all-Compression=			22550015
+;Strainers-Brass-All=					22500099
+;Strainers-Brass-Flanged=				22500013
+;Strainers-Brass-Grooved=				22500012
+;Strainers-Brass-Threaded=				22500002
+;Strainers-Brass-Socket solder=				22500003
+;Strainers-Brass-Quick fit=				22500008
+;Strainers-Brass-Compression=				22500015
+;Strainers-Cast Iron-All=				22300099
+;Strainers-Cast Iron-Flanged=				22300013
+;Strainers-Cast Iron-Grooved=				22300012
+;Strainers-Cast Iron-Threaded=				25300002
+;
+; Filters   (GG) = 20-39
+;
+;
+; Meters    (GG) = 40-49
+;
+;
+; Flow Indicators (GG) = 50-59
+;
+;
+; End of Line Equipment for Building Services Pipe work
+; (SA) = 26 
+;
+; Pumps (GG) = 00-09
+;
+Pumps-All-All-All=					26000000
+Pumps-All-All-Flanged=					26000113
+Pumps-All-Pump-Sets-Flanged=				26000913		
+;
+; Vessels (GG) = 10-19
+;
+Vessels-All=						26001000
+Vessels-Type 1=						26001100
+Vessels-Type 2=						26001200
+Vessels-Type 3=						26001300
+;
+; To be defined later
+; Boilers (GG) = 20-29
+; Dosing Sets (GG) = 30-39
+; Vessels (GG) = 40-49
+; Vessels (GG) = 50-59
+; Vessels (GG) = 60-69
+;
+; ****
+; Service (3) Drainage
+; ****
+; 
+; Drainage Pipe (SA) = 33
+;
+None=							33300001			
+;
+; Drainage Fittings (SA) = 34
+;
+Drainage (AG)-Cast Iron, coupled=			34300018
+Drainage (BG), MuPVC Waste-Socket=			34700005
+Drainage (BG), PVC-U Soil-Hub=				34650005
+Drainage (BG), Concrete-Socket=				34900005
+;
+; Electrical Containment
+;
+Electrical Basket=					40104000					
+Electrical Ladder=					40114000
+Electrical Tray=					40124000
+Electrical Trunking (Cable)=				40134000
+Electrical Trunking (Lighting)=				40144000
+;
+; Structural Profiles
+;
+Structural Profiles=					50010000

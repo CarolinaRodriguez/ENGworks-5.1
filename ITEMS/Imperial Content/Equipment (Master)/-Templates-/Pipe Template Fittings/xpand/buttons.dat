@@ -1,0 +1,431 @@
+; Button Codes
+;
+; Notes :
+; Product Codesand Button Codes are assigned to Product Lists during Creation by MAP, 
+; Agent or ;OEM
+; MAP will be responsible for merging New entries into a compiled File.
+; A pre-requisite to using "Systems" that can be be easily transported between 
+; CADDuct Users is that all Products have Product and Button Codes.
+; The Description also becomes the initial Tool Tip.
+; A Language Editor will shortly be made available.
+; "Elbow" is some times used to infer Short radius. "Bend" may be used to infer ;Long radius.
+; For Elbows/Bends the term "SR" is used to abbreviate Short Radius/Half Radius.
+; For Elbows/Bends the term "LR" is used to abbreviate Long Radius/Full Radius.
+; If not specified, the Gender is F-F (sockets) on Fittings and (M-M) on Pipes
+;
+; 
+; Recommended Format : SSSGPPPP
+; SSS = Supplier No, assigned to the company  who originated the Product Set.   
+; MAP's Code =001.
+; GPPPP = Unique Code, Random or could be structured.  MAP to check the same No 
+; is not being used twice.	
+;
+; PPPP Guide
+; 001-099  Straights & Couplings (pipe-pipe), (Ftg-Ftg), Plugs, End Caps	
+; 100-299 Elbows/Bends
+; 300-399 Cut Ins into existing Lines, Shoes, Taps, Saddles 	
+; 400-499 Tees/Crosses		
+; 500-599 Reducers/Transitions/Offsets
+; 600-699  Bushes/Nipples	
+; 700-799  System Xformations
+; 800-899  ???
+; 900-1199 Valves and other In-Line Equipment
+; 1200-1399 End of Line Equipment
+; 1400-1599 Misc.
+;
+[GROUPS]
+10=Piping
+11=Ductwork
+12=Ductwork Equipment (IL)
+16=Ductwork Equipment (EOL)
+23=Pipe
+24=Pipework Fittings
+25=Pipework Valves
+22=Pipework Equipment (IL)
+26=Pipework Equipment (EOL)
+33=Drainage Pipes
+34=Drainage Fittings
+41=Electrical Containment
+42=Electrical Equipment
+50=Structural Profiles
+
+[PRODUCTS]
+;Description (Tool Tip)			Code
+Hub=					10000001
+Hub & Spigot=				10000002
+No Hub=					10000003
+95/5 Soldered=				10001001
+Brazed=					10001002
+Silfos=					10001003
+Silver Solder=				10001004
+Buttweld=				10002001
+Plain End=				10002002
+Threaded=				10002003
+Grooved=				10002004
+Solvent Weld=				10003001
+Socket Weld=				10003002
+;
+; Duct Strs+Ftgs Section (SA) = 01
+;
+Straight=				11000001
+Straight (short)=			11000002
+Spiral Round/Oval Tube=			11100001
+Round/Oval Tube=			11100002
+Coupling/Socket,(Fgs)=			11100050
+Coupling,(Pipes)=			11100051
+;
+; Elbows
+;
+Elbow Square 90=			11000100
+Elbow Square 90 + A/T's=		11000101
+Elbow Square, Angled=			11000102
+Elbow Radius=				11000103
+Elbow Radius + Splitters=		11000104
+Elbow Radius Reducing=			11000105
+Elbow, Drop Cheek=			11000107
+;
+Round Elbow 90, Short Radius=		11100100
+Round Elbow 90, Long Radius=		11100101
+Round Elbow 90, Reducing=		11100106
+Round Elbow 60=				11100120
+Round Elbow 45=				11100130
+Round Elbow 30=				11100150
+Round Elbow 15=				11100174
+;
+; Duct Ftg Cut-In's
+;
+Rect Shoe (Cut in)=			11000301
+Round Shoe (Cut in)=			11100302
+Tap on Flat (Cut in)=			11100303
+Round Shoe 45 (Cut in)=			11100304
+90-Round Tap,(Cut in)=			11100305
+;
+; Tees, Y's, Crosses
+;
+Square Tee=				11000401
+Radius Tee=				11000402
+
+Breeches Piece=				11000404
+Y-Branch=				11000405
+3-Way=					11000406
+Drop Cheek Twin Elbow=			11000407
+;
+Cross, Equal=				11100401
+Cross, Reducing=			11100402
+Tee, Equal=				11100403
+Tee, Reducing on Branch=		11100404
+Tee 45=					11100405
+Tee 45,Reducing=			11100406
+Wye Branch (equal)=			11100407
+Wye Branch (Alt)=			11100408
+Wye Branch (reducing)=			11100409
+Saddle tee=				11100410
+;
+; Reducers, Offsets, end caps
+;
+Taper=					11000501
+Taper (FOB)=				11000502
+Taper (FOT)=				11000503
+Mitred Offset=				11000505
+Radius Offset=				11000507
+Double Offset=				11000509
+Reducer, Concentric=			11100501
+Reducer, Eccentric=			11100502
+End Cap (rect)=				11000601
+End Cap (Round/Oval)=			11100601					
+;
+; Transformations
+;
+Square to Round=			11000701
+Round to Oval=				11100702
+Square to Oval=				11100703
+;
+; Misc
+;
+Grille Box=				11000801
+Round Flex=				11100802
+;
+; Pipework Section (SA) = 03
+;
+;
+; Pipe, 
+; Install Types
+;
+Pipe=				23300001
+;
+; Pipe Ftgs
+;
+; Adapters, Unions, nipples, End Caps
+;
+Flexible Conn=				24300050
+Coupling/Socket,(Fgs)=			24300051
+Coupling,(Pipe)=			24300052
+Adapter-1=				24300060
+Adapter-2=				24300061
+Union, Straight,F-F=			24300070
+Union, Straight,M-F=			24300071
+Plug=					24300080
+End Cap=				24300081	
+Hexagon Bush=				24300091
+Hexagon Nipple=				24300092
+Hexagon Nipple,Reducing=		24300093
+;
+; Elbows
+;
+Elbow 90, Short Radius=			24300100
+Elbow 90, Long Radius=			24300101
+Elbow 90, Short Radius,M-F=		24300102
+Elbow 90, Long Radius,M-F=		24300103
+Elbow 90, Short Radius,M-M=		24300104
+Elbow 90, Long Radius,M-M=		24300105
+Elbow 90, Short Radius,Reducing=	24300106
+Elbow 90, Long Radius,Reducing=		24300107
+Elbow 90, Reducing, M-F=		24300108
+Elbow 60, Short Radius=			24300120
+Elbow 60, Long Radius=			24300121
+Elbow 60, Short Radius,M-F=		24300122
+Elbow 60, Long Radius,M-F=		24300123
+Elbow 45, Short Radius=			24300130
+Elbow 45, Long Radius=			24300131
+Elbow 45, Short Radius,M-F=		24300132
+Elbow 45, Long Radius,M-F=		24300133
+Elbow 45, Short Radius,M-M=		24300134
+Elbow 45, Long Radius,M-M=		24300135
+Elbow 45, Short Radius,Reducing=	24300136
+Elbow 45, Long Radius,Reducing=		24300137
+Elbow 45, Reducing, M-F=		24300138
+Elbow 30, Short Radius=			24300150
+Elbow 30, Long Radius=			24300151
+Elbow 30, Short Radius,M-F=		24300152
+Elbow 30, Long Radius,M-F=		24300153
+Elbow 22.5, Short Radius=		24300160
+Elbow 22.5, Long Radius=		24300161
+Elbow 22.5, Short Radius,M-F=		24300162
+Elbow 22.5, Long Radius,M-F=		24300163
+Elbow 15, Short Radius=			24300174
+Elbow 15, Long Radius=			24300175
+Elbow 15, Short Radius,M-F=		24300176
+Elbow 15, Long Radius,M-F=		24300177
+Elbow 11.25, Short Radius=		24300180
+Elbow 11.25, Long Radius=		24300181
+Elbow 11.25, Short Radius,M-F=		24300182
+Elbow 11.25, Long Radius,M-F=		24300183
+Return Bend 180=			24300200
+;
+; Cut In's
+;
+Swept Bend 90,(Cut in)=			24300300
+Swept Bend 45, (Cut in)= 		24300301
+90-Tap,(Cut in)=			24300302
+45-Tap,(Cut in)=			24300304
+Threaded Branch (Cut in)=		24300307
+;
+; Tees
+;
+Tee, Equal=				24300400
+Tee, Reducing on Branch=		24300401
+Tee, Reducing on Run=			24300402
+Tee, Reducing Both=			24300403
+Tee, Increasing on Branch=		24300404
+Tee, Equal, F-F-M=			24300405
+Pitcher Tee, Equal=			24300406
+Pitcher Tee, Reducing on Br=		24300407
+Pitcher Tee, Reducing on Run=		24300408
+Pitcher Tee, Reducing Both=		24300409
+Twin Elbow=				24300410
+Cross, Equal=				24300430
+Cross-45=				24300431
+Cross, Reducing=			24300432
+Tee 45=					24300433
+Tee 45,Reducing=			24300434
+Wye Branch (equal)=			24300435
+Wye Branch (Alt)=			24300436
+Wye Branch (reducing)=			24300437
+Pipe + Adapter-1=			24300440
+Pipe + Adapter-2=			24300441
+Pipe + Adapter-3=			24300442
+;
+; Reducers, Offsets
+;
+Reducer, Concentric=			24300500
+Reducer, Eccentric=			24300501
+Reducer, concentric,M-F=		24300502
+;
+; (SA) = 25 Valves
+;
+Isolating=				25000001
+Regulating/Throttling=			25000002
+Commissioning=				25000003
+Isolating+regulating=			25000004
+Automatic flow Balancing=		25000005
+Check valves=			        25000006
+Strainers=				25000007
+Radiator valves=			25000008
+Thermostatic Radiator valves=		25000009
+Diff. Pressure relief Valves=		25000010
+Safety/relief valves=			25000011
+Double Check valves=			25000012
+Ball Float Valves=			25000013
+Drains=					25000014
+Vents=					25000015
+Combo Drain & Vent=			25000016
+;
+Misc. Valves (A)=			25000090
+Misc. Valves (B)=			25000091
+Misc. Valves (C)=			25000092
+;
+; In Line Pipe Equipment
+;
+Strainer=				22000001
+Strainer (Alt)=				22000002
+Filters=				22000100
+Temp Gauge=				22000100
+Pressure gauge=				22000101
+Gauge (Misc)=				22000102
+Sprinklers=				22000200
+Sprinklers (Alt)=			22000201
+;
+Misc In Line Equipment=			22000900
+;
+; Duct In-Line
+;
+Attenuator=				12000000
+Fire Damper (Flanged)=			12000001
+Fire Damper-Alt=			12000002
+Smoke Damper-1=				12000003
+Smoke Damper-2=				12000004
+Fan/Blower-1=				12000011
+Fan/Blower-2=				12000120
+Fan/Blower-3=				12000013
+Volume Ctrl Damper (opposed)=		12000021
+Volume Ctrl Damper (in-line)=		12000022
+Volume Ctrl Damper Type-3=		12000023
+Iris Damper=				12000024
+Single Blade Damper=			12000025
+Heater Battery=				12000031
+Canvas Connector=			12000032
+Access Panel=				12000033
+Misc. In Line Equip-1=			12000071
+Misc. In Line Equip-2=			12000072
+Misc. In Line Equip-3=			12000073
+;
+; Duct End of Line Equipment
+;
+Extract Terminals=			16300001
+Supply Terminals=			16300050
+Transfer Terminals=			16300051
+Fan Coil Unit=				16300100
+Air Handling Unit=			16300200
+Grille Box=				16300300
+Plenum Box=				16300400
+Diffuser Type-1=			16300500
+Diffuser Type-2=			16300501
+Fan/Blower=				16300600
+;
+; Pipe End of Line-Line
+;
+Boilers=				26300001
+Booster sets=				26300002
+Dosing Sets=				26300100
+Metering Stations=			26300200
+Pump T1=				26300300
+Pump T2=				26300301
+Pump Sets=				26300390
+Vessels=				26300400
+Misc. End of Line 1=			26300900
+Misc. End of Line 2=			26300901
+Misc. End of Line 2=			26300902
+;
+; Drainage Pipe and Fittings
+;
+;
+; Pipe 
+;
+;
+Pipe=					33000001
+Pipe (plain)=				33000002
+;
+; Fittings
+;
+Coupling,(Pipe)=			34000051
+Bend 88/92=				34000100
+Bend 69=				34000120
+Bend 88/92 Long Radius=			34000121
+Bend 45/135=				34000130
+Bend 30=				34000150
+Bend 15=				34000174
+Bend with Access Panel=			34000201
+Double Branch (sockets)=		34000400
+Double Branch Spigot=			34000401
+Swept Branch + Pipe=			34000406
+Branch 88/92=				34000407
+Branch Double 45/135=			34000431
+Branch 69=				34000432
+Branch 45/135=				34000433
+Corner Branch=				34000450
+Corner Branch Long Tail=		34000451
+Tapered Pipe=				34000501
+End Cap=				34000601
+Puddle Flange=				34000800
+Gully Inlet=				34000801
+Single Boss-50mm=			34000802
+Double Boss-50mm=			34000803
+Double Boss-50mm (opposed)=		34000804
+;
+;
+;Electrical Containment
+;
+Straight=				41000001
+Trunking=				41000002
+Central Reducer=			41000501
+Left Hand Reducer=			41000502
+Right Hand Reducer=			41000503
+Offset=					41000504
+Bellmouth=				41000505
+90 Flat Bend=				41000190
+60 Flat Bend=				41000160	
+45 Flat Bend=				41000145
+30 Flat Bend=				41000130	
+90 Riser (Inside)=			41000191	
+60 Riser (Inside)=			41000161
+45 Riser (Inside)=			41000146
+30 Riser (Inside)=			41000131
+90 Riser (Outside)=			41000192	
+60 Riser (Outside)=			41000162
+45 Riser (Outside)=			41000147
+30 Riser (Outside)=			41000132
+90 Bend (Inside Lid)=			41000193
+45 Bend (Inside Lid)=			41000148
+90 Bend (Top Lid)=			41000194
+90 Bend (Top Lid Gusset)=		41000195
+45 Bend (Top Lid)=			41000149
+90 Bend (Outside Lid)=			41000196
+45 Bend (Outside Lid)=			41000150
+Large Radius Bend=			41000198
+Equal Tee=				41000400
+Unequal Tee=				41000410
+Tee (Inside Lid)=			41000420
+Tee (Inside Lid Gusset)=		41000421
+Tee (Top Lid)=				41000422
+Tee (Top Lid Gusset)=			41000423
+Tee (Outside Lid)=			41000424
+Tee (Outside Lid Gusset)=		41000425
+Tee=					41000426	
+4-Way Crosspiece=			41000430
+;
+;Structural Profiles
+;
+Angle Equal=				50000001	
+Angle Unequal=				50000002
+Box Section Sqaure=			50000003
+Box Section Unequal=			50000004
+Channel=				50000005
+Round Hollow Section=			50000006
+Joist=					50000007
+Universal Beam=				50000008
+Universal Beam Tee=			50000009
+Universal Bearer Pile=			50000010
+Universal Column Tee=			50000011
+Universal Column=			50000012
+Unistrut=				50000013
+PF Channel=				50000014
