@@ -1,0 +1,114 @@
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Assemblies
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Macro Systems
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Mainline
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Brass Ball Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Bronze Ball Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Bronze Press Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Butterfly Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Gate Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Lead Free Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Equipment\Valves\Nibco\Strainer Valves
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic\Floor Drains
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic\Hangers
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic\Tubes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic\Tubes\Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic\Tubes\PVC
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Generic\Tubes\Copper\ASTM B306
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Macro Systems\Grooved to Soldered (Water)
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Macro Systems\Grooved to Soldered (Water)\Cerro Multi Angled Elbow transition
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\AB&I Foundry
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Anvil
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Cerro
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Elkhart
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Fernco
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mission
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Spears
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Tyler
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Ward
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\AB&I Foundry\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\AB&I Foundry\Cast Iron\Extra Heavy
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\AB&I Foundry\Cast Iron\No-Hub
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\AB&I Foundry\Cast Iron\SV
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Anvil\Threaded
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Anvil\Threaded\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Anvil\Threaded\Cast Iron\ASME B16.12
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Anvil\Threaded\Cast Iron\ASME B16.12\Black
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Anvil\Threaded\Cast Iron\ASME B16.12\Galvanized
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Cerro\Tubes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Cerro\Tubes\Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\ABS
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\PVC
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Tubes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\ABS\Sch 40
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Extra Heavy
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Multi-Story
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\No-Hub
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Service
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Tubes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\No-Hub\Unlocked
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Service\Multi-Story
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Tubes\Extra Heavy
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Tubes\No-Hub
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Cast Iron\Tubes\Service
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\PVC\Sch 40
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\PVC\Sch 40\Unlocked
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Tubes\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Charlotte\Tubes\PVC
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Elkhart\Soldered
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Elkhart\Soldered\Wrot Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal 25-50 PVDF
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\Fusion
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\LD Fusion
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\Pipes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\Fusion\PPFR
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\Fusion\PPFR\Electrofusion Socket
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\Fusion\PPFR\Mechanical Joint Socket
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\LD Fusion\PPFR
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\LD Fusion\PPNFR
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\LD Fusion\PPFR\Electrofusion Socket
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal\LD Fusion\PPNFR\Electrofusion Socket
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal 25-50 PVDF\Fittings
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\GF\Fuseal 25-50 PVDF\Traps
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mission\No Hub
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Copper Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Press Fittings
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Socket
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Soldered
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Tubes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Socket\ABS
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Socket\PVC
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Soldered\Cast Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Soldered\Wrot Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Tubes\ABS
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Tubes\Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Mueller\Tubes\Copper\Plumbing
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Press
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Socket
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Soldered
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Socket\ABS
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Socket\PVC
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Soldered\Cast Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Nibco\Soldered\Wrot Copper
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Spears\PVC
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Spears\PVC\Sch40
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Spears\PVC\Standard
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Spears\PVC\Standard\Fittings
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Spears\PVC\Standard\Traps
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Tyler\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Tyler\Tubes
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Tyler\Cast Iron\No Hub
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Tyler\Cast Iron\Service
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Tyler\Tubes\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Ward\Cast Iron
+R:\FAB-MEP\Current Services\ENGworks V5.1\ITEMS\Imperial Content\Public Health\Systems\Ward\Cast Iron\Black
