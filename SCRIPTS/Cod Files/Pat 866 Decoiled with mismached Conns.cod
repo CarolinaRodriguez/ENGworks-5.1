@@ -1,6 +1,0 @@
-Rem Pat 866 Mismatched Warning
-If Item.cid = 866 and Item.cuttype = "Decoiled Straight" then
-  if item.connector[1].value <> item.connector[2].value then
-   Item.customdata["ChkFlag"].value = "Verify Can Be Decoiled"
-  endif
-Endif

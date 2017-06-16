@@ -1,4 +1,0 @@
-Rem Change Decoiled Fab Rate for Sheared Duct
-If item.cid = 866 and Item.cuttype = "Decoiled Straight" then
-Item.fabtable = "Rect. Duct (Sheared w TDC-Plasma)"
-Endif

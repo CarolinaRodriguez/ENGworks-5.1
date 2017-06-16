@@ -1,8 +1,0 @@
-Dim OpCoNo = 100
-dim quote=ascii(34)
-
-Rem ------------Call OpCo Scripts------------
-rem If RunOpCoScript = "Yes" Then
-Dim OpCoScriptName = ("OpCo-Call-"+OpCoNo+".cod")
-Debug OpCoScriptname
-Include mappath_scripts + OpCoScriptName

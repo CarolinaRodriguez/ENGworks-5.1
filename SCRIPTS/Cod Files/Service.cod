@@ -1,5 +1,0 @@
-debug item.service
-If (wildcard(item.service, "MP>*")) then
-	Item.customdata["Wet-Dry"].value = "123"
-endif
-debug Item.customdata[28].value

@@ -1,5 +1,0 @@
-if item.cid = 866 then
- if item.dim[3].value = "auto" then
- item.dim[3].value = "56.25"
-  endif
-endif

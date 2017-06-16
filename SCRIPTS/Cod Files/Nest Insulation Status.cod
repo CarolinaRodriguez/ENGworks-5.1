@@ -1,3 +1,0 @@
-If item.status = "Send Liner" then
-  item.status = "Liner Nested"
-Endif

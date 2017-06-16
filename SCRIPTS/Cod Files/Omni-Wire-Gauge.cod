@@ -1,9 +1,0 @@
-
-Dim cid = Item.cid
-
-If cid=8 or cid=16 or cid=24 or cid=53 or cid=54 or cid=65 or cid=87 or cid=160 or cid=345 or cid=751 or cid=875 or cid=890 or cid=891 or cid=965 then
- if item.wiregauge = 26 then
-  item.wiregauge = 24
-  item.wiregauge.locked = True
- Endif
-Endif
